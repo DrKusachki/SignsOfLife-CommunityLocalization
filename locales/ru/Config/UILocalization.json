@@ -636,12 +636,12 @@
     "Text": "Качество теней"
   },
   {
-    "ID": "settings.background",
-    "Text": "Фон"
-  },
-  {
     "ID": "settings.backgroundQuality",
     "Text": "Качество фона"
+  },
+  {
+    "ID": "settings.verticalSync",
+    "Text": "Вертикальная синхронизация"
   },
   {
     "ID": "settings.frameRateLimit",
@@ -708,36 +708,24 @@
     "Text": "Ввод для уклонения"
   },
   {
-    "ID": "settings.minimapType",
-    "Text": "Тип миникарты"
-  },
-  {
-    "ID": "settings.hotbarType",
-    "Text": "Тип хотбара"
-  },
-  {
     "ID": "settings.hotbarLayout",
     "Text": "Раскладка хотбара"
-  },
-  {
-    "ID": "settings.inventoryType",
-    "Text": "Тип инвентаря"
   },
   {
     "ID": "settings.inventoryLayout",
     "Text": "Раскладка инвентаря"
   },
   {
-    "ID": "settings.energyWeaponsBreakBlocks",
-    "Text": "Энергетическое оружие ломает блоки"
-  },
-  {
     "ID": "settings.energyWeaponsVsBlocks",
     "Text": "Энергетическое оружие против блоков"
   },
   {
-    "ID": "settings.holsterToPickup",
-    "Text": "Подбор требует убрать предмет из рук"
+    "ID": "settings.meleeHitsBlocks",
+    "Text": "Оружие ближнего боя задевает блоки"
+  },
+  {
+    "ID": "settings.meleeHitsBlocksHost",
+    "Text": "В многопользовательской игре этой настройкой управляет хост."
   },
   {
     "ID": "settings.pickupRequiresHolster",
@@ -4827,7 +4815,7 @@
   },
   {
     "ID": "controller.hint.ammoOnly",
-    "Text": "Задержите {1}, чтобы выбрать боеприпасы"
+    "Text": "Задержите {0}, чтобы выбрать боеприпасы"
   },
   {
     "ID": "controller.hint.rotate",
