@@ -49,67 +49,67 @@
   },
   {
     "ID": "armor.stat.THORNS",
-    "Text": "Отражение урона"
+    "Text": "К отражению урона"
   },
   {
     "ID": "armor.stat.HEAL_OVER_TIME",
-    "Text": "Восстановление здоровья"
+    "Text": "К восстановлению здоровья"
   },
   {
     "ID": "armor.stat.MAX_HEALTH",
-    "Text": "Максимальное здоровье"
+    "Text": "К максимальному здоровью"
   },
   {
     "ID": "armor.stat.ENERGY_SHIELD",
-    "Text": "Энергетический щит"
+    "Text": "К энерго-щиту"
   },
   {
     "ID": "armor.stat.SOUL_EFFECT",
-    "Text": "Урон по душе"
+    "Text": "К урону по душе"
   },
   {
     "ID": "armor.stat.SOUL_DRAIN",
-    "Text": "Истощение души"
+    "Text": "К истощение души"
   },
   {
     "ID": "armor.stat.RESIST_XENITE_PERCENT",
-    "Text": "Устойчивость к странной энергии"
+    "Text": "К устойчивости к странной энергии"
   },
   {
     "ID": "armor.stat.JUMP_HEIGHT",
-    "Text": "Высота прыжка"
+    "Text": "К высоте прыжка"
   },
   {
     "ID": "armor.stat.MOVE_SPEED",
-    "Text": "Скорость передвижения"
+    "Text": "К скорости передвижения"
   },
   {
     "ID": "armor.stat.ENERGY_OVER_TIME",
-    "Text": "Восстановление энергии"
+    "Text": "К восстановлению энергии"
   },
   {
     "ID": "armor.stat.ARMORED",
-    "Text": "Уменьшение урона"
+    "Text": "К уменьшению урона"
   },
   {
     "ID": "armor.stat.CONSTITUTION",
-    "Text": "Телосложение"
+    "Text": "К телосложению"
   },
   {
     "ID": "armor.stat.MELEE_SPEED",
-    "Text": "Скорость атаки ближнего боя"
+    "Text": "К скорости атаки ближнего боя"
   },
   {
     "ID": "armor.stat.RESIST_FIRE_PERCENT",
-    "Text": "Устойчивость к огню"
+    "Text": "К усточивости к огню"
   },
   {
     "ID": "armor.stat.RESIST_CORROSIVE_PERCENT",
-    "Text": "Устойчивость к коррозии"
+    "Text": "К усточивости к коррозии"
   },
   {
     "ID": "armor.stat.REDUCE_FALL_DAMAGE",
-    "Text": "Уменьшение урона от падения"
+    "Text": "К устойчивости к урону от падения"
   },
   {
     "ID": "armor.stat.CHARGE_ON_STEP",
@@ -117,31 +117,31 @@
   },
   {
     "ID": "armor.stat.MAX_ENERGY",
-    "Text": "Максимальная энергия"
+    "Text": "Каксимальной энергии"
   },
   {
     "ID": "armor.stat.MELEE_DAMAGE_PERCENT",
-    "Text": "Изменение урона в ближнем бою"
+    "Text": "К урону в ближнем бою"
   },
   {
     "ID": "armor.stat.MELEE_STAMINA_COST",
-    "Text": "Расход выносливости ближнего боя"
+    "Text": "К расходу выносливости ближнего боя"
   },
   {
     "ID": "armor.stat.MOVEMENT_STAMINA_COST",
-    "Text": "Изменение расхода выносливости передвижения"
+    "Text": "К расходу выносливости передвижения"
   },
   {
     "ID": "armor.stat.THROW_POWER",
-    "Text": "Сила броска"
+    "Text": "К силе броска"
   },
   {
     "ID": "armor.stat.RANGED_ACCURACY",
-    "Text": "Точность стрельбы"
+    "Text": "К точности стрельбы"
   },
   {
     "ID": "armor.stat.MAX_STAMINA",
-    "Text": "Максимальная выносливость"
+    "Text": "К максимальной выносливости"
   },
   {
     "ID": "equipment.drainPerSecond",
@@ -998,7 +998,7 @@
   },
   {
     "ID": "load.tip.droppedNoDecay",
-    "Text": "Совет: Предметы, оставленные на земле, не истекают со временем. Вы можете выкинуть при помощи мусорки в своём инвентаре."
+    "Text": "Совет: Предметы, оставленные на земле, не истекают со временем. Вы можете выкинуть их при помощи мусорки в своём инвентаре."
   },
   {
     "ID": "load.tip.holdHotbar",
@@ -4494,7 +4494,7 @@
   },
   {
     "ID": "interaction.obstructed",
-    "Text": "Препятствие мешает"
+    "Text": "Нельзя взаимодействовать через стену"
   },
   {
     "ID": "interaction.locked",
@@ -4567,11 +4567,11 @@
   },
   {
     "ID": "interaction.removePowerPanel",
-    "Text": "Убрать панель энергии"
+    "Text": "Убрать крышку аккумулятора"
   },
   {
     "ID": "interaction.openBatteryCompartment",
-    "Text": "Открыть выемку для батареи"
+    "Text": "Открыть отсек для батареи"
   },
   {
     "ID": "interaction.installSignalDecoder",
