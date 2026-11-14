@@ -37,7 +37,7 @@
   },
   {
     "ID": "item.setBonuses",
-    "Text": "Бонус набора: "
+    "Text": "Бонус доспеха: "
   },
   {
     "ID": "armor.bonus.flat",
@@ -344,14 +344,6 @@
     "Text": "Только по клавише"
   },
   {
-    "ID": "opt.projected",
-    "Text": "Проецированная"
-  },
-  {
-    "ID": "opt.uiElement",
-    "Text": "Элемент интерфейса"
-  },
-  {
     "ID": "opt.grid",
     "Text": "Сетка"
   },
@@ -418,10 +410,6 @@
   {
     "ID": "menu.uploadingWorkshop",
     "Text": "Загрузка данных в Мастерскую Steam ({0})"
-  },
-  {
-    "ID": "menu.deletingWorkshopItem",
-    "Text": "Удаление предмета из Мастерской Steam"
   },
   {
     "ID": "settings.cat.display",
@@ -532,20 +520,8 @@
     "Text": "Настройки"
   },
   {
-    "ID": "controller.rebindPrompt",
-    "Text": "Нажмите клавишу на геймпаде для {0}."
-  },
-  {
-    "ID": "controller.confirmRebind",
-    "Text": "Назначить клавишу {1} для {0}?"
-  },
-  {
     "ID": "controller.bind.confirm",
     "Text": "Принять"
-  },
-  {
-    "ID": "controller.bind.cancel",
-    "Text": "Отменить"
   },
   {
     "ID": "controller.bind.uiSecondary",
@@ -564,20 +540,12 @@
     "Text": "Использовать / Альтернативный огонь"
   },
   {
-    "ID": "controller.bind.quickSlot1",
-    "Text": "Быстрый слот 1"
-  },
-  {
-    "ID": "controller.bind.quickSlot2",
-    "Text": "Быстрый слот 2"
-  },
-  {
     "ID": "controller.hint.shortcuts",
     "Text": "Задержите {0} для горячих клавиш"
   },
   {
     "ID": "controller.hint.shortcutTitle",
-    "Text": "{0} Shortcuts"
+    "Text": "{0} Горячие клавиши"
   },
   {
     "ID": "controller.hint.ui",
@@ -664,10 +632,6 @@
     "Text": "Сглаживание при увеличении"
   },
   {
-    "ID": "settings.shadowQual",
-    "Text": "Качество теней"
-  },
-  {
     "ID": "settings.shadowQuality",
     "Text": "Качество теней"
   },
@@ -680,20 +644,12 @@
     "Text": "Качество фона"
   },
   {
-    "ID": "settings.verticalSync",
-    "Text": "Вертикальная синхронизация"
+    "ID": "settings.frameRateLimit",
+    "Text": "Ограничение частоты кадров"
   },
   {
-    "ID": "settings.music",
-    "Text": "Музыка"
-  },
-  {
-    "ID": "settings.soundFx",
-    "Text": "Звуковые эффекты"
-  },
-  {
-    "ID": "settings.dialogue",
-    "Text": "Диалог"
+    "ID": "settings.frameRateFps",
+    "Text": "{0} FPS"
   },
   {
     "ID": "settings.musicVolume",
@@ -748,10 +704,6 @@
     "Text": "Автоподбор"
   },
   {
-    "ID": "settings.dodgeType",
-    "Text": "Тип уклонения"
-  },
-  {
     "ID": "settings.dodgeInput",
     "Text": "Ввод для уклонения"
   },
@@ -792,16 +744,8 @@
     "Text": "Подбор требует убрать предмет из рук"
   },
   {
-    "ID": "settings.openInventoryToPickup",
-    "Text": "Открытый инвентарь для подбора"
-  },
-  {
     "ID": "settings.pickupRequiresInventory",
     "Text": "Открытый инвентарь для подбора"
-  },
-  {
-    "ID": "settings.newRecipeNotifications",
-    "Text": "Уведомления о новых рецептах"
   },
   {
     "ID": "settings.recipeNotifications",
@@ -810,10 +754,6 @@
   {
     "ID": "settings.instantBlockPlacement",
     "Text": "Моментальное расположение блоков"
-  },
-  {
-    "ID": "settings.walkingSlope",
-    "Text": "Перешагивать через один блок"
   },
   {
     "ID": "settings.walkOverSingleBlocks",
@@ -840,10 +780,6 @@
     "Text": "Загрузка мира"
   },
   {
-    "ID": "load.generatingWorld",
-    "Text": "Генерация мира"
-  },
-  {
     "ID": "load.loadingNamed",
     "Text": "Загрузка {0}"
   },
@@ -865,7 +801,7 @@
   },
   {
     "ID": "load.preparing",
-    "Text": "Подготовка..."
+    "Text": "Подготовка…"
   },
   {
     "ID": "load.elapsed",
@@ -946,15 +882,15 @@
   },
   {
     "ID": "load.phase.growingplants",
-    "Text": "Растим растения..."
+    "Text": "Растим растения…"
   },
   {
     "ID": "load.phase.placingStructures",
-    "Text": "Строим строения..."
+    "Text": "Строим строения…"
   },
   {
     "ID": "load.phase.placingPrefabs",
-    "Text": "Фабрикуем префабрикаты..."
+    "Text": "Фабрикуем префабрикаты…"
   },
   {
     "ID": "load.phase.spawningCreatures",
@@ -998,7 +934,7 @@
   },
   {
     "ID": "load.phase.decodingTerrain",
-    "Text": "Выясняем местность..."
+    "Text": "Выясняем местность…"
   },
   {
     "ID": "load.phase.finalizingPrefabs",
@@ -1053,28 +989,12 @@
     "Text": "Полезный факт: Человеческое тело содержит как молекулы, так и атомы."
   },
   {
-    "ID": "load.tip.futuristic",
-    "Text": "Учёные утверждают: Будущее будет много будущней, чем предполагалось."
-  },
-  {
-    "ID": "load.tip.helpButton",
-    "Text": "Совет: Если Вы застряли, сверху справа есть кнопка помощи \"?\"."
-  },
-  {
-    "ID": "load.tip.holster",
-    "Text": "Совет: Вы можете спрятать текущий предмет нажатием клавиши {0}."
-  },
-  {
     "ID": "load.tip.quickSlots",
     "Text": "Совет: Быстрые слоты ({0} / {1}) можно использовать для быстрого доступа к используемым предметам. Перетащите туда предмет из инвентаря."
   },
   {
     "ID": "load.tip.map",
     "Text": "Совет: Откройте карту и посмотрите, как много Вы прошли, нажатием клаиши {0}."
-  },
-  {
-    "ID": "load.tip.reloadRadial",
-    "Text": "Совет: Задержите клавишу перезарядки, чтобы выбрать тип снарядов для текущего оружия."
   },
   {
     "ID": "load.tip.scanCodex",
@@ -1109,20 +1029,8 @@
     "Text": "Совет: Вы можете убрать текущий предмет из рук нажатием клавиши {0}."
   },
   {
-    "ID": "load.tip.scanCodexReview",
-    "Text": "Совет: Сканируйте существ с помощью лазера MEG, чтобы внести их в Кодекс."
-  },
-  {
-    "ID": "load.tip.groundCache",
-    "Text": "Совет: Предметы, оставленные на земле, не истекают со временем. Вы можете оставить их на земле и вернуться за ними позже."
-  },
-  {
     "ID": "load.waitingForHost",
     "Text": "Ожидание хоста"
-  },
-  {
-    "ID": "load.waitingForPlayers",
-    "Text": "Ожидание игроков"
   },
   {
     "ID": "load.phase.settlingParty",
@@ -1134,683 +1042,671 @@
   },
   {
     "ID": "load.phase.joiningParty",
-    "Text": "Присоединение "
+    "Text": "Присоединение к группе"
   },
   {
     "ID": "load.phase.waitingForPlayers",
-    "Text": "Waiting for Players"
+    "Text": "Ожидание игроков"
   },
   {
     "ID": "char.customization",
-    "Text": "Customization"
+    "Text": "Персонализация"
   },
   {
     "ID": "char.gender",
-    "Text": "Gender"
+    "Text": "Пол"
   },
   {
     "ID": "char.skin",
-    "Text": "Skin"
+    "Text": "Кожа"
   },
   {
     "ID": "char.skinColor",
-    "Text": "Skin Color"
+    "Text": "Цвет кожи"
   },
   {
     "ID": "char.hair",
-    "Text": "Hair"
+    "Text": "Волосы"
   },
   {
     "ID": "char.hairColor",
-    "Text": "Hair Color"
+    "Text": "Цвет волос"
   },
   {
     "ID": "char.hairStyle",
-    "Text": "Hair Style"
+    "Text": "Причёска"
   },
   {
     "ID": "char.facial",
-    "Text": "Facial"
+    "Text": "На лице"
   },
   {
     "ID": "char.facialHair",
-    "Text": "Facial Hair"
+    "Text": "Борода"
   },
   {
     "ID": "char.head",
-    "Text": "Head"
+    "Text": "Голова"
   },
   {
     "ID": "char.face",
-    "Text": "Face"
+    "Text": "Лицо"
   },
   {
     "ID": "char.pants",
-    "Text": "Pants"
+    "Text": "Штаны"
   },
   {
     "ID": "char.shirts",
-    "Text": "Shirts"
+    "Text": "Рубашки"
   },
   {
     "ID": "char.shirt",
-    "Text": "Shirt"
+    "Text": "Рубашка"
   },
   {
     "ID": "char.shoes",
-    "Text": "Shoes"
+    "Text": "Ботинки"
   },
   {
     "ID": "char.deathPenalty",
-    "Text": "Death Penalty"
+    "Text": "Штраф за смерть"
   },
   {
     "ID": "char.introTutorial",
-    "Text": "Intro/Tutorial"
+    "Text": "Вступление/Обучение"
   },
   {
     "ID": "char.worldSize",
-    "Text": "World Size"
+    "Text": "Размер мира"
   },
   {
     "ID": "char.ratTail",
-    "Text": "Rat Tail"
+    "Text": "Хвостик"
   },
   {
     "ID": "char.selectCharacter",
-    "Text": "Select Character"
+    "Text": "Выбрать персонажа"
   },
   {
     "ID": "char.deleteConfirm",
-    "Text": "Are you sure you want to delete the player named \"{0}\"?"
+    "Text": "Вы уверены, что хотите удалить персонажа \"{0}\"?"
   },
   {
     "ID": "char.hair.short",
-    "Text": "Short"
+    "Text": "Короткие"
   },
   {
     "ID": "char.hair.huey",
-    "Text": "Huey"
+    "Text": "Хьюи"
   },
   {
     "ID": "char.hair.rod",
-    "Text": "Rod"
+    "Text": "Род"
   },
   {
     "ID": "char.hair.bowl",
-    "Text": "Bowl"
+    "Text": "Под горшок"
   },
   {
     "ID": "char.hair.cornrows",
-    "Text": "Cornrows"
+    "Text": "Ряды"
   },
   {
     "ID": "char.hair.curly",
-    "Text": "Curly"
+    "Text": "Кудри"
   },
   {
     "ID": "char.hair.flatTop",
-    "Text": "Flat Top"
+    "Text": "Плоский верх"
   },
   {
     "ID": "char.hair.puffy",
-    "Text": "Puffy"
+    "Text": "Пышные"
   },
   {
     "ID": "char.hair.ratTail",
-    "Text": "Rat Tail"
+    "Text": "Хвостик"
   },
   {
     "ID": "char.hair.receding",
-    "Text": "Receding"
+    "Text": "Лысеющие"
   },
   {
     "ID": "char.hair.skirtedEgg",
-    "Text": "Skirted Egg"
+    "Text": "Профессор"
   },
   {
     "ID": "char.hair.topknot",
-    "Text": "Topknot"
+    "Text": "Чуб"
   },
   {
     "ID": "char.hair.veryShort",
-    "Text": "Very Short"
+    "Text": "Бритые"
   },
   {
     "ID": "char.hair.guko",
-    "Text": "Guko"
+    "Text": "Гуко"
   },
   {
     "ID": "char.hair.tonsure",
-    "Text": "Tonsure"
+    "Text": "Монах"
   },
   {
     "ID": "char.hair.wavy",
-    "Text": "Wavy"
+    "Text": "Волнистые"
   },
   {
     "ID": "char.hair.mushroom",
-    "Text": "Mushroom"
+    "Text": "Гриб"
   },
   {
     "ID": "char.hair.bigern",
-    "Text": "Bigern"
+    "Text": "Большой Эрн"
   },
   {
     "ID": "char.hair.cool",
-    "Text": "Cool"
+    "Text": "Крутые"
   },
   {
     "ID": "char.hair.messedUp",
-    "Text": "Messed Up"
+    "Text": "Неухоженные"
   },
   {
     "ID": "char.hair.tubes",
-    "Text": "Tubes"
+    "Text": "Трубки"
   },
   {
     "ID": "char.hair.sprout",
-    "Text": "Sprout"
+    "Text": "Росток"
   },
   {
     "ID": "char.hair.frontCurtains",
-    "Text": "Front Curtains"
+    "Text": "Занавес спереди"
   },
   {
     "ID": "char.hair.sharkfin",
-    "Text": "Sharkfin"
+    "Text": "Плавник"
   },
   {
     "ID": "char.hair.megafro",
-    "Text": "Megafro"
+    "Text": "Мегафро"
   },
   {
     "ID": "char.hair.loaf",
-    "Text": "Loaf"
+    "Text": "Буханка"
   },
   {
     "ID": "char.hair.bald",
-    "Text": "Bald"
+    "Text": "Лысые"
   },
   {
     "ID": "char.hair.ponytail",
-    "Text": "Ponytail"
+    "Text": "Хвост"
   },
   {
     "ID": "char.hair.highPonytail",
-    "Text": "High Ponytail"
+    "Text": "Высокий хвост"
   },
   {
     "ID": "char.hair.bangled",
-    "Text": "Bangled"
+    "Text": "Волнистые с чёлкой"
   },
   {
     "ID": "char.hair.beehive",
-    "Text": "Beehive"
+    "Text": "Улей"
   },
   {
     "ID": "char.hair.blowout",
-    "Text": "Blowout"
+    "Text": "После фена"
   },
   {
     "ID": "char.hair.bunched",
-    "Text": "Bunched"
+    "Text": "Маленький пучок"
   },
   {
     "ID": "char.face.borland",
-    "Text": "Borland"
+    "Text": "Борланд"
   },
   {
     "ID": "char.face.lagrange",
-    "Text": "LaGrange"
+    "Text": "ЛаГранж"
   },
   {
     "ID": "char.face.soulpatch",
-    "Text": "Soulpatch"
+    "Text": "Саулпатч"
   },
   {
     "ID": "sandbox.generate",
-    "Text": "Generate"
+    "Text": "Сгенерировать"
   },
   {
     "ID": "sandbox.type",
-    "Text": "Type"
+    "Text": "Тип"
   },
   {
     "ID": "sandbox.size",
-    "Text": "Size"
+    "Text": "Размер"
   },
   {
     "ID": "sandbox.hostility",
-    "Text": "Hostility"
+    "Text": "Враждебность"
   },
   {
     "ID": "sandbox.worldOptions",
-    "Text": "World Options"
+    "Text": "Настройки мира"
   },
   {
     "ID": "sandbox.existingWorlds",
-    "Text": "Existing Worlds"
+    "Text": "Существующие миры"
   },
   {
     "ID": "sandbox.osirisPostGame",
-    "Text": "Osiris Post Game"
+    "Text": "Осирис, пост-игра"
   },
   {
     "ID": "sandbox.asteroid",
-    "Text": "Asteroid"
+    "Text": "Астероид"
   },
   {
     "ID": "sandbox.debugMap",
-    "Text": "Debug Map"
+    "Text": "Карта отладки"
   },
   {
     "ID": "sandbox.noWorlds",
-    "Text": "No saved worlds yet.\n\nUse Sandbox on the main menu to generate a new world."
+    "Text": "Нет сохранённых миров.\n\nНажмите \"Песочница\" в главном меню, чтобы сгенерировать новый мир."
   },
   {
     "ID": "sandbox.missingPack",
-    "Text": "Cannot load this world: content pack for profile \"{0}\" is not enabled."
+    "Text": "Невозможно загрузить этот мир: набор контента для профиля \"{0}\" не включён."
   },
   {
     "ID": "mp.noFriends",
-    "Text": "None of your friends are currently on multiplayer games."
+    "Text": "Ваших друзей нет в игре."
   },
   {
     "ID": "mp.steamRequired",
-    "Text": "Steamworks is required for multiplayer. Please launch the game from Steam if you would like to play online. If you are launching from Steam please contact us at playsignsoflife@gmail.com"
+    "Text": "Для многопользовательской игры требуется подключение к Steamworks. Запустите игру из Steam, чтобы играть по сети. Если Вы запустили игру из Steam, сообщите об ошибке на playsignsoflife@gmail.com"
   },
   {
     "ID": "mp.joinFriend",
-    "Text": "Join a friend's game"
+    "Text": "Подключиться к игре друга"
   },
   {
     "ID": "mp.autoJoin",
-    "Text": "Auto Join"
+    "Text": "Автоподключение"
   },
   {
     "ID": "mp.preventFriendlyFire",
-    "Text": "Prevent Friendly Fire"
+    "Text": "Запретить огонь по союзникам"
   },
   {
     "ID": "mp.allowCheats",
-    "Text": "Allow Cheats"
+    "Text": "Включить читы"
   },
   {
     "ID": "bind.rebind",
-    "Text": "Rebind"
+    "Text": "Переназначить"
   },
   {
     "ID": "bind.resetDefaults",
-    "Text": "Reset Defaults"
+    "Text": "Восстановить"
   },
   {
     "ID": "bind.header.menus",
-    "Text": "Menus"
+    "Text": "Меню"
   },
   {
     "ID": "bind.header.movement",
-    "Text": "Movement"
+    "Text": "Движение"
   },
   {
     "ID": "bind.header.combat",
-    "Text": "Combat & Items"
+    "Text": "Бой и Предметы"
   },
   {
     "ID": "bind.header.wrist",
-    "Text": "Wrist Modules"
+    "Text": "Модули Лазера"
   },
   {
     "ID": "bind.header.hotbar",
-    "Text": "Hotbar"
+    "Text": "Хотбар"
   },
   {
     "ID": "bind.header.other",
-    "Text": "Other"
+    "Text": "Другое"
   },
   {
     "ID": "bind.resetDone",
-    "Text": "Keys reset to the default configuration."
+    "Text": "Конфигурация клавиш восстановлена."
   },
   {
     "ID": "bind.confirmKey",
-    "Text": "Would you like to bind {0} to {1}?"
+    "Text": "Назначить клавишу {1} для {0}?"
   },
   {
-    "ID": "bind.confirmMiddleMouse",
-    "Text": "Would you like to bind {0} to the Middle Mouse button?"
+    "ID": "bind.mouse.left",
+    "Text": "Левая кнопка мыши"
   },
   {
-    "ID": "bind.confirmScrollUp",
-    "Text": "Would you like to bind {0} to Mousewheel Scroll Up?"
+    "ID": "bind.mouse.right",
+    "Text": "Правая кнопка мыши"
   },
   {
-    "ID": "bind.confirmScrollDown",
-    "Text": "Would you like to bind {0} to Mousewheel Scroll Down?"
+    "ID": "bind.mouse.middle",
+    "Text": "Средняя кнопка мыши"
   },
   {
-    "ID": "bind.confirmMouse3",
-    "Text": "Would you like to bind {0} to the Mouse Button 3?"
+    "ID": "bind.mouse.scrollUp",
+    "Text": "Колёсико мыши вверх"
   },
   {
-    "ID": "bind.confirmMouse4",
-    "Text": "Would you like to bind {0} to the Mouse Button 4?"
+    "ID": "bind.mouse.scrollDown",
+    "Text": "Колёсико мыши вниз"
+  },
+  {
+    "ID": "bind.mouse.button",
+    "Text": "Кнопка мыши {0}"
   },
   {
     "ID": "bind.left",
-    "Text": "Left"
+    "Text": "Влево"
   },
   {
     "ID": "bind.right",
-    "Text": "Right"
+    "Text": "Вправо"
   },
   {
     "ID": "bind.jump",
-    "Text": "Jump"
+    "Text": "Прыжок"
   },
   {
     "ID": "bind.crouch",
-    "Text": "Crouch"
+    "Text": "Красться"
   },
   {
     "ID": "bind.run",
-    "Text": "Run"
+    "Text": "Бег"
   },
   {
     "ID": "bind.reload",
-    "Text": "Reload / Rotate Block"
+    "Text": "Перезарядка / Повернуть блок"
   },
   {
     "ID": "bind.collectTransfer",
-    "Text": "Collect / Transfer Items"
+    "Text": "Собрать / Перенести предметы"
   },
   {
     "ID": "bind.wristLight",
-    "Text": "Wrist Light"
+    "Text": "Свет"
   },
   {
     "ID": "bind.kick",
-    "Text": "Kick"
+    "Text": "Пинок"
   },
   {
     "ID": "bind.toggleInventory",
-    "Text": "Toggle Inventory"
+    "Text": "Открыть / Закрыть инвентарь"
   },
   {
     "ID": "bind.map",
-    "Text": "Map"
+    "Text": "Карта"
   },
   {
     "ID": "bind.oreScanner",
-    "Text": "Ore Scanner"
+    "Text": "Сканер"
   },
   {
     "ID": "bind.openChat",
-    "Text": "Open Chat"
+    "Text": "Открыть чат"
   },
   {
     "ID": "bind.holster",
-    "Text": "Holster"
+    "Text": "Убрать"
   },
   {
     "ID": "bind.up",
-    "Text": "Up"
+    "Text": "Вверх"
   },
   {
     "ID": "bind.down",
-    "Text": "Down"
+    "Text": "Вниз"
   },
   {
     "ID": "bind.scrollSlot",
-    "Text": "Scroll Slot {0}"
+    "Text": "Слот {0}"
   },
   {
     "ID": "bind.quickSlot",
-    "Text": "Quick Slot {0}"
+    "Text": "Быстрый слот {0}"
   },
   {
     "ID": "bind.scrollUp",
-    "Text": "Scroll Up"
+    "Text": "Пролистать вверх"
   },
   {
     "ID": "bind.scrollDown",
-    "Text": "Scroll Down"
+    "Text": "Пролистать вниз"
   },
   {
     "ID": "bind.flipBlock",
-    "Text": "Flip Equipped Block"
+    "Text": "Отразить выбранный блок"
   },
   {
     "ID": "bind.rotateBlock",
-    "Text": "Rotate Equipped Block"
+    "Text": "Повернуть выбранный блок"
   },
   {
     "ID": "bind.shieldBlock",
-    "Text": "Shield Block"
+    "Text": "Блокирование щитом"
   },
   {
     "ID": "bind.equipment",
-    "Text": "Equipment"
+    "Text": "Экипировка"
   },
   {
     "ID": "bind.alienArtifact",
-    "Text": "Alien Artifact"
+    "Text": "Артефакт"
   },
   {
     "ID": "bind.megTool",
-    "Text": "MEG Tool"
+    "Text": "Инструмент MEG"
   },
   {
     "ID": "bind.craftingMenu",
-    "Text": "Crafting Menu"
+    "Text": "Меню создания"
   },
   {
     "ID": "bind.projectsMenu",
-    "Text": "Projects Menu"
+    "Text": "Меню проектов"
   },
   {
     "ID": "bind.dodge",
-    "Text": "Dodge"
+    "Text": "Уворот"
   },
   {
     "ID": "bind.dodgeLeft",
-    "Text": "Dodge Left"
+    "Text": "Уворот влево"
   },
   {
     "ID": "bind.dodgeRight",
-    "Text": "Dodge Right"
+    "Text": "Уворот вправо"
   },
   {
     "ID": "bind.grapple",
-    "Text": "Grapple Module"
+    "Text": "Модуль крюка"
   },
   {
     "ID": "bind.agisInvestigate",
-    "Text": "AGIS Investigate"
+    "Text": "Узнать у AGIS"
   },
   {
     "ID": "bind.switchHotbar",
-    "Text": "Switch Hotbar Type"
+    "Text": "Поменять режим хотбара"
   },
   {
     "ID": "bind.zoomIn",
-    "Text": "Zoom In World"
+    "Text": "Приблизить мир"
   },
   {
     "ID": "bind.zoomOut",
-    "Text": "Zoom Out World"
+    "Text": "Отдалить мир"
   },
   {
     "ID": "bind.devMode",
-    "Text": "Dev Mode"
+    "Text": "Режим разработчика"
   },
   {
     "ID": "bind.changeAmmo",
-    "Text": "Change Ammo Type"
+    "Text": "Сменить боеприпасы"
   },
   {
     "ID": "bind.none",
-    "Text": "NONE"
+    "Text": "НЕТ"
   },
   {
     "ID": "mods.installed",
-    "Text": "Installed Mods"
+    "Text": "Установленные модификации"
   },
   {
     "ID": "mods.staged",
-    "Text": "Staged Mods"
+    "Text": "Готовые к загрузке модификации"
   },
   {
     "ID": "mods.published",
-    "Text": "Published Mods"
+    "Text": "Опубликованные модификации"
   },
   {
     "ID": "mods.moddingGuide",
-    "Text": "Modding Guide"
+    "Text": "Руководство по модификации"
   },
   {
     "ID": "mods.publishingGuide",
-    "Text": "Publishing Guide"
+    "Text": "Руководство по публикации"
   },
   {
     "ID": "mods.findMods",
-    "Text": "Find Mods"
+    "Text": "Найти модификации"
   },
   {
     "ID": "mods.createEdit",
-    "Text": "Create / Edit Mods"
+    "Text": "Создать / Редактировать модификацию"
   },
   {
     "ID": "mods.openModsFolder",
-    "Text": "Local Mods Folder"
+    "Text": "Локальная папка модификаций"
   },
   {
     "ID": "mods.openFolder",
-    "Text": "Open Folder"
+    "Text": "Открыть папку"
   },
   {
     "ID": "mods.openStagingFolder",
-    "Text": "Open Staging Folder"
+    "Text": "Открыть папку готовых к загрузке модификаций"
   },
   {
     "ID": "mods.workshopTos",
-    "Text": "Workshop TOS"
+    "Text": "Правила пользования Мастерской Steam"
   },
   {
     "ID": "mods.uploadNew",
-    "Text": "Upload New Mod"
+    "Text": "Загрузить новую модификацию"
   },
   {
     "ID": "mods.updateExisting",
-    "Text": "Update Existing Mod"
-  },
-  {
-    "ID": "mods.updateThisOne",
-    "Text": "Update This One"
+    "Text": "Обновить существующую модификацию"
   },
   {
     "ID": "mods.viewOnline",
-    "Text": "View Online"
+    "Text": "Посмотреть в Сети"
   },
   {
     "ID": "mods.deleteMod",
-    "Text": "Delete Mod"
+    "Text": "Удалить модификацию"
   },
   {
     "ID": "mods.enable",
-    "Text": "Enable"
+    "Text": "Включить"
   },
   {
     "ID": "mods.disable",
-    "Text": "Disable"
+    "Text": "Выключить"
   },
   {
     "ID": "mods.loadNow",
-    "Text": "Load Now"
+    "Text": "Загрузить Сейчас"
   },
   {
     "ID": "mods.titlePrefix",
-    "Text": "Title: {0}"
+    "Text": "Название: {0}"
   },
   {
     "ID": "mods.workshopFileId",
-    "Text": "Workshop File ID: {0}"
+    "Text": "ID файла Мастерской Steam: {0}"
   },
   {
     "ID": "mods.installedTitle",
-    "Text": "Mods (Loaded / Pending)"
+    "Text": "Модификации ( Загружено / Ожидают )"
   },
   {
     "ID": "mods.publishedTitle",
-    "Text": "Your Published Mods"
-  },
-  {
-    "ID": "mods.pickPublishedTitle",
-    "Text": "Pick Which Published Mod to Update"
+    "Text": "Ваши опубликованные модификации"
   },
   {
     "ID": "mods.detectedCandidates",
-    "Text": "Detected Workshop Mod Candidates"
+    "Text": "Потенциальные модификации из Мастерской Steam"
   },
   {
     "ID": "mods.stagedReady",
-    "Text": "Staged Mods Ready to Upload"
+    "Text": "Готовые к загрузке модификации готовы к публикации"
   },
   {
     "ID": "mods.stagedBlurb",
-    "Text": "These packages are ready to publish. Pick one and the game will check the mods published by your Steam account.\n\nA new package creates a private or public Workshop page according to workshop.json. A package already linked to one of your Workshop items updates that item in place."
-  },
-  {
-    "ID": "mods.publishedBlurbUpdate",
-    "Text": "You already picked a staged package. Now choose which live Workshop mod it should replace.\n\nOnly click Update This One on the mod you mean to change. That swaps the files for everyone who subscribed — so double-check the title."
+    "Text": "Эти пакеты готовы к публикации. Выберите один и игра проверит загруженные Вами модификации.\n\nНовый пакет создаст публичную или приватную страницу в Мастерской Steam в соответствии с workshop.json. Пакет, связанный с одним из Ваших предметов Мастерской Steam обновит этот предмет."
   },
   {
     "ID": "mods.publishedBlurb",
-    "Text": "These are mods YOU already put on the Steam Workshop. Other players can find and subscribe to them.\n\nView Online opens the Steam page. Delete removes it forever for everyone — not just from your PC.\n\nWant to change a mod's files? Go to Staged Mods and publish its staged package; the game will identify the existing item."
+    "Text": "Вы загрузили эти модификации на Мастерскую Steam. Другие игроки могут найти их и подписаться на них.\n\n\"Посмотреть в Сети\" откроет страницу в Steam. \"Удалить\" удаляет модификацию навсегда для всех — не только с Вашего компьютера.\n\nХотите обновить файлы модификации? Перейдите в \"Готовые к загрузке модификации\" и опубликуйте соответствующую модификацию. Игра распознает существующие предметы."
   },
   {
     "ID": "mods.emptyInstalled",
-    "Text": "No mods loaded this session.\n\nUse Find Mods to subscribe in Steam. New packs load automatically when ready; Pending packs can use Load Now."
+    "Text": "Нет активных модификаций в этой сессии.\n\nИспользуйте \"Найти Модификации\", чтобы подписаться в Мастерской Steam. Новые пакеты загружаются автоматически после скачивания. Для загрузки Ожидающих пакетов нажмите \"Загрузить Сейчас\"."
   },
   {
     "ID": "mods.refreshing",
-    "Text": "Refreshing Steam Workshop subscriptions…"
-  },
-  {
-    "ID": "mods.emptyPublishedUpdate",
-    "Text": "You do not have any published Workshop mods yet.\n\nGo back to Staged Mods and publish the package first."
+    "Text": "Обновление подписок Мастерской Steam…"
   },
   {
     "ID": "mods.emptyPublished",
-    "Text": "No published Steam Workshop mods found for your account yet.\n\nWhen you are ready to put a mod online, open Staged Mods and publish its package."
+    "Text": "Вы ещё не опубликовали ни одной модификации на Мастерской Steam.\n\nКогда Вы будете готовы опубликовать модификацию, перейдите в \"Готовые к загрузке модификации\" и опубликуйте пакет."
   },
   {
     "ID": "mods.emptyEditCandidates",
-    "Text": "No valid mod candidates were found in your WorkshopUpload directory. \nThe path to the directory is:\n\n{0}\n\nFor more information, visit the official Signs of Life wiki by clicking the button below."
+    "Text": "Не найдено потенциальных модификаций в папке WorkshopUpload.\nПуть к папке:\n\n{0}\n\nЧтобы узнать больше, посетите официальную вики по Signs of Life, нажав на кнопку ниже."
   },
   {
     "ID": "mods.selectReplaceData",
-    "Text": "Select the Mod Data that you would like to upload to replace the data for the Steam Workshop item: {0}."
+    "Text": "Выберите Данные Модификации, которые Вы хотите загрузить, чтобы перезаписать данные следующей модификации на Мастерской Steam: {0}."
   },
   {
     "ID": "mods.emptyStaged",
-    "Text": "Nothing is staged yet — so there is nothing to upload.\n\nUse Mod Prep (or put a finished package in your WorkshopUpload folder) first. Staged means \"ready to send to Steam,\" not \"already online.\"\n\nFolder:\n{0}\n\nNeed help? Open Publishing Guide below."
+    "Text": "Ничего не Готово к загрузке — нечего загружать.\n\nСначала ипользуйте Подготовку Модификаций (или поместите готовый пакет в папку WorkshopUpload). \"Готовый к загрузке\" означает \"Готов к отправке в Мастерскую Steam\", а не \"уже опубликовано\".\n\nПапка:\n{0}\n\nНужна помощь? Откройте Руководство по публикации ниже."
   },
   {
     "ID": "mods.checkingAccount",
-    "Text": "Checking the mods published by your Steam account…\n\nNothing will be uploaded until the game determines whether this package should create a new Workshop item or update an existing one."
+    "Text": "Проверяем опубликованные Вами модификации…\n\nПодождите, пока игра определит, должен ли этот пакет заменить существующую модификацию в Мастерской Steam или создать новую."
   },
   {
     "ID": "mods.tosAgree",
-    "Text": "By submitting this item, you agree to the Steam Workshop terms of service"
+    "Text": "Загружая этот предмет, Вы соглашаетесь с Правилами пользования Мастерской Steam."
   },
   {
     "ID": "mods.createNewItem",
-    "Text": "create a new Steam Workshop item"
+    "Text": "создаст новый предмет Мастерской Steam"
   },
   {
     "ID": "mods.updateItem",
-    "Text": "update Workshop item {0}"
+    "Text": "обновит предмет Мастерской Steam {0}"
   },
   {
     "ID": "mods.confirmSummary",
@@ -1818,755 +1714,692 @@
   },
   {
     "ID": "mods.noneTags",
-    "Text": "(none)"
+    "Text": "(нет)"
   },
   {
     "ID": "mods.subscribeOverlay",
-    "Text": "Subscribe to mods in the Steam Workshop overlay.\n\nNew subscriptions load automatically in single-player after Steam downloads them. If a pack stays Pending, use Load Now or restart the game."
-  },
-  {
-    "ID": "mods.uploading",
-    "Text": "Uploading data to Steam Workshop"
+    "Text": "Подпишитесь на модификации в оверлее Мастерской Steam.\n\nНовые подписки автоматически загрузятся в одиночной игре, когда Steam их скачает. Если пакет остаётся Ожидающим, нажмите \"Загрузить сейчас\" или перезапустите игру."
   },
   {
     "ID": "mods.deletingItem",
-    "Text": "Deleting Steam Workshop Item"
+    "Text": "Удаляем модификацию из Мастерской Steam…"
   },
   {
     "ID": "mods.uploadSuccessful",
-    "Text": "Upload Successful"
+    "Text": "Загрузка успешна"
   },
   {
     "ID": "mods.uploadLegal",
-    "Text": "Upload successful, but Steam requires you to accept the Workshop legal agreement before the item can be published."
+    "Text": "Загрузка успешна, но необходимо принять пользовательское соглашение Мастерской Steam перед тем, как опубликовать модификацию."
   },
   {
     "ID": "mods.workshopDeleted",
-    "Text": "Workshop item deleted."
+    "Text": "Предмет Мастерской Steam удалён."
   },
   {
     "ID": "mods.deleteFailedIo",
-    "Text": "Delete failed: Steam I/O error. The Workshop item was not removed."
+    "Text": "Удалить не удалось: Ошибка Steam. Предмет Мастерской Steam не был удалён."
   },
   {
     "ID": "mods.deleteFailedResult",
-    "Text": "Delete failed: {0}"
-  },
-  {
-    "ID": "mods.steamNotInit",
-    "Text": "Steam is not initialized, so the game cannot check whether this mod already exists."
+    "Text": "Удалить не удалось: {0}"
   },
   {
     "ID": "mods.steamUnavailable",
-    "Text": "Steam Workshop is unavailable. Start the game through Steam to use online Workshop features. Local mods are still available."
+    "Text": "Мастерская Steam недоступна. Запустите игру через клиент Steam, чтобы использовать Мастерскую Steam. Локально установленные модификации доступны."
   },
   {
     "ID": "mods.loadingPublished",
-    "Text": "Loading the mods published by your Steam account…"
+    "Text": "Загружаем опубликованные Вами модификации…"
   },
   {
     "ID": "mods.publishedQueryFailed",
-    "Text": "Could not load your published Workshop mods. Try again."
+    "Text": "Не удалось загрузить опубликованные Вами модификации из Мастерской Steam. Попробуйте снова."
   },
   {
     "ID": "mods.workshopActionFailed",
-    "Text": "Steam Workshop could not complete this action. Please try again."
+    "Text": "У Мастерской Steam не удалось выполнить действие. Пожалуйста, попробуйте снова."
   },
   {
     "ID": "mods.couldNotCheckPublished",
-    "Text": "Steam could not check the mods published by this account. Nothing was uploaded; try again."
+    "Text": "Не удалось проверить опубликованные Вами модификации. Ничего не было загружено. Попробуйте снова."
   },
   {
     "ID": "mods.uploadFailed",
-    "Text": "Steam Workshop upload failed.\n\nResult: {0}"
+    "Text": "Загрузка на Мастерскую Steam провалилась.\n\nРезультат: {0}"
   },
   {
     "ID": "mods.zipMissing",
-    "Text": "Could not find the zip file at the path provided in the JSON file."
+    "Text": "Не удалось найти zip-архив по пути, указанном в JSON файле."
   },
   {
     "ID": "mods.createFailed",
-    "Text": "Steam could not create the Workshop item.\n\nResult: {0}"
+    "Text": "Не удалось создать предмет Мастерской Steam.\n\nРезультат: {0}"
   },
   {
     "ID": "mods.noStagedSelected",
-    "Text": "No staged Workshop package was selected."
+    "Text": "Не выбран готовый к загрузке пакет Мастерской Steam."
   },
   {
     "ID": "mods.noWorkshopTitle",
-    "Text": "The staged package has no Workshop title. Open it in Mod Prep and stage it again."
+    "Text": "Отсутствует название у готового к загрузке предмета Мастерской Steam. Откройте его в Подготовке Модификаций и подготовьте снова."
   },
   {
     "ID": "mods.stagedFolderMissing",
-    "Text": "The staged content folder is missing:\n{0}"
+    "Text": "Папка готового к загрузке контента отсутствует:\n{0}"
   },
   {
     "ID": "mods.stagedZipMissing",
-    "Text": "The staged content folder contains no mod zip:\n{0}"
+    "Text": "В папке готовго к загрузке контента отсутвует zip-архив:\n{0}"
   },
   {
     "ID": "mods.previewMissing",
-    "Text": "The staged Workshop preview is missing:\n{0}"
+    "Text": "Предпросмотр готового к загрузке предмета отсутствует:\n{0}"
   },
   {
     "ID": "mods.didNotFinishCheck",
-    "Text": "Steam did not finish checking this account's published mods. Nothing was uploaded; try again."
+    "Text": "Проверка опубликованных Вами модификаций не завершена. Ничего не было загружено. Попробуйте снова."
   },
   {
     "ID": "mods.modPrepMissing",
-    "Text": "Mod Prep is not installed in this build. In a Steam installation, find it under Tools\\Mod Prep.bat next to the game files."
-  },
-  {
-    "ID": "mods.couldNotOpenThe",
-    "Text": "Could not open the {0}:\n{1}"
+    "Text": "Подготовка Модификаций не установлена в этой сборке. В папке игры, найдите его по пути Tools\\Mod Prep.bat."
   },
   {
     "ID": "mods.couldNotOpen",
-    "Text": "Could not open {0}:\n{1}"
+    "Text": "Не удалось открыть {0}:\n{1}"
   },
   {
     "ID": "mods.folderMods",
-    "Text": "Mods folder"
+    "Text": "Папка с модификациями"
   },
   {
     "ID": "mods.folderStaging",
-    "Text": "Workshop staging folder"
+    "Text": "Папка с готовыми к загрузке модификациями"
   },
   {
     "ID": "mods.modPrep",
-    "Text": "Mod Prep"
+    "Text": "Подготовка модификаций"
   },
   {
     "ID": "item.noDescription",
-    "Text": "No description available."
+    "Text": "Описание недоступно."
   },
   {
     "ID": "item.purelyDecorative",
-    "Text": "This item is purely decorative."
+    "Text": "Декоративный предмет."
   },
   {
     "ID": "item.missingModName",
-    "Text": "Missing mod item"
+    "Text": "Предмет из отсутствующей модификации"
   },
   {
     "ID": "item.missingModDescription",
-    "Text": "This item's mod is not installed. Keep it to restore the item after reinstalling the mod."
+    "Text": "Модификация, добавляющая этот предмет, не установлена. Сохраните этот предмет, чтобы восстановить его после повторной установки модификации."
   },
   {
     "ID": "item.batteryCharge",
-    "Text": "Battery Charge: [charge]/[capacity] ([percent]%)"
+    "Text": "Заряд батареи: [charge]/[capacity] ([percent]%)"
   },
   {
     "ID": "crew.ops.title",
-    "Text": "Crew Operations"
+    "Text": "Операции экипажа"
   },
   {
     "ID": "crew.activity.maintenance",
-    "Text": "Performing maintenance."
+    "Text": "Проводит обслуживание."
   },
   {
     "ID": "crew.activity.survey",
-    "Text": "Surveying the area."
+    "Text": "Наблюдает."
   },
   {
     "ID": "crew.activity.rest",
-    "Text": "Resting."
+    "Text": "Отдыхает."
   },
   {
     "ID": "crew.activity.idle",
-    "Text": "Just hanging out."
+    "Text": "Бездельничает."
   },
   {
     "ID": "crew.activity.haul",
-    "Text": "Hauling"
+    "Text": "Тащит"
   },
   {
     "ID": "crew.activity.flora",
-    "Text": "Flora"
+    "Text": "Флора"
   },
   {
     "ID": "crew.ops.tab.crew",
-    "Text": "Crew"
+    "Text": "Экипаж"
   },
   {
     "ID": "crew.ops.tab.log",
-    "Text": "Log"
+    "Text": "Журнал"
   },
   {
     "ID": "crew.log.started",
-    "Text": "Task started."
+    "Text": "Задание начато."
   },
   {
     "ID": "crew.log.completed",
-    "Text": "Task completed."
+    "Text": "Задание выполнено."
   },
   {
     "ID": "crew.log.interrupted",
-    "Text": "Task interrupted."
+    "Text": "Задание прервано."
   },
   {
     "ID": "crew.ops.tab.policy",
-    "Text": "Policy"
+    "Text": "Политика",
+    "__Comment": "Вообще, policy есть \"политика\" в смысле политики компании. В этом случае, общий \"Курс\" поселения. Если придумаете перевод лучше, флаг в руки."
   },
   {
     "ID": "crew.policy.family.maintenance",
-    "Text": "Maintenance"
+    "Text": "Обслуживание"
   },
   {
     "ID": "crew.policy.family.survey",
-    "Text": "Survey"
+    "Text": "Осмотр"
   },
   {
     "ID": "crew.policy.stance.avoid",
-    "Text": "Avoid"
+    "Text": "Избегает"
   },
   {
     "ID": "crew.policy.stance.normal",
-    "Text": "Normal"
+    "Text": "Нормальный"
   },
   {
     "ID": "crew.policy.stance.prefer",
-    "Text": "Prefer"
+    "Text": "Предпочитает"
   },
   {
     "ID": "crew.policy.risk",
-    "Text": "Risk"
+    "Text": "Рискует"
   },
   {
     "ID": "crew.policy.risk.cautious",
-    "Text": "Cautious"
+    "Text": "Опасается"
   },
   {
     "ID": "crew.policy.risk.normal",
-    "Text": "Normal"
+    "Text": "Нормальный"
   },
   {
     "ID": "crew.policy.risk.bold",
-    "Text": "Bold"
+    "Text": "Смелый"
   },
   {
     "ID": "crew.policy.fieldCapacity",
-    "Text": "Field Capacity"
+    "Text": "Макс. в поле"
   },
   {
     "ID": "crew.policy.recall",
-    "Text": "Recall"
+    "Text": "Возврат"
   },
   {
     "ID": "crew.policy.fieldDuty",
-    "Text": "Field Duty"
+    "Text": "Вылазка"
   },
   {
     "ID": "agis.unknownDescription",
-    "Text": "I have no idea what that is."
+    "Text": "Я бех понятия, что это."
   },
   {
     "ID": "agis.playerDescription",
-    "Text": "That seems to be some sort of fleshy bag containing mostly meat."
+    "Text": "Кажется, это кожаный мешок с мясом."
   },
   {
     "ID": "agis.meteorDescription",
-    "Text": "This appears to be some kind of meteorite. My scans indicate that it is composed of a brittle outer shell with a denser material within."
+    "Text": "Это похоже на какой-то метеорит. Сканирование показывает, что он состоит из хрупкой \"скорлупы\" и более плотного наполнения."
   },
   {
     "ID": "craft.action.craft",
-    "Text": "Craft"
+    "Text": "Создание"
   },
   {
     "ID": "craft.action.refiners",
-    "Text": "Refiners"
+    "Text": "Переработчики"
   },
   {
     "ID": "craft.action.transfer",
-    "Text": "Transfer"
-  },
-  {
-    "ID": "craft.action.draftFurnace",
-    "Text": "Refine In Draft Furnace"
+    "Text": "Перенести"
   },
   {
     "ID": "craft.action.buildInWorld",
-    "Text": "Build In World"
-  },
-  {
-    "ID": "craft.action.blastFurnace",
-    "Text": "Refine In Blast Furnace"
-  },
-  {
-    "ID": "craft.action.inductionFurnace",
-    "Text": "Refine In Induction Furnace"
-  },
-  {
-    "ID": "craft.action.campfire",
-    "Text": "Make With Campfire"
-  },
-  {
-    "ID": "craft.action.brickOven",
-    "Text": "Make With Brick Oven"
-  },
-  {
-    "ID": "craft.action.ironStove",
-    "Text": "Make With Iron Stove"
-  },
-  {
-    "ID": "craft.action.kitchenette",
-    "Text": "Make With Kitchenette"
-  },
-  {
-    "ID": "craft.action.mortar",
-    "Text": "Make With Mortar"
-  },
-  {
-    "ID": "craft.action.chemBench",
-    "Text": "Make With Chem Bench"
-  },
-  {
-    "ID": "craft.action.chemLab",
-    "Text": "Make With Chem Lab"
+    "Text": "Построить в мире"
   },
   {
     "ID": "craft.action.min",
-    "Text": "Min"
+    "Text": "Мин"
   },
   {
     "ID": "craft.action.max",
-    "Text": "Max"
-  },
-  {
-    "ID": "hud.recipeObtained",
-    "Text": "Obtained the recipe for {0}."
+    "Text": "Макс"
   },
   {
     "ID": "hud.itemPickedUp",
-    "Text": "Picked up {0} {1}."
+    "Text": "Подобрано: {0} {1}."
   },
   {
     "ID": "hud.openCodexHint",
-    "Text": "Click to open Codex"
+    "Text": "Нажмите, чтобы открыть Кодекс"
   },
   {
     "ID": "hud.creatureScanned",
-    "Text": "Creature scanned"
+    "Text": "Существо просканировано"
   },
   {
     "ID": "hud.helpUnlocked",
-    "Text": "Help unlocked"
+    "Text": "Открыта новая запись в Помощи"
   },
   {
     "ID": "ui.unknown",
-    "Text": "Unknown"
+    "Text": "Неизвестно"
   },
   {
     "ID": "container.backpack",
-    "Text": "Backpack"
+    "Text": "Рюкзак"
   },
   {
     "ID": "container.wooden_footlocker",
-    "Text": "Wooden Footlocker"
+    "Text": "Деревянный рундук"
   },
   {
     "ID": "container.satchel",
-    "Text": "Satchel"
+    "Text": "Ранец"
   },
   {
     "ID": "container.leather_bag",
-    "Text": "Leather Bag"
+    "Text": "Мешок из кожи"
   },
   {
     "ID": "container.cargo_hold",
-    "Text": "Cargo Hold"
+    "Text": "Трюм"
   },
   {
     "ID": "container.small_tech_crate",
-    "Text": "Small Tech Crate"
+    "Text": "Маленький техно-ящик"
   },
   {
     "ID": "container.large_tech_crate",
-    "Text": "Large Tech Crate"
+    "Text": "Большой техно-ящик"
   },
   {
     "ID": "container.crafting_table_surface",
-    "Text": "Crafting Table Surface"
+    "Text": "Верстка"
   },
   {
     "ID": "container.small_tech_footlocker",
-    "Text": "Small Tech Footlocker"
+    "Text": "Маленький техно-рундук"
   },
   {
     "ID": "container.tech_pouch",
-    "Text": "Tech Pouch"
+    "Text": "Техно-мешочек"
   },
   {
     "ID": "container.tech_drawers",
-    "Text": "Tech Drawers"
+    "Text": "Техно-комод"
   },
   {
     "ID": "container.forager_pouch",
-    "Text": "Forager Pouch"
+    "Text": "Сумка собирателя"
   },
   {
     "ID": "container.blue_cooler",
-    "Text": "Blue Cooler"
+    "Text": "Синий кулер"
   },
   {
     "ID": "container.hunter_pouch",
-    "Text": "Hunter Pouch"
+    "Text": "Сумка охотника"
   },
   {
     "ID": "container.excavator_pouch",
-    "Text": "Excavator Pouch"
+    "Text": "Сумка копателя"
   },
   {
     "ID": "container.munition_pouch",
-    "Text": "Ammo Pouch"
+    "Text": "Сумка с боеприпасами"
   },
   {
     "ID": "container.jeweler_pouch",
-    "Text": "Jeweler Pouch"
+    "Text": "Сумка ювелира"
   },
   {
     "ID": "container.key_item_pouch",
-    "Text": "Key Item Pouch"
+    "Text": "Сумка для ключевых предметов"
   },
   {
     "ID": "container.trash_pouch",
-    "Text": "Trash Pouch"
+    "Text": "Сумка для мусора"
   },
   {
     "ID": "container.crafting_pouch",
-    "Text": "Crafting Pouch"
+    "Text": "Сумка для материалов"
   },
   {
     "ID": "container.block_pouch",
-    "Text": "Block Pouch"
+    "Text": "Сумка для блоков"
   },
   {
     "ID": "container.xenite_artifact",
-    "Text": "Xenite Artifact"
+    "Text": "Ксено-артефакт"
   },
   {
     "ID": "container.xenostone_chest",
-    "Text": "Xenostone Chest"
+    "Text": "Сундук из ксенокамня"
   },
   {
     "ID": "container.paper_bag",
-    "Text": "Paper Bag"
+    "Text": "Бумажный пакет"
   },
   {
     "ID": "container.xenostone_barrel",
-    "Text": "Xenostone Barrel"
+    "Text": "Бочка из ксенокамня"
   },
   {
     "ID": "container.xenostone_wall_compartment",
-    "Text": "Xenostone Wall Compartment"
+    "Text": "Отсек из ксенокамня"
   },
   {
     "ID": "container.xenocloth_bag",
-    "Text": "Xenocloth Bag"
+    "Text": "Сумка из ксеноткани"
   },
   {
     "ID": "container.xenocloth_pouch",
-    "Text": "Xenocloth Pouch"
+    "Text": "Мешочек из ксеноткани"
   },
   {
     "ID": "container.xenostone_small_chest",
-    "Text": "Xenostone Small Chest"
+    "Text": "Маленький сундук из ксенокамня"
   },
   {
     "ID": "container.toilet",
-    "Text": "Toilet"
+    "Text": "Унитаз"
   },
   {
     "ID": "container.makeshift_pouch",
-    "Text": "Makeshift Pouch"
+    "Text": "Самодельный мешочек"
   },
   {
     "ID": "container.chess_board",
-    "Text": "Chess Board"
+    "Text": "Шахматная доска"
   },
   {
     "ID": "container.plastic_pumpkin_bucket",
-    "Text": "Plastic Pumpkin Bucket"
+    "Text": "Пластиковое ведёрко-тыква"
   },
   {
     "ID": "container.makeshift_crate",
-    "Text": "Makeshift Crate"
+    "Text": "Самодельный ящик"
   },
   {
     "ID": "container.billy_container",
-    "Text": "Billy Container"
+    "Text": "Билли"
   },
   {
     "ID": "container.diaper",
-    "Text": "Diaper"
+    "Text": "Подгузник"
   },
   {
     "ID": "container.tech_dumpster",
-    "Text": "Tech Dumpster"
+    "Text": "Техно-мусорка"
   },
   {
     "ID": "char.noPlayerSelected",
-    "Text": "No Player Selected"
+    "Text": "Не выбрна игрок"
   },
   {
     "ID": "menu.retrievingRecentUpdates",
-    "Text": "Retrieving recent updates..."
+    "Text": "Получение информации об обновлениях…"
   },
   {
     "ID": "menu.recentUpdatesUnavailable",
-    "Text": "Could not retrieve recent updates.\n\nPlease visit www.playsignsoflife.com or the Steam announcements for the recent updates."
+    "Text": "Не удалось получить информацию об обновлениях.\n\nПосетите www.playsignsoflife.com или объявления Steam, чтобы узнать об обновлениях."
   },
   {
     "ID": "codex.title",
-    "Text": "Codex"
+    "Text": "Кодекс"
   },
   {
     "ID": "codex.drops",
-    "Text": "Drops:"
+    "Text": "Дроп:"
   },
   {
     "ID": "meg.skill.ninjutsu",
-    "Text": "Ninjutsu"
+    "Text": "Ниндзюцу"
   },
   {
     "ID": "meg.skill.ninjutsuDescription",
-    "Text": "Gunkata without the gun."
+    "Text": "Пулевой балет без пуль."
   },
   {
     "ID": "meg.slot.grapple",
-    "Text": "Grapple"
+    "Text": "Крюк"
   },
   {
     "ID": "meg.slot.extract",
-    "Text": "Extract"
+    "Text": "Копание"
   },
   {
     "ID": "meg.slot.scan",
-    "Text": "Scan"
+    "Text": "Сканнер"
   },
   {
     "ID": "meg.slot.grab",
-    "Text": "Grab"
+    "Text": "Подбирание"
   },
   {
     "ID": "meg.slot.glow",
-    "Text": "Glow"
+    "Text": "Свет"
   },
   {
     "ID": "meg.slot.lens",
-    "Text": "Lens"
+    "Text": "Линза"
   },
   {
     "ID": "meg.slot.battery",
-    "Text": "Battery"
+    "Text": "Батарея"
   },
   {
     "ID": "meg.slot.capacitor",
-    "Text": "Capacitor"
+    "Text": "Конденсатор"
   },
   {
     "ID": "meg.upgradeInfo",
-    "Text": "Your MEG tool can be equipped with a Lens which upgrades your mining ability, a Battery for your total energy storage, and a Capacitor for usable energy. It can also be upgraded with beautiful gems!"
+    "Text": "В лазер MEG можно встроить Линзу, которая усилит его способность копать, Батарею, для общего запаса энергии, и Конденсатор для используемой энергии. А ещё его можно улучшить красивыми самоцветами!"
   },
   {
     "ID": "meg.journalTitle",
-    "Text": "-AGIS Assisted Journal-"
+    "Text": "-Журнал AGIS-"
   },
   {
     "ID": "item.enterLabelPrompt",
-    "Text": "Enter the label you would like to use."
+    "Text": "Введите название для предмета."
   },
   {
     "ID": "item.stat.damageRange",
-    "Text": "Damage: {0} - {1}"
+    "Text": "Урон: {0} - {1}"
   },
   {
     "ID": "item.stat.damageUpTo",
-    "Text": "Damage: up to {0:0.###}"
+    "Text": "Урон: до {0:0.###}"
   },
   {
     "ID": "item.bandageHealOnCompletion",
-    "Text": "Restores {0} health when bandaging completes."
+    "Text": "Восстанавлиает {0} здоровья после перевязки."
   },
   {
     "ID": "item.stat.maxChargeTimeSeconds",
-    "Text": "Max Charge Time: {0:0.###} s"
+    "Text": "Максимальное время заряда: {0:0.###} s"
   },
   {
     "ID": "item.stat.armorPiercingFlat",
-    "Text": "Flat AP: {0:0.###}"
+    "Text": "Пробитие брони: {0:0.###}"
   },
   {
     "ID": "item.stat.armorPiercingPercent",
-    "Text": "Remaining Flat Armor Bypass: {0:0.###}%"
+    "Text": "Процентное пробитие брони: {0:0.###}%"
   },
   {
     "ID": "item.stat.damagePerSecondRange",
-    "Text": "DPS: {0} - {1}"
+    "Text": "Урон в секунду: {0} - {1}"
   },
   {
     "ID": "item.stat.energyPerSecond",
-    "Text": "Energy/Second: {0}"
+    "Text": "Энергия в секунду: {0}"
   },
   {
     "ID": "item.stat.damageValue",
-    "Text": "Damage: {0:0.###}"
+    "Text": "Урон: {0:0.###}"
   },
   {
     "ID": "item.stat.primaryDamage",
-    "Text": "Primary Damage: {0:0.###}"
+    "Text": "Урон основного режима: {0:0.###}"
   },
   {
     "ID": "item.stat.fullyChargedDamage",
-    "Text": "Fully Charged Damage: {0:0.###}"
+    "Text": "Урон полностью заряженной атаки: {0:0.###}"
   },
   {
     "ID": "item.stat.energyPerShot",
-    "Text": "Energy/Shot: {0:0.###}"
+    "Text": "Энергия за выстрел: {0:0.###}"
   },
   {
     "ID": "item.stat.chargingEnergyPerSecond",
-    "Text": "Energy/Second While Charging: {0:0.###}"
+    "Text": "Энергия в секунду на время зарядки: {0:0.###}"
   },
   {
     "ID": "item.stat.primaryChargeTime",
-    "Text": "Primary Charge Time: {0:0.###} s"
+    "Text": "Время заряда основного режима: {0:0.###} s"
   },
   {
     "ID": "item.stat.secondaryChargeTime",
-    "Text": "Secondary Charge Time: {0:0.###} s"
+    "Text": "Время заряда альтернативного режима: {0:0.###} s"
   },
   {
     "ID": "item.stat.alienEnergyPerUse",
-    "Text": "Alien Energy/Use: {0:0.###}"
+    "Text": "Инопланетная энергия за использование: {0:0.###}"
   },
   {
     "ID": "item.stat.energyPerSwing",
-    "Text": "Energy/Swing: {0:0.###}"
+    "Text": "Энергия за удар: {0:0.###}"
   },
   {
     "ID": "item.stat.grappleSustainedEnergy",
-    "Text": "Base Energy/Second While Attached: {0:0.###}"
+    "Text": "Энергия в секунду во время прицепления: {0:0.###}"
   },
   {
     "ID": "item.stat.chargedBash",
-    "Text": "Charged Bash: 2 spines and a central projectile."
+    "Text": "Заряженный удар щитом: 2 шипа и центральный снаряд."
   },
   {
     "ID": "item.stat.bashRecharge",
-    "Text": "Bash Recharge: {0:0.###} s"
+    "Text": "Перезарядка удара щитом: {0:0.###} s"
   },
   {
     "ID": "item.stat.baseDamageRampPerSecond",
-    "Text": "Base DPS Ramp/Second: {0}"
+    "Text": "Увеличение УВС в секунду: {0}"
   },
   {
     "ID": "item.stat.handlingPercent",
-    "Text": "Handling: {0}%"
+    "Text": "Удобство: {0}%"
   },
   {
     "ID": "item.stat.recoilPercent",
-    "Text": "Recoil: {0}%"
+    "Text": "Отдача: {0}%"
   },
   {
     "ID": "item.stat.ammoDamageRange",
-    "Text": "Ammo Damage: {0} - {1}"
-  },
-  {
-    "ID": "item.stat.ammoAp",
-    "Text": "Ammo AP: {0}"
+    "Text": "Урон боеприпаса: {0} - {1}"
   },
   {
     "ID": "item.stat.power",
-    "Text": "Power: {0}"
+    "Text": "Сила: {0}"
   },
   {
     "ID": "item.stat.reloadSpeed",
-    "Text": "Reload Speed: {0}"
+    "Text": "Скорость перезарядки: {0}"
   },
   {
     "ID": "item.stat.spread",
-    "Text": "Spread: {0}"
+    "Text": "Разброс: {0}"
   },
   {
     "ID": "item.stat.ammoBaseDamageParenthesized",
-    "Text": "Ammo Base Damage: ({0} - {1})"
+    "Text": "Урон боеприпаса: ({0} - {1})"
   },
   {
     "ID": "item.stat.ammoSpeedModifier",
-    "Text": "Ammo Speed Modifier: {0}"
+    "Text": "Модификатор скорости боеприпаса: {0}"
   },
   {
     "ID": "item.stat.ammoBreakChance",
-    "Text": "Ammo Break Chance: {0}%"
+    "Text": "Шанс боеприпаса сломаться: {0}%"
   },
   {
     "ID": "item.stat.attackSpeed",
-    "Text": "Attack Speed: {0}"
+    "Text": "Скорость атаки: {0}"
   },
   {
     "ID": "item.stat.maxProjectiles",
-    "Text": "Max Projectiles: {0}"
+    "Text": "Максимальное количество снарядов: {0}"
   },
   {
     "ID": "item.stat.ammoDamageParenthesized",
-    "Text": "Ammo Damage: ({0} - {1})"
+    "Text": "Урон боеприпаса: ({0} - {1})"
   },
   {
     "ID": "item.stat.arrowDamageType",
-    "Text": "Arrow Damage Type: {0}"
+    "Text": "Тип урона: {0}"
   },
   {
     "ID": "item.stat.arrowDamageParenthesized",
-    "Text": "Arrow Damage: ({0} - {1})"
-  },
-  {
-    "ID": "item.stat.arrowAp",
-    "Text": "Arrow AP: {0}"
+    "Text": "Урон: ({0} - {1})"
   },
   {
     "ID": "item.stat.arrowSpeedModifier",
-    "Text": "Arrow Speed Modifier: {0}"
+    "Text": "Модификатор скорости: {0}"
   },
   {
     "ID": "item.stat.arrowBreakChance",
-    "Text": "Arrow Break Chance: {0}%"
+    "Text": "Шанс боеприпаса сломаться: {0}%"
   },
   {
     "ID": "item.stat.ammoDamageType",
-    "Text": "Ammo Damage Type: {0}"
+    "Text": "Тип урона: {0}"
   },
   {
     "ID": "item.stat.blockingReduction",
-    "Text": "{0}% Blocking Reduction"
+    "Text": "{0}% Уменьшеие урона при блокировании"
   },
   {
     "ID": "item.stat.encumbranceLine",
-    "Text": "\n{0} Encumbrance"
+    "Text": "\n{0} Загруженность"
   },
   {
     "ID": "item.modifications",
-    "Text": "Modifications:"
+    "Text": "Модификации:"
   },
   {
     "ID": "item.alienWriting.unknownLanguage",
-    "Text": "\n\nThere appears to be some kind of alien writing etched into the item, but we have no knowledge of how to interpret their language."
+    "Text": "\n\nЗдесь что-то написано, но Вы даже не сразу поняли, что это язык. Вы не можете перевести это."
   },
   {
     "ID": "item.alienWriting.noWords",
-    "Text": "\n\nThere is alien writing etched into the item, but we still don't know enough about the language to translate any of it."
+    "Text": "\n\nЗдесь что-то написано, но Вы всё ещё почти ничего не знаете об этом языке, чтобы что-то перевести."
   },
   {
     "ID": "item.alienWriting.someWords",
-    "Text": "\n\nThere is alien writing etched into the item, and we have learned enough of their language to understand bits and pieces. I have translated some of it:"
+    "Text": "\n\nЗдесь что-то написано на инопланетном, и Вы знаете достаточно их языка, чтобы понять некоторые фрагменты. Вот, что получилось перевести:"
   },
   {
     "ID": "item.alienWriting.mostWords",
-    "Text": "\n\nThere is alien writing etched into the item, and we have learned enough of their language to translate most of it:"
+    "Text": "\n\nЗдесь написан текст на инопланетном, и Вы знаете этот язык достаточно, чтобы перевести большую часть:"
   },
   {
     "ID": "item.alienWriting.allWords",
-    "Text": "\n\nThere is alien writing etched into the item. I have been able to fully translate it:"
+    "Text": "\n\nЗдесь надпись на инопланетном. Вот перевод:"
   },
   {
     "ID": "item.alienWriting.translation",
@@ -2574,239 +2407,235 @@
   },
   {
     "ID": "glyph.translationPrefix",
-    "Text": "Translation: {0}"
+    "Text": "Перевод: {0}"
   },
   {
     "ID": "consumable.fullnessRequired",
-    "Text": "Fullness Required {0}%"
+    "Text": "Требуется насыщение {0}%"
   },
   {
     "ID": "consumable.fullnessRemaining",
-    "Text": "Fullness Remaining {0}%"
+    "Text": "Оставшееся насыщение {0}%"
   },
   {
     "ID": "credits.additionalProgramming",
-    "Text": "-Additional Programming-"
+    "Text": "-Дополнительное программирование-"
   },
   {
     "ID": "credits.music",
-    "Text": "-Music-"
+    "Text": "-Музыка-"
   },
   {
     "ID": "credits.additionalSoundFx",
-    "Text": "-Additional Sound FX-"
+    "Text": "-Дополнительные звуковые эффекты-"
   },
   {
     "ID": "credits.earlyAccess",
-    "Text": "-Early Access-"
+    "Text": "-Ранний доступ-"
   },
   {
     "ID": "credits.specialThanks",
-    "Text": "-Special Thanks-"
+    "Text": "-Особая благодарность-"
   },
   {
     "ID": "credits.extraSpecialThanks",
-    "Text": "-Extra Special Thanks-"
+    "Text": "-Особая особая благодарность-"
   },
   {
     "ID": "credits.earlyAccessPlayers",
-    "Text": "I want to thank all of our Early Access players."
+    "Text": "Хочу поблагодарить всех участников Раннего Доступа."
   },
   {
     "ID": "credits.earlyAccessFeedback",
-    "Text": "Your feedback and kind words of encouragement were so important along the way."
+    "Text": "Помощь, оказанная вашей обратной связью и добрыми словами поддержки, была неоценима на этой пути."
   },
   {
     "ID": "credits.families",
-    "Text": "Our families, for their support along the way."
+    "Text": "Нашим семьям, за их поддержку на этом пути."
   },
   {
     "ID": "cybernetics.install",
-    "Text": "Install"
+    "Text": "Встроить"
   },
   {
     "ID": "cybernetics.title",
-    "Text": "Cybernetics"
+    "Text": "Импланты"
   },
   {
     "ID": "station.brickOven",
-    "Text": "Brick Oven"
+    "Text": "Кирпичная печь"
   },
   {
     "ID": "station.blastFurnace",
-    "Text": "Blast Furnace"
+    "Text": "Плавильная печь"
   },
   {
     "ID": "menu.help",
-    "Text": "Help"
+    "Text": "Помощь"
   },
   {
     "ID": "station.dyePigments",
-    "Text": "Dye Pigments"
+    "Text": "Красители"
   },
   {
     "ID": "station.draftFurnace",
-    "Text": "Draft Furnace"
+    "Text": "Сыродутная печь"
   },
   {
     "ID": "station.chemistryLab",
-    "Text": "Chemistry Lab"
+    "Text": "Химическая лаборатория"
   },
   {
     "ID": "station.ironStove",
-    "Text": "Iron Stove"
+    "Text": "Железная плита"
   },
   {
     "ID": "station.inductionFurnace",
-    "Text": "Induction Furnace"
+    "Text": "Индукционная печь"
   },
   {
     "ID": "station.kitchenette",
-    "Text": "Kitchenette"
+    "Text": "Продвинутая кухня"
   },
   {
     "ID": "station.portableIronGrill",
-    "Text": "Portable Iron Grill"
+    "Text": "Переносной железный гриль"
   },
   {
     "ID": "station.portableElectricGrill",
-    "Text": "Portable Electric Grill"
+    "Text": "Переносной электрический гриль"
   },
   {
     "ID": "station.fire",
-    "Text": "Fire"
+    "Text": "Огонь"
   },
   {
     "ID": "station.massDriver.hostileShip",
-    "Text": "Hostile ship"
+    "Text": "Вражеское судно"
   },
   {
     "ID": "station.massDriver.sun",
-    "Text": "Sun"
+    "Text": "Солнце"
   },
   {
     "ID": "world.delete",
-    "Text": "Delete"
+    "Text": "Удалить"
   },
   {
     "ID": "world.load",
-    "Text": "Load"
+    "Text": "Загрузить"
   },
   {
     "ID": "mp.join",
-    "Text": "Join"
+    "Text": "Присоединиться"
   },
   {
     "ID": "mp.version",
-    "Text": "Version: {0}"
+    "Text": "Версия: {0}"
   },
   {
     "ID": "mp.ping",
-    "Text": "Ping: {0}"
+    "Text": "Пинг: {0}"
   },
   {
     "ID": "mp.players",
-    "Text": "Players: {0}"
+    "Text": "Игроки: {0}"
   },
   {
     "ID": "mp.pingRetrieving",
-    "Text": "Ping: Retrieving..."
+    "Text": "Пинг: Получение…"
   },
   {
     "ID": "mp.playersRetrieving",
-    "Text": "Players: Retrieving..."
+    "Text": "Игроки: Получение…"
   },
   {
     "ID": "world.deleteConfirm",
-    "Text": "Are you sure you want to delete the map named \"{0}\"?"
+    "Text": "Вы уверены, что хотите удалить карту \"{0}\"?"
   },
   {
     "ID": "menu.retrySaveDiscovery",
-    "Text": "Retry Save Loading"
+    "Text": "Попытка загрузить сохранение снова…"
   },
   {
     "ID": "world.discoveryFailed",
-    "Text": "Could not read this world save:\n{0}\n\n{1}\nWorld loading and creation are disabled. Make OneDrive files available locally, then confirm to retry. Cancel returns to the menu."
+    "Text": "Не удалось загрузить это сохранение:\n{0}\n\n{1}\nСоздание миров и загрузка отключены. Сделайте файлы OneDrive доступными локально, и нажмите \"Подтвердить\", чтобы попробовать снова. Нажмите \"Отменить\", чтобы вернуться в меню."
   },
   {
     "ID": "world.discoveryUnavailable",
-    "Text": "The file or its folder is unavailable."
+    "Text": "Файл или содержащая его папка не доступны."
   },
   {
     "ID": "world.discoveryInvalid",
-    "Text": "The saved world metadata could not be read."
+    "Text": "Метаданные этого сохранения мира не удалось прочитать."
   },
   {
     "ID": "world.discoveryCopyDetails",
-    "Text": "Copy Details"
+    "Text": "Скопировать детали"
   },
   {
     "ID": "world.deleteFailed",
-    "Text": "Could not delete the map named \"{0}\". It is still in the list. Close other copies of the game and try again. Details are in the game log."
+    "Text": "Не удалось удалить карту \"{0}\". Она всё ещё в списке. Закройте другие копии игры и попробуйте снова. Подробнее в логах."
   },
   {
     "ID": "world.deleteLegacyUnsupported",
-    "Text": "This world is stored in an older shared save database and cannot be deleted from this menu."
+    "Text": "Это мир сохранён в устаревшей версии базы данных сохранений и не может быть удалён из этого меню."
   },
   {
     "ID": "inventory.searchPrompt",
-    "Text": "What would you like to search for?"
+    "Text": "Что ищете?"
   },
   {
     "ID": "datapad.discardConfirm",
-    "Text": "Discard unsaved datapad changes?"
+    "Text": "Сбросить несохранённые изменения?"
   },
   {
     "ID": "network.localServerWarning",
-    "Text": "Warning: we were unable to connect to the local server, you might want to try temporarily disabling any anti-virus or firewall software you are using to see if this message stops popping up. The game might run fine anyway, but let us know if you have problems."
+    "Text": "Внимание: Не удалось подключиться к локальному серверу. Попробуйте временно отключить антивирус и/или брандмауэр и проверьте, появляется ли это сообщение. Игра, возможно, будет работать, но дайте знать, если появятся проблемы."
   },
   {
     "ID": "network.joinNeedsCharacter",
-    "Text": "You must have a character in order to join a friend's game."
+    "Text": "Создайте персонажа, чтобы присоединиться к игре."
   },
   {
     "ID": "network.friendVersionMismatch",
-    "Text": "Your friend is not using the same version as you and so you were unable to connect."
+    "Text": "Версия сервера не совпадает с Вашей версией игры, подключиться не удалось."
   },
   {
     "ID": "network.friendInIntro",
-    "Text": "You cannot join your friend until they finish the introduction map."
+    "Text": "Вы не можете подключиться к другу, пока он не пройдёт вступление."
   },
   {
     "ID": "network.joiningFriend",
-    "Text": "Joining your friend's game."
+    "Text": "Подключение к игре."
   },
   {
     "ID": "network.friendDeniedJoin",
-    "Text": "Your friend denied your request to join their game."
+    "Text": "В присоединении отказано."
   },
   {
     "ID": "network.joinRequestTimeout",
-    "Text": "Player join request timed out."
+    "Text": "Время ожидания запроса о подключении истекло."
   },
   {
     "ID": "network.friendJoinRequest",
-    "Text": "{0} would like to join your game."
+    "Text": "{0} хочет присоединиться."
   },
   {
     "ID": "settings.hardwareCursorEnabled",
-    "Text": "Hardware Cursor Enabled at 100% UI Scale. Other UI scales use the software cursor."
+    "Text": "Аппаратный курсор включён при масштабе интерфейса в 100%. Другие масштабы интерфейса используют программный курсор."
   },
   {
     "ID": "settings.hardwareCursorDisabled",
-    "Text": "Hardware Cursor Disabled, May require restart."
+    "Text": "Аппаратный курсор выключен. Может потребоваться перезапуск игры."
   },
   {
     "ID": "workshop.uploadConfirm",
-    "Text": "Are you sure you want to upload the selected data for the Steam Workshop mod \"{0}\"?"
-  },
-  {
-    "ID": "mods.updateConfirm",
-    "Text": "Update the Steam Workshop mod \"{0}\"?\n\nThis replaces that mod for everyone who subscribed. Use the staged package \"{1}\"."
+    "Text": "Вы уверены, что хотете загрузить выбранные файлы в модификацию из Мастерской Steam \"{0}\"?"
   },
   {
     "ID": "mods.deleteWorkshopConfirm",
-    "Text": "Delete \"{0}\" from the Steam Workshop?\n\nThis permanently removes the Workshop item for everyone — it is not just uninstalling it from your game. This cannot be undone."
+    "Text": "Удалить \"{0}\" из Мастерской Steam?\n\nЭто действие навсегда удалит этот предмет Мастерской Steam для всех — не только из Вашей игры. Это действие нельзя отменить."
   },
   {
     "ID": "item.meleeDamage",
@@ -2818,91 +2647,91 @@
   },
   {
     "ID": "world.moon",
-    "Text": "Moon"
+    "Text": "Луна"
   },
   {
     "ID": "world.packWorld",
-    "Text": "Pack World"
+    "Text": "Мир из модификации"
   },
   {
     "ID": "world.smallDeep",
-    "Text": "Small Deep"
+    "Text": "Меньше, глубже"
   },
   {
     "ID": "world.lastModifiedUnknown",
-    "Text": "Last modified: unknown"
+    "Text": "Последнее изменение: неизвестно"
   },
   {
     "ID": "world.lastModified",
-    "Text": "Last modified: {0}"
+    "Text": "Последнее изменение: {0}"
   },
   {
     "ID": "datapad.saved",
-    "Text": "Saved"
+    "Text": "Сохранено"
   },
   {
     "ID": "datapad.saving",
-    "Text": "Saving..."
+    "Text": "Сохранение…"
   },
   {
     "ID": "datapad.editRejected",
-    "Text": "Edit rejected"
+    "Text": "Изменение отказано"
   },
   {
     "ID": "grinder.fuel",
-    "Text": "FUEL"
+    "Text": "ТОПЛИВО"
   },
   {
     "ID": "grinder.blade",
-    "Text": "BLADE"
+    "Text": "ЛЕЗВИЕ"
   },
   {
     "ID": "tinker.item",
-    "Text": "Item"
+    "Text": "Предмет"
   },
   {
     "ID": "tinker.accuracy",
-    "Text": "Accuracy"
+    "Text": "Точность"
   },
   {
     "ID": "tinker.damage",
-    "Text": "Damage"
+    "Text": "Урон"
   },
   {
     "ID": "tinker.fireRate",
-    "Text": "Fire Rate"
+    "Text": "Скорострельность"
   },
   {
     "ID": "tinker.undefined",
-    "Text": "UNDEFINED"
+    "Text": "НЕОПРЕДЕЛЕНО"
   },
   {
     "ID": "radial.selectItemToEquip",
-    "Text": "Select Item To Equip"
+    "Text": "Выберите предмет для экипировки"
   },
   {
     "ID": "mods.packageSummaryOne",
-    "Text": "{0} file, {1} MB"
+    "Text": "Файл: {0}, {1} MB"
   },
   {
     "ID": "mods.packageSummaryMany",
-    "Text": "{0} files, {1} MB"
+    "Text": "Файлов: {0}, {1} MB"
   },
   {
     "ID": "mods.packageSummaryUnavailable",
-    "Text": "unable to read package summary"
+    "Text": "Не удалось прочитать данные пакета."
   },
   {
     "ID": "mods.subscriptionReloadError",
-    "Text": "Workshop subscription changed, but active mod content could not be reloaded: {0}"
+    "Text": "Статус подписки на предмет из Мастерской Steam изменился, но включённый контент не удалось перезагрузить: {0}"
   },
   {
     "ID": "workshop.shortDescriptionPrefix",
-    "Text": "Short Description: {0}"
+    "Text": "Короткое описание: {0}"
   },
   {
     "ID": "workshop.descriptionPrefix",
-    "Text": "Description: {0}"
+    "Text": "Описание: {0}"
   },
   {
     "ID": "prefab.fcSlot",
@@ -2910,143 +2739,143 @@
   },
   {
     "ID": "mods.statusVanilla",
-    "Text": "Status: Loaded this session (vanilla — always enabled)"
+    "Text": "Статус: Загружено в этой сессии (vanilla — всегда включено)"
   },
   {
     "ID": "mods.statusMarkedDisabled",
-    "Text": "Status: Loaded this session — marked disabled (Disable reloads content to unload)"
+    "Text": "Статус: Загружено в этой сессии — будет отключено после перезапуска или при нажатии \"Загрузить сейчас\""
   },
   {
     "ID": "mods.statusDisabled",
-    "Text": "Status: Disabled — won't load on next launch or Load Now"
+    "Text": "Статус: Отключено — не будет загружено после перезапуска или при нажатии \"Загрузить сейчас\""
   },
   {
     "ID": "mods.statusPendingLoadNow",
-    "Text": "Status: Pending — use Load Now (or restart) to merge into this session"
+    "Text": "Статус: Ожидает — используйте \"Загрузить сейчас\" (или перезапустите сессию), чтобы включить в этой сессии"
   },
   {
     "ID": "mods.statusPendingDownload",
-    "Text": "Status: Pending (waiting for download/install)"
+    "Text": "Статус: Ожидает (ожидает загрузки/установки)"
   },
   {
     "ID": "mods.statusLoaded",
-    "Text": "Status: Loaded this session"
+    "Text": "Статус: Загружено в этой сессии"
   },
   {
     "ID": "mods.safetyNote",
-    "Text": "\nNote: Enabled mods can change your world and inventories. Lua runs in a sandbox (no OS file/process access)."
+    "Text": "\nВнимание: Включённые модификации могут изменять Ваш мир и инвентари. Lua запускается в режиме песочницы (без доступа к файлам ОС и процессам)."
   },
   {
     "ID": "mods.browserDescription",
-    "Text": "\nDescription: {0}"
+    "Text": "\nОписание: {0}"
   },
   {
     "ID": "mods.disabledAndReloaded",
-    "Text": "Disabled '{0}' and reloaded content — it is no longer active this session."
+    "Text": "Модификация '{0}' отключена и контент перезагружен — отключена в этой сессии."
   },
   {
     "ID": "mods.disabledReloadFailed",
-    "Text": "Disabled '{0}' for next launch, but reload failed: {1}"
+    "Text": "Модификация '{0}' отключена для следующего запуска, но перезагрузить не удалось: {1}"
   },
   {
     "ID": "mods.disabledNextLaunch",
-    "Text": "Disabled '{0}' — it will not load on the next launch (or Load Now)."
+    "Text": "Модификация '{0}' отключена — не будет загружена после перезапуска или при нажатии \"Загрузить сейчас\"."
   },
   {
     "ID": "mods.enabledAndLoaded",
-    "Text": "Enabled '{0}' and loaded it into this session."
+    "Text": "Модификация '{0}' включена и загружена в этой сессии."
   },
   {
     "ID": "mods.enabledLoadFailed",
-    "Text": "Enabled '{0}' for next launch, but it could not load this session."
+    "Text": "Модификация '{0}' будет запущена при следующем запуске. Не удалось загрузить в этой сессии."
   },
   {
     "ID": "mods.enabledNextLaunchMultiplayer",
-    "Text": "Enabled '{0}' for next launch. Load Now is blocked during multiplayer."
+    "Text": "Модификация '{0}' будет запущена при следующем запуске. Кнопка \"Загрузить сейчас\" отключена в многопользовательской игре."
   },
   {
     "ID": "mods.enabledNextLaunch",
-    "Text": "Enabled '{0}' for next launch."
+    "Text": "Модификация '{0}' будет запущена при следующем запуске."
   },
   {
     "ID": "artifact.spellbox",
-    "Text": "SPELLBOX"
+    "Text": "ЗАКЛИНАНИЯ"
   },
   {
     "ID": "category.unknown",
-    "Text": "UNKNOWN"
+    "Text": "НЕИЗВЕСТНО"
   },
   {
     "ID": "workshop.upload",
-    "Text": "Upload to Workshop"
+    "Text": "Опубликовать в Мастерскую Steam"
   },
   {
     "ID": "workshop.uploadData",
-    "Text": "Upload Data"
+    "Text": "Загрузить информацию"
   },
   {
     "ID": "skill.moreInfo",
-    "Text": "More Info"
+    "Text": "Больше"
   },
   {
     "ID": "dialogue.end",
-    "Text": "END"
+    "Text": "КОНЕЦ"
   },
   {
     "ID": "craft.tool",
-    "Text": "Tool ({0})"
+    "Text": "Инструмент ({0})"
   },
   {
     "ID": "crew.ops.activity.clay",
-    "Text": "Clay Digging"
+    "Text": "Собирает глину"
   },
   {
     "ID": "crew.ops.activity.fruit",
-    "Text": "Fruit foraging"
+    "Text": "Собирает фрукты"
   },
   {
     "ID": "crew.ops.activity.fungi",
-    "Text": "Fungi foraging"
+    "Text": "Собирает грибы"
   },
   {
     "ID": "crew.ops.activity.healing",
-    "Text": "Healing"
+    "Text": "Лечится"
   },
   {
     "ID": "crew.ops.activity.hunting",
-    "Text": "Hunting"
+    "Text": "Охотится"
   },
   {
     "ID": "crew.ops.activity.mining",
-    "Text": "Basic mining"
+    "Text": "Добывает руды"
   },
   {
     "ID": "crew.ops.activity.nuts",
-    "Text": "Nut foraging"
+    "Text": "Собирает орехи"
   },
   {
     "ID": "crew.ops.activity.wood",
-    "Text": "Wood gathering"
+    "Text": "Собирает дерево"
   },
   {
     "ID": "crew.ops.back",
-    "Text": "Back"
+    "Text": "Возвращается"
   },
   {
     "ID": "crew.ops.behavior.assign",
-    "Text": "Assign jobs on the Production page."
+    "Text": "Назначьте заказы на странице Производство."
   },
   {
     "ID": "crew.ops.behavior.defense",
-    "Text": "Defense"
+    "Text": "Защита"
   },
   {
     "ID": "crew.ops.behavior.hostOnly",
-    "Text": "Only the host can change behavior."
+    "Text": "Только хост может менять поведение."
   },
   {
     "ID": "crew.ops.behavior.outings",
-    "Text": "Crew outings are enabled."
+    "Text": "Вылазки экипажа включены."
   },
   {
     "ID": "crew.ops.behavior.production",
@@ -3074,171 +2903,171 @@
   },
   {
     "ID": "crew.ops.details",
-    "Text": "Details"
+    "Text": "Подробнее"
   },
   {
     "ID": "crew.ops.food.basic",
-    "Text": "Basic"
+    "Text": "Простое"
   },
   {
     "ID": "crew.ops.food.basic.requirement",
-    "Text": "Cooks one simple ingredient."
+    "Text": "Готовит один простой ингредиент."
   },
   {
     "ID": "crew.ops.food.filling",
-    "Text": "Filling"
+    "Text": "Сытное"
   },
   {
     "ID": "crew.ops.food.filling.requirement",
-    "Text": "Cooks a two-ingredient glazed dish."
+    "Text": "Готовит два ингредиента в глазури."
   },
   {
     "ID": "crew.ops.food.meals",
-    "Text": "Meals"
+    "Text": "Обеды"
   },
   {
     "ID": "crew.ops.food.meals.requirement",
-    "Text": "Needs a Clay Plate plus toppings. Raw meat is cooked as it is plated."
+    "Text": "Требуется Тарелка и наполнение. Сырое мясо готовится в процессе."
   },
   {
     "ID": "crew.ops.housing.header",
-    "Text": "Valid rooms: {0}, assigned {1}, unassigned {2}"
+    "Text": "Комнат: {0}, назначено {1}, не назначено {2}"
   },
   {
     "ID": "crew.ops.next",
-    "Text": "Next"
+    "Text": "Далее"
   },
   {
     "ID": "crew.ops.or",
-    "Text": " or "
+    "Text": " или "
   },
   {
     "ID": "crew.ops.orders.add",
-    "Text": "Add order"
+    "Text": "Добавить заказ"
   },
   {
     "ID": "crew.ops.orders.addThenAssign",
-    "Text": "Add an order, then assign workers."
+    "Text": "Добавьте заказ, потом назначьте рабочих."
   },
   {
     "ID": "crew.ops.orders.assigned",
-    "Text": "Assigned: {0} | Available: {1}"
+    "Text": "Назначено: {0} | Доступно: {1}"
   },
   {
     "ID": "crew.ops.orders.autoIngredients",
-    "Text": "Uses suitable ingredients automatically."
+    "Text": "Автоматически использует подходящие ингредиенты."
   },
   {
     "ID": "crew.ops.orders.batchTime",
-    "Text": "5:00 worker time / batch"
+    "Text": "5:00 рабочего времени на партию"
   },
   {
     "ID": "crew.ops.orders.chooseFood",
-    "Text": "Choose food type"
+    "Text": "Выберите тип еды"
   },
   {
     "ID": "crew.ops.orders.chooseRecipe",
-    "Text": "Choose recipe"
+    "Text": "Выберите рецепт"
   },
   {
     "ID": "crew.ops.orders.editRejected",
-    "Text": "Edit rejected. Reopen the order."
+    "Text": "Не удалось редактировать. Переоткройте заказ."
   },
   {
     "ID": "crew.ops.orders.examples",
-    "Text": "Examples: {0}"
+    "Text": "Примеры: {0}"
   },
   {
     "ID": "crew.ops.orders.hostOnly",
-    "Text": "Only the host can edit orders."
+    "Text": "Только хост может редактировать заказы."
   },
   {
     "ID": "crew.ops.orders.ingredientHelp",
-    "Text": "Uses loose Pneumail ingredients. Orders run top to bottom."
+    "Text": "Использует ингредиенты из Пневмпопочты. Приказы идут сверху вниз."
   },
   {
     "ID": "crew.ops.orders.keepPneumail",
-    "Text": "Keep in Pneumail:"
+    "Text": "Держать в пневмопочте:"
   },
   {
     "ID": "crew.ops.orders.keepStock",
-    "Text": "Keep {0}; have {1}"
+    "Text": "Держать {0}. Есть в наличии {1}"
   },
   {
     "ID": "crew.ops.orders.maintainStock",
-    "Text": "Maintain stock"
+    "Text": "Поддерживать минимум"
   },
   {
     "ID": "crew.ops.orders.makeMore",
-    "Text": "Make more:"
+    "Text": "Сделать ещё:"
   },
   {
     "ID": "crew.ops.orders.makeQuantity",
-    "Text": "Make quantity"
+    "Text": "Сделать количество"
   },
   {
     "ID": "crew.ops.orders.makeRemaining",
-    "Text": "Make: {0} left"
+    "Text": "Сделать: осталось {0}"
   },
   {
     "ID": "crew.ops.orders.manage",
-    "Text": "Manage"
+    "Text": "Управлять"
   },
   {
     "ID": "crew.ops.orders.matchingStock",
-    "Text": "Matching stock: {0}"
+    "Text": "Есть на складе: {0}"
   },
   {
     "ID": "crew.ops.orders.moveDown",
-    "Text": "Move down"
+    "Text": "Передвинуть вниз"
   },
   {
     "ID": "crew.ops.orders.moveUp",
-    "Text": "Move up"
+    "Text": "Передвинуть вверх"
   },
   {
     "ID": "crew.ops.orders.nextBatch",
-    "Text": "Next batch: {0}"
+    "Text": "Следующая партия: {0}"
   },
   {
     "ID": "crew.ops.orders.none",
-    "Text": "No orders."
+    "Text": "Нет приказов."
   },
   {
     "ID": "crew.ops.orders.ordered",
-    "Text": "Ordered. "
+    "Text": "Заказ открыт."
   },
   {
     "ID": "crew.ops.orders.remove",
-    "Text": "Remove order"
+    "Text": "Удалить заказ"
   },
   {
     "ID": "crew.ops.orders.removeWarning",
-    "Text": "Remove cancels unfinished work."
+    "Text": "Удаление отменяет незаконченную работу."
   },
   {
     "ID": "crew.ops.orders.singleTitle",
-    "Text": "{0} order"
+    "Text": "{0} заказ"
   },
   {
     "ID": "crew.ops.orders.title",
-    "Text": "{0} orders"
+    "Text": "Заказов: {0}"
   },
   {
     "ID": "crew.ops.pause",
-    "Text": "Pause"
+    "Text": "Приостановлено"
   },
   {
     "ID": "crew.ops.previous",
-    "Text": "Previous"
+    "Text": "Предыдущий"
   },
   {
     "ID": "crew.ops.production.assignedWorkers",
-    "Text": "Assigned workers: {0}"
+    "Text": "Назначенных рабочих: {0}"
   },
   {
     "ID": "crew.ops.production.assignHelp",
-    "Text": "Use - / + to assign workers."
+    "Text": "Используйте - / +, чтобы назначать рабочих."
   },
   {
     "ID": "crew.ops.production.atPost",
@@ -3250,7 +3079,7 @@
   },
   {
     "ID": "crew.ops.production.counts",
-    "Text": "Crew: {0}   Assigned: {1}   Available: {2}"
+    "Text": "Экипаж: {0}   Назначено: {1}   Доступно: {2}"
   },
   {
     "ID": "crew.ops.production.guardBlocked",
@@ -3270,19 +3099,19 @@
   },
   {
     "ID": "crew.ops.production.hostOnly",
-    "Text": "Only the host can assign workers."
+    "Text": "Только хост может назначать производство."
   },
   {
     "ID": "crew.ops.production.nextPoint",
-    "Text": "Next gathering point"
+    "Text": "Следующая точка собирания"
   },
   {
     "ID": "crew.ops.production.pausedIngredients",
-    "Text": "Paused: needs ingredients"
+    "Text": "Приостановлено: не хватает ингредиентов"
   },
   {
     "ID": "crew.ops.production.pausedNoWorkers",
-    "Text": "Paused: no workers assigned"
+    "Text": "Приостановлено: нет рабочих"
   },
   {
     "ID": "crew.ops.production.plates",
@@ -3290,143 +3119,143 @@
   },
   {
     "ID": "crew.ops.production.range",
-    "Text": "{0}-{1} of {2}"
+    "Text": "{0}-{1} из {2}"
   },
   {
     "ID": "crew.ops.resume",
-    "Text": "Resume"
+    "Text": "Продолжено"
   },
   {
     "ID": "crew.ops.roomHelp.background",
-    "Text": "Rooms must have a solid background"
+    "Text": "Комната должна иметь полные стены"
   },
   {
     "ID": "crew.ops.roomHelp.bed",
-    "Text": "Bed"
+    "Text": "Кровать"
   },
   {
     "ID": "crew.ops.roomHelp.contents",
-    "Text": "Must include a bed, a door (or hatch), and some form of lighting"
+    "Text": "Должна иметь кровать, дверь (или люк) и какой-либо источник света."
   },
   {
     "ID": "crew.ops.roomHelp.diagramBackground",
-    "Text": "Background"
+    "Text": "Стена"
   },
   {
     "ID": "crew.ops.roomHelp.diagramPage",
-    "Text": "{0} / {1} - Room diagram"
+    "Text": "{0} / {1} - Комната"
   },
   {
     "ID": "crew.ops.roomHelp.door",
-    "Text": "Door"
+    "Text": "Дверь"
   },
   {
     "ID": "crew.ops.roomHelp.eightTiles",
-    "Text": "8 tiles"
+    "Text": "8 клеток"
   },
   {
     "ID": "crew.ops.roomHelp.fourTiles",
-    "Text": "4 tiles"
+    "Text": "4 клеток"
   },
   {
     "ID": "crew.ops.roomHelp.light",
-    "Text": "Light"
+    "Text": "Источник света"
   },
   {
     "ID": "crew.ops.roomHelp.max",
-    "Text": "Max size is 32 by 16"
+    "Text": "Максимальный размер: 32 на 16"
   },
   {
     "ID": "crew.ops.roomHelp.requirementsPage",
-    "Text": "{0} / {1} - Requirements"
+    "Text": "{0} / {1} - Требований"
   },
   {
     "ID": "crew.ops.roomHelp.size",
-    "Text": "Rooms must be at least 8 tiles wide and 4 tiles tall"
+    "Text": "Комната должна иметь минимум 8 клеток в ширину и 4 в высоту."
   },
   {
     "ID": "crew.ops.save",
-    "Text": "Save"
+    "Text": "Сохранить"
   },
   {
     "ID": "crew.ops.station.title",
-    "Text": "Station status"
+    "Text": "Статус станции"
   },
   {
     "ID": "crew.ops.station.unavailable",
-    "Text": "Unable to connect to the Hephaestus."
+    "Text": "Не удалось подключиться к кораблю \"Гефест\"."
   },
   {
     "ID": "crew.ops.station.warning",
-    "Text": "WARNING: CONNECTION UNAVAILABLE"
+    "Text": "ВНИМАНИЕ: ПОДКЛЮЧЕНИЕ НЕДОСТУПНО"
   },
   {
     "ID": "crew.ops.status.complete",
-    "Text": "Complete"
+    "Text": "Выполнено"
   },
   {
     "ID": "crew.ops.status.cooking",
-    "Text": "Cooking"
+    "Text": "Готовит"
   },
   {
     "ID": "crew.ops.status.cookingProgress",
-    "Text": "Cooking: {0}"
+    "Text": "Готовит: {0}"
   },
   {
     "ID": "crew.ops.status.delivery",
-    "Text": "Awaiting delivery"
+    "Text": "Ожидает доставку"
   },
   {
     "ID": "crew.ops.status.ingredients",
-    "Text": "Waiting for ingredients"
+    "Text": "Ожидает ингредиенты"
   },
   {
     "ID": "crew.ops.status.noWorkers",
-    "Text": "Assign workers to start"
+    "Text": "Назначьте рабочих, чтобы начать"
   },
   {
     "ID": "crew.ops.status.paused",
-    "Text": "Paused"
+    "Text": "Приостановлено"
   },
   {
     "ID": "crew.ops.status.producing",
-    "Text": "Producing: {0}"
+    "Text": "Производит: {0}"
   },
   {
     "ID": "crew.ops.status.queued",
-    "Text": "Queued"
+    "Text": "В очереди"
   },
   {
     "ID": "crew.ops.status.target",
-    "Text": "Target reached"
+    "Text": "Цель достигнута"
   },
   {
     "ID": "crew.ops.status.unavailable",
-    "Text": "Recipe unavailable"
+    "Text": "Рецепт недоступен"
   },
   {
     "ID": "crew.ops.status.working",
-    "Text": "Working"
+    "Text": "Работает"
   },
   {
     "ID": "crew.ops.status.workingProgress",
-    "Text": "Working: {0}"
+    "Text": "Работает: {0}"
   },
   {
     "ID": "crew.ops.summary.awaiting",
-    "Text": "Awaiting delivery: {0} batches"
+    "Text": "Ожидает доставку: {0} партий"
   },
   {
     "ID": "crew.ops.summary.deliveries",
-    "Text": "Latest deliveries to Pneumail (per job):"
+    "Text": "Последние доставки в Пневмопочту:"
   },
   {
     "ID": "crew.ops.summary.medics",
-    "Text": "Medic service: {0} assigned; nearby, out of combat"
+    "Text": "Служба медика: {0} назначено; рядом, не в бою"
   },
   {
     "ID": "crew.ops.summary.noDeliveries",
-    "Text": "No deliveries recorded yet."
+    "Text": "Нет записей о доставках."
   },
   {
     "ID": "crew.ops.summary.noMedics",
@@ -3434,103 +3263,104 @@
   },
   {
     "ID": "crew.ops.summary.producing",
-    "Text": "Producing supplies: {0} workers"
+    "Text": "Производит: {0} рабочих"
   },
   {
     "ID": "crew.ops.summary.workers",
-    "Text": "Workers: {0} available / {1} crew"
+    "Text": "Рабочие: {0} доступно / {1} экипаж"
   },
   {
     "ID": "crew.ops.tab.behavior",
-    "Text": "Behavior"
+    "Text": "Поведение"
   },
   {
     "ID": "crew.ops.tab.production",
-    "Text": "Production"
+    "Text": "Производство"
   },
   {
     "ID": "crew.ops.tab.summary",
-    "Text": "Summary"
+    "Text": "Сводки"
   },
   {
     "ID": "crew.ops.thaw.confirm",
-    "Text": "Confirm thaw"
+    "Text": "Подтвердить вывод из криосна",
+    "__Comment": "Здесь и далее. Криосон, криозаморозка, просто заморозка/разморозка. Я не решил, какой вариант лучше."
   },
   {
     "ID": "crew.ops.thaw.currentCrew",
-    "Text": "Current crew: {0}"
+    "Text": "Текущий экипаж: {0}"
   },
   {
     "ID": "crew.ops.thaw.pending",
-    "Text": "Thaw request pending..."
+    "Text": "Запрос о выводе из криосна ожидает…"
   },
   {
     "ID": "crew.ops.thaw.requiredRooms",
-    "Text": "Rooms required after thaw: {0}"
+    "Text": "Комнат требуется после вывода из криосна: {0}"
   },
   {
     "ID": "crew.ops.thaw.roomRequirements",
-    "Text": "Room requirements"
+    "Text": "Требования комнаты"
   },
   {
     "ID": "crew.ops.thaw.success",
-    "Text": "Crew member thawed"
+    "Text": "Член экипажа выведен из криосна"
   },
   {
     "ID": "crew.ops.thaw.validRooms",
-    "Text": "Valid rooms: {0}"
+    "Text": "Комнат: {0}"
   },
   {
     "ID": "crew.ops.thaw.viewCrew",
-    "Text": "View crew"
+    "Text": "Просмотреть экипаж"
   },
   {
     "ID": "crew.ops.thawCrew",
-    "Text": "Thaw crew"
+    "Text": "Вывести экипаж из криосна"
   },
   {
     "ID": "crew.ops.freezeColonist",
-    "Text": "Freeze colonist"
+    "Text": "Ввести поселенца в криосон"
   },
   {
     "ID": "crew.ops.freeze.confirm",
-    "Text": "Confirm freeze"
+    "Text": "Подтвердите ввод в криосон"
   },
   {
     "ID": "crew.ops.freeze.description",
-    "Text": "Frozen colonists can be thawed again."
+    "Text": "Поселенцы, введённые в криосон могут позже быть выведены из него."
   },
   {
     "ID": "crew.ops.freeze.workers",
-    "Text": "Worker allocations may decrease."
+    "Text": "Количество рабочих может уменьшиться."
   },
   {
     "ID": "crew.ops.freeze.pending",
-    "Text": "Freeze request pending..."
+    "Text": "Запрос о вводе в криосон ожидает…"
   },
   {
     "ID": "crew.ops.freeze.ready",
-    "Text": "Ready to freeze."
+    "Text": "Готов к погружению в криосон."
   },
   {
     "ID": "crew.ops.freeze.success",
-    "Text": "Colonist frozen"
+    "Text": "Поселенец заморожен."
   },
   {
     "ID": "crew.ops.thaw.failure.NoCrew",
-    "Text": "No active colonists."
+    "Text": "Нет активных поселенцев."
   },
   {
     "ID": "crew.ops.waitingForHost",
-    "Text": "Waiting for host information..."
+    "Text": "Ожидание информации от хоста…"
   },
   {
     "ID": "crew.ops.summary.salad",
-    "Text": "{0} salad"
+    "Text": "{0} салат"
   },
   {
     "ID": "crew.ops.summary.salads",
-    "Text": "{0} salads"
+    "Text": "Салатов: {0}"
   },
   {
     "ID": "crew.ops.summary.plate",
@@ -3550,339 +3380,339 @@
   },
   {
     "ID": "crew.ops.summary.ingot",
-    "Text": "{0} ingot"
+    "Text": "{0} слиток"
   },
   {
     "ID": "crew.ops.summary.ingots",
-    "Text": "{0} ingots"
+    "Text": "Слитков: {0}"
   },
   {
     "ID": "crew.ops.job.PlantGathering",
-    "Text": "Plant gathering"
+    "Text": "Собирает растения"
   },
   {
     "ID": "crew.ops.job.Hunting",
-    "Text": "Hunting"
+    "Text": "Охотится"
   },
   {
     "ID": "crew.ops.job.WoodGathering",
-    "Text": "Wood gathering"
+    "Text": "Собирает дерево"
   },
   {
     "ID": "crew.ops.job.Foraging",
-    "Text": "Fruit foraging"
+    "Text": "Собирает фрукты"
   },
   {
     "ID": "crew.ops.job.FungiForaging",
-    "Text": "Fungi foraging"
+    "Text": "Собирает грибы"
   },
   {
     "ID": "crew.ops.job.NutForaging",
-    "Text": "Nut foraging"
+    "Text": "Собирает орехи"
   },
   {
     "ID": "crew.ops.job.BasicMining",
-    "Text": "Basic mining"
+    "Text": "Добывает руды"
   },
   {
     "ID": "crew.ops.job.ClayDigging",
-    "Text": "Clay Digging"
+    "Text": "Собирает глину"
   },
   {
     "ID": "crew.ops.job.Cooking",
-    "Text": "Cooking"
+    "Text": "Готовит"
   },
   {
     "ID": "crew.ops.job.SaladPrep",
-    "Text": "Salad Prep"
+    "Text": "Делает салаты"
   },
   {
     "ID": "crew.ops.job.Pottery",
-    "Text": "Pottery"
+    "Text": "Занят гончарным делом"
   },
   {
     "ID": "crew.ops.job.Processing",
-    "Text": "Workshop processing"
+    "Text": "Обрабатывает в мастерской"
   },
   {
     "ID": "crew.ops.job.Smelting",
-    "Text": "Smelting"
+    "Text": "Переплавляет"
   },
   {
     "ID": "crew.ops.job.Chemistry",
-    "Text": "Chemistry"
+    "Text": "Занимается химией"
   },
   {
     "ID": "crew.ops.job.Ammunition",
-    "Text": "Ammunition"
+    "Text": "Боеприпасы"
   },
   {
     "ID": "crew.ops.job.Medic",
-    "Text": "Medic"
+    "Text": "Медик"
   },
   {
     "ID": "crew.ops.job.Guard",
-    "Text": "Guard duty"
+    "Text": "Охраняет"
   },
   {
     "ID": "crew.ops.job.description.PlantGathering",
-    "Text": "Gathers Plant Fiber, Lettuce, and Corn over time."
+    "Text": "Собирает Растительные Волокна, Капусту и Кукурузу."
   },
   {
     "ID": "crew.ops.job.description.Hunting",
-    "Text": "Hunts Hide, Raw Red Meat, and Bone over time."
+    "Text": "Собирает Шкуры, Сырое Красное Мясо и Кости."
   },
   {
     "ID": "crew.ops.job.description.WoodGathering",
-    "Text": "Gathers Wood Board and Sap over time."
+    "Text": "Собирает Доски и Смолу."
   },
   {
     "ID": "crew.ops.job.description.Foraging",
-    "Text": "Gathers {0}s over time."
+    "Text": "Собирает {0}."
   },
   {
     "ID": "crew.ops.job.description.FungiForaging",
-    "Text": "Gathers {0}s over time."
+    "Text": "Собирает {0}."
   },
   {
     "ID": "crew.ops.job.description.NutForaging",
-    "Text": "Gathers {0}s over time."
+    "Text": "Собирает {0}."
   },
   {
     "ID": "crew.ops.job.description.BasicMining",
-    "Text": "Mines {0}s over time."
+    "Text": "Добывает {0}."
   },
   {
     "ID": "crew.ops.job.description.ClayDigging",
-    "Text": "Digs Loose Clay over time."
+    "Text": "Собирает Глину."
   },
   {
     "ID": "crew.ops.job.description.SaladPrep",
-    "Text": "Makes salad from Clay Bowls and Lettuce."
+    "Text": "Делает Салаты из Глиняных Тарелок и Капусты."
   },
   {
     "ID": "crew.ops.job.description.Pottery",
-    "Text": "Makes Clay Bowls from Loose Clay."
+    "Text": "Делает Глиняные Миски."
   },
   {
     "ID": "crew.ops.job.description.Pottery.plates",
-    "Text": "Makes Clay Plates from Loose Clay."
+    "Text": "Делает Глиняные Тарелки."
   },
   {
     "ID": "crew.ops.job.description.Processing",
-    "Text": "Turns Hide into Leather Straps."
+    "Text": "Делает Ремни из Шкур."
   },
   {
     "ID": "crew.ops.job.description.Smelting",
-    "Text": "Smelts copper, tin, iron, or lead ore into ingots."
+    "Text": "Переплавляет медь, олово, железо или свинец в слитки."
   },
   {
     "ID": "crew.ops.job.description.Medic",
-    "Text": "Heals nearby players out of combat."
+    "Text": "Лечит игроков неподалёку."
   },
   {
     "ID": "crew.ops.job.smeltingPreference",
-    "Text": "Prefers steel when iron and coal are both present."
+    "Text": "Предпочитает делать сталь, если есть железо и уголь."
   },
   {
     "ID": "crew.ops.thaw.failure.None",
-    "Text": "Ready to thaw."
+    "Text": "Готов к выводу из криосна."
   },
   {
     "ID": "crew.ops.thaw.failure.Unavailable",
-    "Text": "Waiting for host information..."
+    "Text": "Ожидание информации от хоста…"
   },
   {
     "ID": "crew.ops.thaw.failure.WrongPlanet",
-    "Text": "Available on Osiris after arrival."
+    "Text": "Доступен на Осирисе после прибытия."
   },
   {
     "ID": "crew.ops.thaw.failure.CheckingRooms",
-    "Text": "Checking rooms..."
+    "Text": "Проверка комнат…"
   },
   {
     "ID": "crew.ops.thaw.failure.MoreRooms",
-    "Text": "More valid rooms required."
+    "Text": "Требуется больше комнат."
   },
   {
     "ID": "crew.ops.thaw.failure.StaleRoster",
-    "Text": "Crew changed. Review and confirm again."
+    "Text": "Экипаж изменён. Проверьте изменения и нажмите \"Принять\"."
   },
   {
     "ID": "crew.ops.thaw.failure.ArrivalUnavailable",
-    "Text": "Arrival point unavailable."
+    "Text": "Точка прибытия недоступна."
   },
   {
     "ID": "crew.ops.thaw.failure.ArrivalBlocked",
-    "Text": "Clear space at the arrival pad."
+    "Text": "Расчистите место вокруг пусковой платформы."
   },
   {
     "ID": "crew.ops.thaw.failure.CannotInteract",
-    "Text": "Stand at the operations display."
+    "Text": "Встаньте у экрана операций."
   },
   {
     "ID": "crew.ops.thaw.failure.Failed",
-    "Text": "Thaw failed. Please try again."
+    "Text": "Вывод из криосна провален. Попробуйте снова."
   },
   {
     "ID": "creative.folder.group.armor",
-    "Text": "Armor"
+    "Text": "Броня"
   },
   {
     "ID": "creative.folder.group.clothing",
-    "Text": "Clothing"
+    "Text": "Одежда"
   },
   {
     "ID": "creative.folder.group.accessories",
-    "Text": "Accessories"
+    "Text": "Аксессуары"
   },
   {
     "ID": "creative.folder.group.weapons",
-    "Text": "Weapons"
+    "Text": "Оружие"
   },
   {
     "ID": "creative.folder.group.ammo",
-    "Text": "Ammo"
+    "Text": "Боеприпасы"
   },
   {
     "ID": "creative.folder.group.tools",
-    "Text": "Tools"
+    "Text": "Инструменты"
   },
   {
     "ID": "creative.folder.group.gadgets",
-    "Text": "Gadgets"
+    "Text": "Гаджеты"
   },
   {
     "ID": "creative.folder.group.throwables",
-    "Text": "Throwables"
+    "Text": "Метательное"
   },
   {
     "ID": "creative.folder.group.consumables",
-    "Text": "Consumables"
+    "Text": "Расходуемые предметы"
   },
   {
     "ID": "creative.folder.group.materials",
-    "Text": "Materials"
+    "Text": "Материалы"
   },
   {
     "ID": "creative.folder.group.furniture",
-    "Text": "Furniture"
+    "Text": "Мебель"
   },
   {
     "ID": "creative.folder.group.placeables",
-    "Text": "Placeables"
+    "Text": "Размещаемое"
   },
   {
     "ID": "creative.folder.group.tiles",
-    "Text": "Tiles"
+    "Text": "Клетки"
   },
   {
     "ID": "creative.folder.group.containers",
-    "Text": "Containers"
+    "Text": "Контейнеры"
   },
   {
     "ID": "creative.folder.group.equipment",
-    "Text": "Equipment"
+    "Text": "Экипировка"
   },
   {
     "ID": "creative.folder.group.recipes",
-    "Text": "Recipes"
+    "Text": "Рецепты"
   },
   {
     "ID": "creative.folder.group.other",
-    "Text": "Other"
+    "Text": "Другое"
   },
   {
     "ID": "creative.folder.segment.accessories",
-    "Text": "Accessories"
+    "Text": "Аксессуары"
   },
   {
     "ID": "creative.folder.segment.accessory",
-    "Text": "Accessory"
+    "Text": "Аксессуар"
   },
   {
     "ID": "creative.folder.segment.accessory1",
-    "Text": "Accessory1"
+    "Text": "Аксессуар1"
   },
   {
     "ID": "creative.folder.segment.accessory2",
-    "Text": "Accessory2"
+    "Text": "Аксессуар2"
   },
   {
     "ID": "creative.folder.segment.accessory3",
-    "Text": "Accessory3"
+    "Text": "Аксессуар3"
   },
   {
     "ID": "creative.folder.segment.accessory4",
-    "Text": "Accessory4"
+    "Text": "Аксессуар4"
   },
   {
     "ID": "creative.folder.segment.accessory5",
-    "Text": "Accessory5"
+    "Text": "Аксессуар5"
   },
   {
     "ID": "creative.folder.segment.alien",
-    "Text": "Alien"
+    "Text": "Инопланетное"
   },
   {
     "ID": "creative.folder.segment.ammo",
-    "Text": "Ammo"
+    "Text": "Боеприпасы"
   },
   {
     "ID": "creative.folder.segment.arm",
-    "Text": "Arm"
+    "Text": "Рука"
   },
   {
     "ID": "creative.folder.segment.armor",
-    "Text": "Armor"
+    "Text": "Броня"
   },
   {
     "ID": "creative.folder.segment.arrows",
-    "Text": "Arrows"
+    "Text": "Стрелы"
   },
   {
     "ID": "creative.folder.segment.axes",
-    "Text": "Axes"
+    "Text": "Топоры"
   },
   {
     "ID": "creative.folder.segment.back",
-    "Text": "Back"
+    "Text": "Спина"
   },
   {
     "ID": "creative.folder.segment.background",
-    "Text": "Background"
+    "Text": "Фон"
   },
   {
     "ID": "creative.folder.segment.belt",
-    "Text": "Belt"
+    "Text": "Ремень"
   },
   {
     "ID": "creative.folder.segment.bolts",
-    "Text": "Bolts"
+    "Text": "Болты"
   },
   {
     "ID": "creative.folder.segment.bone_set",
-    "Text": "Bone Set"
+    "Text": "Костяной доспех"
   },
   {
     "ID": "creative.folder.segment.boot",
-    "Text": "Boot"
+    "Text": "Ботинки"
   },
   {
     "ID": "creative.folder.segment.bornite_set",
-    "Text": "Bornite Set"
+    "Text": "Борнитовый доспех"
   },
   {
     "ID": "creative.folder.segment.bows",
-    "Text": "Bows"
+    "Text": "Луки"
   },
   {
     "ID": "creative.folder.segment.bronze_set",
-    "Text": "Bronze Set"
+    "Text": "Бронзовый доспех"
   },
   {
     "ID": "creative.folder.segment.cartridges",
-    "Text": "Cartridges"
+    "Text": "Картриджи"
   },
   {
     "ID": "creative.folder.segment.chews",
@@ -3890,207 +3720,207 @@
   },
   {
     "ID": "creative.folder.segment.clothing",
-    "Text": "Clothing"
+    "Text": "Одежда"
   },
   {
     "ID": "creative.folder.segment.clubs",
-    "Text": "Clubs"
+    "Text": "Дубины"
   },
   {
     "ID": "creative.folder.segment.components",
-    "Text": "Components"
+    "Text": "Компоненты"
   },
   {
     "ID": "creative.folder.segment.consumables",
-    "Text": "Consumables"
+    "Text": "Расходуемые предметы"
   },
   {
     "ID": "creative.folder.segment.containers",
-    "Text": "Containers"
+    "Text": "Контейнеры"
   },
   {
     "ID": "creative.folder.segment.cooked",
-    "Text": "Cooked"
+    "Text": "Приготовленное"
   },
   {
     "ID": "creative.folder.segment.copper_set",
-    "Text": "Copper Set"
+    "Text": "Медный доспех"
   },
   {
     "ID": "creative.folder.segment.crossbows",
-    "Text": "Crossbows"
+    "Text": "Арбалеты"
   },
   {
     "ID": "creative.folder.segment.cybernetic_arms",
-    "Text": "Cybernetic Arms"
+    "Text": "Кибернетические руки"
   },
   {
     "ID": "creative.folder.segment.cybernetic_eyes",
-    "Text": "Cybernetic Eyes"
+    "Text": "Кибернетические глаза"
   },
   {
     "ID": "creative.folder.segment.cybernetic_heart",
-    "Text": "Cybernetic Heart"
+    "Text": "Кибернетические сердца"
   },
   {
     "ID": "creative.folder.segment.cybernetic_legs",
-    "Text": "Cybernetic Legs"
+    "Text": "Кибернетические ноги"
   },
   {
     "ID": "creative.folder.segment.cybernetic_lungs",
-    "Text": "Cybernetic Lungs"
+    "Text": "Кибернетические лёгкие"
   },
   {
     "ID": "creative.folder.segment.cybernetic_stomach",
-    "Text": "Cybernetic Stomach"
+    "Text": "Кибернетические желудки"
   },
   {
     "ID": "creative.folder.segment.cybernetics",
-    "Text": "Cybernetics"
+    "Text": "Кибернетика"
   },
   {
     "ID": "creative.folder.segment.daggers",
-    "Text": "Daggers"
+    "Text": "Кинжалы"
   },
   {
     "ID": "creative.folder.segment.decorations",
-    "Text": "Decorations"
+    "Text": "Декорации"
   },
   {
     "ID": "creative.folder.segment.duglett",
-    "Text": "Duglett"
+    "Text": "Копуны"
   },
   {
     "ID": "creative.folder.segment.energy",
-    "Text": "Energy"
+    "Text": "Энергия"
   },
   {
     "ID": "creative.folder.segment.energy_plate_set",
-    "Text": "Energy Plate Set"
+    "Text": "Энерголатный сет"
   },
   {
     "ID": "creative.folder.segment.equipment",
-    "Text": "Equipment"
+    "Text": "Экипировка"
   },
   {
     "ID": "creative.folder.segment.explosive",
-    "Text": "Explosive"
+    "Text": "Взрывчатка"
   },
   {
     "ID": "creative.folder.segment.explosives",
-    "Text": "Explosives"
+    "Text": "Взрывчатка"
   },
   {
     "ID": "creative.folder.segment.fauna",
-    "Text": "Fauna"
+    "Text": "Фауна"
   },
   {
     "ID": "creative.folder.segment.fireworks",
-    "Text": "Fireworks"
+    "Text": "Фейерверки"
   },
   {
     "ID": "creative.folder.segment.foreground",
-    "Text": "Foreground"
+    "Text": "Блоки"
   },
   {
     "ID": "creative.folder.segment.fungi",
-    "Text": "Fungi"
+    "Text": "Грибы"
   },
   {
     "ID": "creative.folder.segment.furniture",
-    "Text": "Furniture"
+    "Text": "Мебель"
   },
   {
     "ID": "creative.folder.segment.gadgets",
-    "Text": "Gadgets"
+    "Text": "Гаджеты"
   },
   {
     "ID": "creative.folder.segment.gems",
-    "Text": "Gems"
+    "Text": "Самоцветы"
   },
   {
     "ID": "creative.folder.segment.ghost_hide_set",
-    "Text": "Ghost Hide Set"
+    "Text": "Доспех из призрачной шкуры"
   },
   {
     "ID": "creative.folder.segment.glove",
-    "Text": "Glove"
+    "Text": "Перчатки"
   },
   {
     "ID": "creative.folder.segment.greatswords",
-    "Text": "Greatswords"
+    "Text": "Двуручные мечи"
   },
   {
     "ID": "creative.folder.segment.guns",
-    "Text": "Guns"
+    "Text": "Огнестрельное оружие"
   },
   {
     "ID": "creative.folder.segment.hahn_s_set",
-    "Text": "Hahn's Set"
+    "Text": "доспех Хана"
   },
   {
     "ID": "creative.folder.segment.hat",
-    "Text": "Hat"
+    "Text": "Шляпы"
   },
   {
     "ID": "creative.folder.segment.heavy",
-    "Text": "Heavy"
+    "Text": "Тяжёлое"
   },
   {
     "ID": "creative.folder.segment.helmet",
-    "Text": "Helmet"
+    "Text": "Шлема"
   },
   {
     "ID": "creative.folder.segment.hephaestus_mining_set",
-    "Text": "Hephaestus Mining Set"
+    "Text": "Шахтёрский доспех с Гефеста"
   },
   {
     "ID": "creative.folder.segment.hephaestus_work_set",
-    "Text": "Hephaestus Work Set"
+    "Text": "Рабочий доспех с Гефеста"
   },
   {
     "ID": "creative.folder.segment.hybrid_set",
-    "Text": "Hybrid Set"
+    "Text": "Гибридный доспех"
   },
   {
     "ID": "creative.folder.segment.ingots",
-    "Text": "Ingots"
+    "Text": "Слитки"
   },
   {
     "ID": "creative.folder.segment.iron_set",
-    "Text": "Iron Set"
+    "Text": "Железный доспех"
   },
   {
     "ID": "creative.folder.segment.launchers",
-    "Text": "Launchers"
+    "Text": "Пусковое оружие"
   },
   {
     "ID": "creative.folder.segment.leaper_set",
-    "Text": "Leaper Set"
+    "Text": "доспех прыгуна"
   },
   {
     "ID": "creative.folder.segment.leather_set",
-    "Text": "Leather Set"
+    "Text": "Кожаный доспех"
   },
   {
     "ID": "creative.folder.segment.leg",
-    "Text": "Leg"
+    "Text": "Ноги"
   },
   {
     "ID": "creative.folder.segment.makeshift",
-    "Text": "Makeshift"
+    "Text": "Самодельное"
   },
   {
     "ID": "creative.folder.segment.materials",
-    "Text": "Materials"
+    "Text": "Материалы"
   },
   {
     "ID": "creative.folder.segment.meat",
-    "Text": "Meat"
+    "Text": "Мясо"
   },
   {
     "ID": "creative.folder.segment.medical",
-    "Text": "Medical"
+    "Text": "Медикаменты"
   },
   {
     "ID": "creative.folder.segment.meg",
@@ -4098,39 +3928,39 @@
   },
   {
     "ID": "creative.folder.segment.meg_accesscard",
-    "Text": "Meg Accesscard"
+    "Text": "Карта доступа MEG"
   },
   {
     "ID": "creative.folder.segment.meg_battery",
-    "Text": "Meg Battery"
+    "Text": "Батарея MEG"
   },
   {
     "ID": "creative.folder.segment.meg_capacitor",
-    "Text": "Meg Capacitor"
+    "Text": "Конденсатор MEG"
   },
   {
     "ID": "creative.folder.segment.meg_core",
-    "Text": "Meg Core"
+    "Text": "Ядро MEG"
   },
   {
     "ID": "creative.folder.segment.meg_extract_gem",
-    "Text": "Meg Extract Gem"
+    "Text": "Самоцвет добычи MEG"
   },
   {
     "ID": "creative.folder.segment.meg_grapple_gem",
-    "Text": "Meg Grapple Gem"
+    "Text": "Самоцвет крюка MEG"
   },
   {
     "ID": "creative.folder.segment.meg_illuminate_gem",
-    "Text": "Meg Illuminate Gem"
+    "Text": "Самоцвет освещения MEG"
   },
   {
     "ID": "creative.folder.segment.meg_lens",
-    "Text": "Meg Lens"
+    "Text": "Линза MEG"
   },
   {
     "ID": "creative.folder.segment.meg_manipulate_gem",
-    "Text": "Meg Manipulate Gem"
+    "Text": "Самоцвет подбирания MEG"
   },
   {
     "ID": "creative.folder.segment.meg_mount",
@@ -4138,1311 +3968,1278 @@
   },
   {
     "ID": "creative.folder.segment.meg_scan_gem",
-    "Text": "Meg Scan Gem"
+    "Text": "Самоцвет сканирования MEG"
   },
   {
     "ID": "creative.folder.segment.meg_scan_target",
-    "Text": "Meg Scan Target"
+    "Text": "Цель сканирования MEG"
   },
   {
     "ID": "creative.folder.segment.melee",
-    "Text": "Melee"
+    "Text": "Ближний бой"
   },
   {
     "ID": "creative.folder.segment.mining_suit_mk2_set",
-    "Text": "Mining Suit Mk2 Set"
+    "Text": "Шахтёрский доспех Мк.2"
   },
   {
     "ID": "creative.folder.segment.misc",
-    "Text": "Misc"
+    "Text": "Разное"
   },
   {
     "ID": "creative.folder.segment.nano_steel_set",
-    "Text": "Nano-Steel Set"
+    "Text": "Наностальной доспех"
   },
   {
     "ID": "creative.folder.segment.next_cybernetic_arms",
-    "Text": "Next Cybernetic Arms"
+    "Text": "Следующие кибернетические руки"
   },
   {
     "ID": "creative.folder.segment.next_cybernetic_eyes",
-    "Text": "Next Cybernetic Eyes"
+    "Text": "Следующие кибернетические глаза"
   },
   {
     "ID": "creative.folder.segment.next_cybernetic_heart",
-    "Text": "Next Cybernetic Heart"
+    "Text": "Следующее кибернетическое сердце"
   },
   {
     "ID": "creative.folder.segment.next_cybernetic_legs",
-    "Text": "Next Cybernetic Legs"
+    "Text": "Следующие кибернетические ноги"
   },
   {
     "ID": "creative.folder.segment.next_cybernetic_lungs",
-    "Text": "Next Cybernetic Lungs"
+    "Text": "Следующие кибернетические лёгкие"
   },
   {
     "ID": "creative.folder.segment.next_cybernetic_spleen",
-    "Text": "Next Cybernetic Spleen"
+    "Text": "Следующая кибернетическая селезёнка"
   },
   {
     "ID": "creative.folder.segment.orange_jumpsuit_set",
-    "Text": "Orange Jumpsuit Set"
+    "Text": "Оранжевый костюм"
   },
   {
     "ID": "creative.folder.segment.ores",
-    "Text": "Ores"
+    "Text": "Руды"
   },
   {
     "ID": "creative.folder.segment.organic",
-    "Text": "Organic"
+    "Text": "Органика"
   },
   {
     "ID": "creative.folder.segment.other",
-    "Text": "Other"
+    "Text": "Другое"
   },
   {
     "ID": "creative.folder.segment.packaged",
-    "Text": "Packaged"
+    "Text": "Запакованное"
   },
   {
     "ID": "creative.folder.segment.pants",
-    "Text": "Pants"
+    "Text": "Штаны"
   },
   {
     "ID": "creative.folder.segment.patchwork_set",
-    "Text": "Patchwork Set"
+    "Text": "Штопанный доспех"
   },
   {
     "ID": "creative.folder.segment.picks",
-    "Text": "Picks"
+    "Text": "Кирки"
   },
   {
     "ID": "creative.folder.segment.piezo_set",
-    "Text": "Piezo Set"
+    "Text": "Пьезоэлектрический доспех"
   },
   {
     "ID": "creative.folder.segment.pioneer_station",
-    "Text": "Pioneer Station"
+    "Text": "Станция \"Первопроходец\""
   },
   {
     "ID": "creative.folder.segment.pistols",
-    "Text": "Pistols"
+    "Text": "Пистолеты"
   },
   {
     "ID": "creative.folder.segment.placeables",
-    "Text": "Placeables"
+    "Text": "Размещаемое"
   },
   {
     "ID": "creative.folder.segment.plants",
-    "Text": "Plants"
+    "Text": "Растения"
   },
   {
     "ID": "creative.folder.segment.plated_hide_set",
-    "Text": "Plated Hide Set"
+    "Text": "Обитый доспех из шкуры"
   },
   {
     "ID": "creative.folder.segment.potions",
-    "Text": "Potions"
+    "Text": "Зелья"
   },
   {
     "ID": "creative.folder.segment.prototype_mining_suit_set",
-    "Text": "Prototype Mining Suit Set"
+    "Text": "Прототип шахтёрской брони"
   },
   {
     "ID": "creative.folder.segment.ranged",
-    "Text": "Ranged"
+    "Text": "Оружие дальнего боя"
   },
   {
     "ID": "creative.folder.segment.recipes",
-    "Text": "Recipes"
+    "Text": "Рецепты"
   },
   {
     "ID": "creative.folder.segment.red_tracksuit_set",
-    "Text": "Red Tracksuit Set"
+    "Text": "Красная тренировочная одежда"
   },
   {
     "ID": "creative.folder.segment.rifles",
-    "Text": "Rifles"
+    "Text": "Винтовки"
   },
   {
     "ID": "creative.folder.segment.rock_set",
-    "Text": "Rock Set"
+    "Text": "Каменный доспех"
   },
   {
     "ID": "creative.folder.segment.rubber_set",
-    "Text": "Rubber Set"
+    "Text": "Резиновый доспех"
   },
   {
     "ID": "creative.folder.segment.seeds",
-    "Text": "Seeds"
+    "Text": "Семена"
   },
   {
     "ID": "creative.folder.segment.shells",
-    "Text": "Shells"
+    "Text": "Shells",
+    "__Comment": "TODO"
   },
   {
     "ID": "creative.folder.segment.shield",
-    "Text": "Shield"
+    "Text": "Щит"
   },
   {
     "ID": "creative.folder.segment.shields",
-    "Text": "Shields"
+    "Text": "Щиты"
   },
   {
     "ID": "creative.folder.segment.shirt",
-    "Text": "Shirt"
+    "Text": "Рубашка"
   },
   {
     "ID": "creative.folder.segment.shoes",
-    "Text": "Shoes"
+    "Text": "Ботинки"
   },
   {
     "ID": "creative.folder.segment.shotguns",
-    "Text": "Shotguns"
+    "Text": "Дробовики"
   },
   {
     "ID": "creative.folder.segment.silver_set",
-    "Text": "Silver Set"
+    "Text": "Серебряный доспех"
   },
   {
     "ID": "creative.folder.segment.smgs",
-    "Text": "SMGs"
+    "Text": "ПП"
   },
   {
     "ID": "creative.folder.segment.spaceflex_set",
-    "Text": "Spaceflex Set"
+    "Text": "Космический доспех"
   },
   {
     "ID": "creative.folder.segment.spears",
-    "Text": "Spears"
+    "Text": "Копья"
   },
   {
     "ID": "creative.folder.segment.special",
-    "Text": "Special"
+    "Text": "Особое"
   },
   {
     "ID": "creative.folder.segment.steel_combat_set",
-    "Text": "Steel Combat Set"
+    "Text": "Стальной боевой доспех"
   },
   {
     "ID": "creative.folder.segment.swords",
-    "Text": "Swords"
+    "Text": "Мечи"
   },
   {
     "ID": "creative.folder.segment.tech",
-    "Text": "Tech"
+    "Text": "Технология"
   },
   {
     "ID": "creative.folder.segment.throwables",
-    "Text": "Throwables"
+    "Text": "Метательное"
   },
   {
     "ID": "creative.folder.segment.tiles",
-    "Text": "Tiles"
+    "Text": "Клетки"
   },
   {
     "ID": "creative.folder.segment.tin_set",
-    "Text": "Tin Set"
+    "Text": "Оловянный доспех"
   },
   {
     "ID": "creative.folder.segment.titanium_set",
-    "Text": "Titanium Set"
+    "Text": "Титановый доспех"
   },
   {
     "ID": "creative.folder.segment.tools",
-    "Text": "Tools"
+    "Text": "Инструменты"
   },
   {
     "ID": "creative.folder.segment.torso",
-    "Text": "Torso"
+    "Text": "Тело"
   },
   {
     "ID": "creative.folder.segment.uncategorized",
-    "Text": "Uncategorized"
+    "Text": "Без категории"
   },
   {
     "ID": "creative.folder.segment.weapons",
-    "Text": "Weapons"
+    "Text": "Оружие"
   },
   {
     "ID": "creative.folder.segment.whips",
-    "Text": "Whips"
+    "Text": "Хлысты"
   },
   {
     "ID": "creative.folder.segment.xenohide_set",
-    "Text": "Xenohide Set"
+    "Text": "Доспех из ксеношкуры"
   },
   {
     "ID": "creative.folder.tile.ant",
-    "Text": "ant"
+    "Text": "муравей"
   },
   {
     "ID": "creative.folder.tile.asteroid",
-    "Text": "asteroid"
+    "Text": "астероид"
   },
   {
     "ID": "creative.folder.tile.background",
-    "Text": "background"
+    "Text": "стены"
   },
   {
     "ID": "creative.folder.tile.brick",
-    "Text": "brick"
+    "Text": "кирпич"
   },
   {
     "ID": "creative.folder.tile.clay",
-    "Text": "clay"
+    "Text": "глина"
   },
   {
     "ID": "creative.folder.tile.crawler",
-    "Text": "crawler"
+    "Text": "ползун"
   },
   {
     "ID": "creative.folder.tile.dirt",
-    "Text": "dirt"
+    "Text": "земля"
   },
   {
     "ID": "creative.folder.tile.duglette",
-    "Text": "duglette"
+    "Text": "копун"
   },
   {
     "ID": "creative.folder.tile.elevator",
-    "Text": "Elevator"
+    "Text": "Лифт"
   },
   {
     "ID": "creative.folder.tile.granite",
-    "Text": "granite"
+    "Text": "гранит"
   },
   {
     "ID": "creative.folder.tile.hephaestus",
-    "Text": "hephaestus"
+    "Text": "гефест"
   },
   {
     "ID": "creative.folder.tile.iron",
-    "Text": "iron"
+    "Text": "железо"
   },
   {
     "ID": "creative.folder.tile.limestone",
-    "Text": "limestone"
+    "Text": "известняк"
   },
   {
     "ID": "creative.folder.tile.marble",
-    "Text": "marble"
+    "Text": "мрамор"
   },
   {
     "ID": "creative.folder.tile.meteorite",
-    "Text": "Meteorite"
+    "Text": "Метеорит"
   },
   {
     "ID": "creative.folder.tile.misc",
-    "Text": "misc"
+    "Text": "разн"
   },
   {
     "ID": "creative.folder.tile.mud",
-    "Text": "mud"
+    "Text": "грязь"
   },
   {
     "ID": "creative.folder.tile.mudbrick",
-    "Text": "mudbrick"
+    "Text": "саман"
   },
   {
     "ID": "creative.folder.tile.pioneer",
-    "Text": "pioneer"
+    "Text": "первопроходец"
   },
   {
     "ID": "creative.folder.tile.quartzite",
-    "Text": "quartzite"
+    "Text": "кварцит"
   },
   {
     "ID": "creative.folder.tile.sand",
-    "Text": "sand"
+    "Text": "песок"
   },
   {
     "ID": "creative.folder.tile.slate",
-    "Text": "slate"
+    "Text": "сланец"
   },
   {
     "ID": "creative.folder.tile.softwood",
-    "Text": "softwood"
+    "Text": "мягкоедерево"
   },
   {
     "ID": "creative.folder.tile.steel",
-    "Text": "steel"
+    "Text": "сталь"
   },
   {
     "ID": "creative.folder.tile.stone",
-    "Text": "stone"
+    "Text": "камень"
   },
   {
     "ID": "creative.folder.tile.system",
-    "Text": "system"
+    "Text": "система"
   },
   {
     "ID": "creative.folder.tile.tech",
-    "Text": "tech"
+    "Text": "техно"
   },
   {
     "ID": "creative.folder.tile.thatch",
-    "Text": "thatch"
+    "Text": "солома"
   },
   {
     "ID": "creative.folder.tile.wood",
-    "Text": "wood"
+    "Text": "дерево"
   },
   {
     "ID": "creative.folder.tile.xenite",
-    "Text": "xenite"
+    "Text": "ксенит"
   },
   {
     "ID": "creative.folder.tile.xeno",
-    "Text": "xeno"
+    "Text": "ксено"
   },
   {
     "ID": "creative.folder.tile.xenoid_carrier",
-    "Text": "Xenoid Carrier"
+    "Text": "корабльксеноидов"
   },
   {
     "ID": "creative.folder.tile.xenostone",
-    "Text": "xenostone"
+    "Text": "ксенокамень"
   },
   {
     "ID": "creative.folder.tile.title_elevator",
-    "Text": "Elevator"
+    "Text": "Лифт"
   },
   {
     "ID": "creative.folder.tile.title_hephaestus",
-    "Text": "Hephaestus"
+    "Text": "Гефест"
   },
   {
     "ID": "creative.folder.tile.title_iron",
-    "Text": "Iron"
+    "Text": "Железо"
   },
   {
     "ID": "creative.folder.tile.title_meteorite",
-    "Text": "Meteorite"
+    "Text": "Метеорит"
   },
   {
     "ID": "creative.folder.tile.title_mud",
-    "Text": "Mud"
+    "Text": "Грязь"
   },
   {
     "ID": "creative.folder.tile.title_xenoid_carrier",
-    "Text": "Xenoid Carrier"
+    "Text": "Корабль Ксеноидов"
   },
   {
     "ID": "crew.ops.status.unstaffed",
-    "Text": "Unstaffed"
+    "Text": "Без рабочего"
   },
   {
     "ID": "crew.ops.status.treatsPlayers",
-    "Text": "Treats nearby players"
+    "Text": "Лечит ближайших игроков"
   },
   {
     "ID": "crew.ops.status.noOrders",
-    "Text": "No orders"
+    "Text": "Нет приказов"
   },
   {
     "ID": "crew.ops.status.needsIngredients",
-    "Text": "Needs ingredients"
-  },
-  {
-    "ID": "tutorial.repeat",
-    "Text": "Repeat instructions"
-  },
-  {
-    "ID": "tutorial.light",
-    "Text": "Wrist Light"
-  },
-  {
-    "ID": "tutorial.grab",
-    "Text": "Grab Laser"
-  },
-  {
-    "ID": "tutorial.dig",
-    "Text": "Dig Laser"
-  },
-  {
-    "ID": "tutorial.place",
-    "Text": "Place Test Block"
-  },
-  {
-    "ID": "tutorial.scan",
-    "Text": "Scan Laser"
+    "Text": "Ждёт ингредиенты"
   },
   {
     "ID": "interaction.use",
-    "Text": "Use"
+    "Text": "Использовать"
   },
   {
     "ID": "interaction.open",
-    "Text": "Open"
+    "Text": "Открыть"
   },
   {
     "ID": "interaction.close",
-    "Text": "Close"
+    "Text": "Закрыть"
   },
   {
     "ID": "interaction.talk",
-    "Text": "Talk"
+    "Text": "Говорить"
   },
   {
     "ID": "interaction.sit",
-    "Text": "Sit"
+    "Text": "Сесть"
   },
   {
     "ID": "interaction.sleep",
-    "Text": "Sleep"
+    "Text": "Спать"
   },
   {
     "ID": "interaction.enter",
-    "Text": "Enter"
+    "Text": "Войти"
   },
   {
     "ID": "interaction.inspect",
-    "Text": "Inspect"
+    "Text": "Осмотреть"
   },
   {
     "ID": "interaction.examine",
-    "Text": "Examine"
+    "Text": "Осмотреть"
   },
   {
     "ID": "interaction.read",
-    "Text": "Read"
+    "Text": "Читать"
   },
   {
     "ID": "interaction.collect",
-    "Text": "Collect"
+    "Text": "Собрать"
   },
   {
     "ID": "interaction.call",
-    "Text": "Call"
+    "Text": "Вызвать"
   },
   {
     "ID": "interaction.toggle",
-    "Text": "Toggle"
+    "Text": "Переключить"
   },
   {
     "ID": "interaction.charge",
-    "Text": "Charge"
+    "Text": "Зарядить"
   },
   {
     "ID": "interaction.activate",
-    "Text": "Activate"
+    "Text": "Включить"
   },
   {
     "ID": "interaction.deactivate",
-    "Text": "Deactivate"
+    "Text": "Выключить"
   },
   {
     "ID": "interaction.configure",
-    "Text": "Configure"
+    "Text": "Настроить"
   },
   {
     "ID": "interaction.travel",
-    "Text": "Travel"
+    "Text": "Перейти"
   },
   {
     "ID": "interaction.install",
-    "Text": "Install"
-  },
-  {
-    "ID": "interaction.increase",
-    "Text": "Increase"
-  },
-  {
-    "ID": "interaction.decrease",
-    "Text": "Decrease"
+    "Text": "Установить"
   },
   {
     "ID": "interaction.release",
-    "Text": "Release"
+    "Text": "Выпустить"
   },
   {
     "ID": "interaction.remove",
-    "Text": "Remove"
+    "Text": "Убрать"
   },
   {
     "ID": "interaction.connect",
-    "Text": "Connect"
+    "Text": "Присоединиться",
+    "__Comment": "Или всё-таки \"подключить?\""
   },
   {
     "ID": "interaction.play",
-    "Text": "Play"
+    "Text": "Играть"
   },
   {
     "ID": "interaction.back",
-    "Text": "Back"
+    "Text": "Назад"
   },
   {
     "ID": "interaction.moveUp",
-    "Text": "Move up"
+    "Text": "Наверх"
   },
   {
     "ID": "interaction.moveDown",
-    "Text": "Move down"
+    "Text": "Вниз"
   },
   {
     "ID": "interaction.checkSystems",
-    "Text": "Check systems"
+    "Text": "Проверить системы"
   },
   {
     "ID": "interaction.light",
-    "Text": "Light"
+    "Text": "Свет"
   },
   {
     "ID": "interaction.raise",
-    "Text": "Raise"
+    "Text": "Поднять"
   },
   {
     "ID": "interaction.scan",
-    "Text": "Scan"
+    "Text": "Сканировать"
   },
   {
     "ID": "interaction.codex",
-    "Text": "Open Codex"
+    "Text": "Открыть Кодекс"
   },
   {
     "ID": "interaction.outOfReach",
-    "Text": "Out of reach"
+    "Text": "Слишком далеко"
   },
   {
     "ID": "interaction.obstructed",
-    "Text": "Cannot reach through this obstacle"
+    "Text": "Препятствие мешает"
   },
   {
     "ID": "interaction.locked",
-    "Text": "Locked"
+    "Text": "Заперто"
   },
   {
     "ID": "interaction.unpowered",
-    "Text": "No power"
+    "Text": "Нет энергии"
   },
   {
     "ID": "interaction.busy",
-    "Text": "Busy"
+    "Text": "Занято"
   },
   {
     "ID": "interaction.missingItem",
-    "Text": "Required item missing"
+    "Text": "Нет нужного предмета"
   },
   {
     "ID": "interaction.wrongTool",
-    "Text": "Different tool required"
+    "Text": "Требуется другой инструмент"
   },
   {
     "ID": "interaction.empty",
-    "Text": "Empty"
+    "Text": "Пусто"
   },
   {
     "ID": "interaction.occupied",
-    "Text": "Occupied"
+    "Text": "Занято"
   },
   {
     "ID": "interaction.accessDenied",
-    "Text": "Access denied"
+    "Text": "Доступ запрещён"
   },
   {
     "ID": "interaction.notReady",
-    "Text": "Not ready"
+    "Text": "Не готово"
   },
   {
     "ID": "interaction.waitForParty",
-    "Text": "Wait for everyone"
+    "Text": "Ждём остальных"
   },
   {
     "ID": "interaction.unavailable",
-    "Text": "Unavailable"
+    "Text": "Недоступно"
   },
   {
     "ID": "interaction.alreadyComplete",
-    "Text": "Already complete"
+    "Text": "Уже готово"
   },
   {
     "ID": "interaction.lock",
-    "Text": "Lock"
+    "Text": "Запереть"
   },
   {
     "ID": "interaction.unlock",
-    "Text": "Unlock"
+    "Text": "Отпереть"
   },
   {
     "ID": "interaction.hold",
-    "Text": "Hold"
+    "Text": "Держать",
+    "__Comment": "TODO"
   },
   {
     "ID": "interaction.nextChannel",
-    "Text": "Next channel"
+    "Text": "Следующий канал"
   },
   {
     "ID": "interaction.previousChannel",
-    "Text": "Previous channel"
+    "Text": "Предыдущий канал"
   },
   {
     "ID": "interaction.removePowerPanel",
-    "Text": "Remove power panel"
+    "Text": "Убрать панель энергии"
   },
   {
     "ID": "interaction.openBatteryCompartment",
-    "Text": "Open battery compartment"
+    "Text": "Открыть выемку для батареи"
   },
   {
     "ID": "interaction.installSignalDecoder",
-    "Text": "Install Signal Decoder"
+    "Text": "Установить расшифровщик"
   },
   {
     "ID": "interaction.installMnemonic",
-    "Text": "Insert Strange Gadget"
+    "Text": "Вставить Странный гаджет"
   },
   {
     "ID": "interaction.removeShield",
-    "Text": "Remove shield"
+    "Text": "Убрать щит"
   },
   {
     "ID": "interaction.releaseSpheres",
-    "Text": "Release spheres"
+    "Text": "Выпустить сферы"
   },
   {
     "ID": "interaction.requiresScrewdriver",
-    "Text": "Requires Screwdriver"
+    "Text": "Нужна отвёртка"
   },
   {
     "ID": "interaction.requiresSignalDecoder",
-    "Text": "Requires Signal Decoder"
+    "Text": "Нужен расшифровщик"
   },
   {
     "ID": "interaction.requiresMnemonic",
-    "Text": "Requires Strange Gadget"
+    "Text": "Нужен Странный гаджет"
   },
   {
     "ID": "interaction.standInScanPosition",
-    "Text": "Stand in the scan position"
+    "Text": "Встаньте в сканер"
   },
   {
     "ID": "interaction.standOnPlatform",
-    "Text": "Stand on the platform"
+    "Text": "Встаньте на платформу"
   },
   {
     "ID": "interaction.shear",
-    "Text": "Shear"
+    "Text": "Подстричь"
   },
   {
     "ID": "interaction.requiresScissors",
-    "Text": "Requires Scissors"
+    "Text": "Нужны ножницы"
   },
   {
     "ID": "interaction.reset",
-    "Text": "Reset"
+    "Text": "Сброс"
   },
   {
     "ID": "interaction.unbound",
-    "Text": "Not bound"
+    "Text": "Не задано"
   },
   {
     "ID": "controller.action.activate",
-    "Text": "Activate"
+    "Text": "Активировать"
   },
   {
     "ID": "controller.action.item",
-    "Text": "Details · hold and move to drag"
+    "Text": "Детали · Держите и подвигайте, чтобы тащить"
   },
   {
     "ID": "controller.action.place",
-    "Text": "Place item"
+    "Text": "Поставить предмет"
   },
   {
     "ID": "controller.action.release",
-    "Text": "Release"
+    "Text": "Отпустить"
   },
   {
     "ID": "controller.action.cancelDrag",
-    "Text": "Cancel drag"
+    "Text": "Отменить перетаскивание"
   },
   {
     "ID": "controller.action.closeDetails",
-    "Text": "Close details"
+    "Text": "Закрыть информацию"
   },
   {
     "ID": "controller.action.close",
-    "Text": "Close"
+    "Text": "Закрыть"
   },
   {
     "ID": "controller.action.cancel",
-    "Text": "Cancel"
+    "Text": "Отменить"
   },
   {
     "ID": "controller.action.back",
-    "Text": "Back"
+    "Text": "Назад"
   },
   {
     "ID": "controller.action.dismiss",
-    "Text": "Dismiss"
+    "Text": "Убрать"
   },
   {
     "ID": "controller.action.reveal",
-    "Text": "Show full text"
+    "Text": "Показать полный текст"
   },
   {
     "ID": "controller.action.choose",
-    "Text": "Choose"
+    "Text": "Выберите"
   },
   {
     "ID": "controller.action.next",
-    "Text": "Next"
+    "Text": "Дальше"
   },
   {
     "ID": "controller.action.finish",
-    "Text": "Finish"
+    "Text": "Закончить"
   },
   {
     "ID": "controller.action.enterText",
-    "Text": "Enter text"
+    "Text": "Введите текст"
   },
   {
     "ID": "controller.action.leaveSearch",
-    "Text": "Leave search"
+    "Text": "Выйти из поиска"
   },
   {
     "ID": "controller.action.leaveChat",
-    "Text": "Leave chat"
+    "Text": "Закрыть чат"
   },
   {
     "ID": "controller.action.discardEdits",
-    "Text": "Discard edits"
+    "Text": "Сбросить изменения"
   },
   {
     "ID": "controller.action.edit",
-    "Text": "Edit"
+    "Text": "Редактировать"
   },
   {
     "ID": "controller.action.save",
-    "Text": "Save"
+    "Text": "Сохранить"
   },
   {
     "ID": "controller.action.scroll",
-    "Text": "Scroll up / down"
+    "Text": "Листать вверх / вниз"
   },
   {
     "ID": "controller.action.equip",
-    "Text": "Equip"
+    "Text": "Экипировать"
   },
   {
     "ID": "controller.action.open",
-    "Text": "Open"
+    "Text": "Открыть"
   },
   {
     "ID": "controller.action.use",
-    "Text": "Use"
+    "Text": "Использовать"
   },
   {
     "ID": "controller.action.trash",
-    "Text": "Trash"
+    "Text": "Выкинуть"
   },
   {
     "ID": "controller.action.flip",
-    "Text": "Flip"
+    "Text": "Отразить"
   },
   {
     "ID": "controller.action.rotate",
-    "Text": "Rotate"
+    "Text": "Повернуть"
   },
   {
     "ID": "controller.action.rename",
-    "Text": "Rename"
+    "Text": "Переименовать"
   },
   {
     "ID": "controller.action.hide",
-    "Text": "Toggle hotbar visibility"
+    "Text": "Переключить видимость хотбара"
   },
   {
     "ID": "controller.action.split",
-    "Text": "Split stack"
+    "Text": "Разделить кучку"
   },
   {
     "ID": "controller.action.ammo",
-    "Text": "Change ammo"
+    "Text": "Поменять боеприпасы"
   },
   {
     "ID": "controller.action.adjustSplit",
-    "Text": "Hold and move to adjust split"
+    "Text": "Задержите и подвигайте, чтобы уточнить разделение"
   },
   {
     "ID": "controller.hint.categories",
-    "Text": "Tap {0}/{1} Change hotbar slot · Hold {2}/{3} for slot wheel"
+    "Text": "Нажмите {0}/{1}, чтобы сменить слот хотбара · Задержите {2}/{3}, чтобы вызвать колесо"
   },
   {
     "ID": "controller.hint.items",
-    "Text": "Tap {0}/{1} Change item in slot · Hold {2}/{3} for item wheel"
+    "Text": "Нажмите {0}/{1}, чтобы сменить предмет в слоте · Задержите {2}/{3}, чтобы вызвать колесо"
   },
   {
     "ID": "controller.hint.categoriesCompact",
-    "Text": "{0}/{1} Change hotbar slot"
+    "Text": "{0}/{1}, чтобы сменить слот"
   },
   {
     "ID": "controller.gameplayHints",
-    "Text": "Gameplay Hints"
+    "Text": "Игровые подсказки"
   },
   {
     "ID": "controller.gameplayHints.contextual",
-    "Text": "Contextual"
+    "Text": "Контекстные"
   },
   {
     "ID": "controller.gameplayHints.always",
-    "Text": "Always Visible"
-  },
-  {
-    "ID": "controller.gameplayHints.off",
-    "Text": "Off"
+    "Text": "Видны всегда"
   },
   {
     "ID": "controller.hint.itemsCompact",
-    "Text": "{0}/{1} Change item in slot"
+    "Text": "{0}/{1}, чтобы сменить предмет в слоте"
   },
   {
     "ID": "controller.hint.navigationGesture",
-    "Text": "Tap to cycle · Hold for selection wheel"
+    "Text": "Нажмите, чтобы переключиться · Задержите для вызова колеса"
   },
   {
     "ID": "controller.hint.inventory",
-    "Text": "Inventory"
+    "Text": "Инвентарь"
   },
   {
     "ID": "controller.hint.moreControls",
-    "Text": "Hold {0} for more controls"
+    "Text": "Задержите {0} для всего списка клавиш"
   },
   {
     "ID": "controller.hint.reloadAmmoCompact",
-    "Text": "{0} Reload · Hold for ammo wheel"
+    "Text": "Нажмите {0} для перезарядки · Задержите для колеса выбора боеприпасов"
   },
   {
     "ID": "controller.hint.drawAmmoCompact",
-    "Text": "{0} Cancel draw · Hold for ammo wheel"
+    "Text": "{0}, чтобы отменить вытаскивание · Задержите для колеса выбора боеприпасов"
   },
   {
     "ID": "controller.hint.reloadAmmo",
-    "Text": "Tap {0} Reload · Hold {1} Ammo"
+    "Text": "Нажмите {0} для перезарядки · Задержите {1}, чтобы выбрать боеприпасы"
   },
   {
     "ID": "controller.hint.drawAmmo",
-    "Text": "Tap {0} Cancel draw · Hold {1} Ammo"
+    "Text": "Нажмите {0}, чтобы отменить вытаскивание · Задержите {1}, чтобы выбрать боеприпасы"
   },
   {
     "ID": "controller.hint.reload",
-    "Text": "Tap {0} Reload"
+    "Text": "Нажмите {0} для перезарядки"
   },
   {
     "ID": "controller.hint.ammoOnly",
-    "Text": "Hold {0} Ammo"
+    "Text": "Задержите {1}, чтобы выбрать боеприпасы"
   },
   {
     "ID": "controller.hint.rotate",
-    "Text": "Tap {0} Rotate"
+    "Text": "Нажмите {0} для поворота"
   },
   {
     "ID": "controller.hint.cancelDraw",
-    "Text": "Tap {0} Cancel draw"
+    "Text": "Нажмите {0} для отмены вытаскивания"
   },
   {
     "ID": "controller.hint.light",
-    "Text": "Tap {0} Light"
+    "Text": "Нажмите {0} для фонарика"
   },
   {
     "ID": "controller.hint.zoom",
-    "Text": "Hold {0} + {1} up / down: Zoom"
+    "Text": "Задержите {0} + {1} вверх / вниз: Масштаб"
   },
   {
     "ID": "controller.hint.holster",
-    "Text": "Holster"
+    "Text": "Убрать"
   },
   {
     "ID": "controller.hint.draw",
-    "Text": "Draw"
+    "Text": "Вытащить"
   },
   {
     "ID": "controller.hint.investigate",
-    "Text": "Aim · {0} Investigate"
+    "Text": "Прицелиться · {0} Осмотреть"
   },
   {
     "ID": "controller.hint.returnToAim",
-    "Text": "Return to game to aim"
+    "Text": "Вернитесь в игру для прицеливания"
   },
   {
     "ID": "controller.hint.cursor",
-    "Text": "{0} Move cursor"
+    "Text": "{0}, чтобы двигать курсор"
   },
   {
     "ID": "controller.hint.wheelSelect",
-    "Text": "Move {0} Select"
+    "Text": "Двигайте {0} для выбора"
   },
   {
     "ID": "controller.hint.wheelAmmoCommit",
-    "Text": "Release {0} Change ammo"
+    "Text": "Отпустите {0} для выбора боеприпасов"
   },
   {
     "ID": "controller.hint.wheelAmmoCommitBoth",
-    "Text": "Release {0}/{1} Change ammo"
+    "Text": "Отпустите {0}/{1} для выбора боеприпасов"
   },
   {
     "ID": "controller.hint.wheelEquipCommit",
-    "Text": "Release {0} Equip"
+    "Text": "Отпустите {0} Экипировать"
   },
   {
     "ID": "controller.hint.wheelHolsterCommit",
-    "Text": "Release {0} Holster"
+    "Text": "Отпустите {0} Убрать"
   },
   {
     "ID": "controller.hint.wheelKeepCommit",
-    "Text": "Release {0} Keep ammo"
+    "Text": "Отпустите {0} Не менять боеприпасы"
   },
   {
     "ID": "controller.hint.wheelKeepCommitBoth",
-    "Text": "Release {0}/{1} Keep ammo"
+    "Text": "Отпустите {0}/{1} Не менять боеприпасы"
   },
   {
     "ID": "controller.hint.wheelKeepAmmo",
-    "Text": "Center: keep current ammo"
+    "Text": "Центр: не менять боеприпасы"
   },
   {
     "ID": "controller.hint.wheelHolster",
-    "Text": "Center: holster"
+    "Text": "Центр: убрать"
   },
   {
     "ID": "controller.reference.title",
-    "Text": "Controls reference"
+    "Text": "Шпаргалка по управлению"
   },
   {
     "ID": "controller.reference.fixed",
-    "Text": "These gestures are shown for reference."
+    "Text": "Эти жесты показаны в качестве шпаргалки."
   },
   {
     "ID": "controller.reference.crouch",
-    "Text": "Crouch: tap to toggle; hold for temporary crouch."
+    "Text": "Подкрадывание: нажатие переводит в режим подкрадывания, долгое задерживание включает подкрадывание временно."
   },
   {
     "ID": "controller.reference.quickSlots",
-    "Text": "Quick slots: hold, toggle, use once, or equip / holster, depending on the item."
+    "Text": "Быстрые слоты: в зависимости от предмета использование может меняться, нажать один раз или задержать."
   },
   {
     "ID": "controller.reference.quickAssign",
-    "Text": "In UI mode, drag an item onto a quick slot to assign it. Select its magnifying glass to view details."
+    "Text": "В режиме интерфейса, перетащите предмет в быстрый слот, чтобы его назначить. Для информации, наведите на предмет и нажмите на значок лупы."
   },
   {
     "ID": "controller.gesture.tap",
-    "Text": "Tap"
+    "Text": "Нажмите"
   },
   {
     "ID": "controller.capture.neutral",
-    "Text": "Release all controller controls, then press a control for {0}. Keyboard Escape cancels."
+    "Text": "Отпустите все клавиши геймпада, а потом нажмите клавишу для {0}. Нажатие Escape на клавиатуре отменяет."
   },
   {
     "ID": "controller.capture.press",
-    "Text": "Press a controller control for {0}. Keyboard Escape cancels."
+    "Text": "Нажмите клавишу на геймпаде для {0}. Нажатие Escape на клавиатуре отменяет."
   },
   {
     "ID": "controller.capture.release",
-    "Text": "Release all controller controls to confirm {0}: {1}. Keyboard Escape cancels."
+    "Text": "Отпустите все клавиши геймпада чтобы принять {0}: {1}. Нажатие Escape на клавиатуре отменяет."
   },
   {
     "ID": "controller.action.previousOption",
-    "Text": "Previous option"
+    "Text": "Предыдущее"
   },
   {
     "ID": "controller.action.nextOption",
-    "Text": "Next option"
+    "Text": "Следующая"
   },
   {
     "ID": "controller.action.selectOption",
-    "Text": "Select option"
+    "Text": "Выбрать"
   },
   {
     "ID": "controller.action.adjustValue",
-    "Text": "Hold and move: adjust"
+    "Text": "Задержать и двигать: регулировка"
   },
   {
     "ID": "controller.action.panMap",
-    "Text": "Hold and move: pan map"
+    "Text": "Зажать и двигать: перетаскивать карту"
   },
   {
     "ID": "controller.action.adjustMapZoom",
-    "Text": "Hold and move: zoom"
+    "Text": "Зажать и двигать: масштаб"
   },
   {
     "ID": "controller.action.centerMap",
-    "Text": "Center map"
+    "Text": "Отцентровать карту"
   },
   {
     "ID": "controller.action.zoomIn",
-    "Text": "Zoom in"
+    "Text": "Приблизить"
   },
   {
     "ID": "controller.action.zoomOut",
-    "Text": "Zoom out"
+    "Text": "Отдалить"
   },
   {
     "ID": "controller.action.panUp",
-    "Text": "Pan up"
+    "Text": "Двигать вверх"
   },
   {
     "ID": "controller.action.panDown",
-    "Text": "Pan down"
+    "Text": "Двигать вниз"
   },
   {
     "ID": "controller.action.panLeft",
-    "Text": "Pan left"
+    "Text": "Двигать влево"
   },
   {
     "ID": "controller.action.panRight",
-    "Text": "Pan right"
+    "Text": "Двигать вправо"
   },
   {
     "ID": "controller.action.selectRecipe",
-    "Text": "Select recipe"
+    "Text": "Выбрать рецепт"
   },
   {
     "ID": "controller.action.toggleCategory",
-    "Text": "Expand/collapse category"
+    "Text": "Раскрыть/свернуть категорию"
   },
   {
     "ID": "controller.action.inspectItem",
-    "Text": "Details"
+    "Text": "Подробнее"
   },
   {
     "ID": "controller.action.randomize",
-    "Text": "Randomize"
+    "Text": "Случайно"
   },
   {
     "ID": "controller.action.selectCharacter",
-    "Text": "Select character"
+    "Text": "Выбрать персонажа"
   },
   {
     "ID": "controller.action.deleteCharacter",
-    "Text": "Delete character"
+    "Text": "Удалить персонажа"
   },
   {
     "ID": "controller.action.refresh",
-    "Text": "Refresh"
+    "Text": "Обновить"
   },
   {
     "ID": "controller.action.scrollUp",
-    "Text": "Scroll up"
+    "Text": "Листать вверх"
   },
   {
     "ID": "controller.action.scrollDown",
-    "Text": "Scroll down"
+    "Text": "Листать вверх"
   },
   {
     "ID": "controller.action.scrollBar",
-    "Text": "Hold and move: scroll"
+    "Text": "Зажать и двигать: листать"
   },
   {
     "ID": "controller.action.expandAll",
-    "Text": "Expand all"
+    "Text": "Раскрыть все"
   },
   {
     "ID": "controller.action.collapseAll",
-    "Text": "Collapse all"
+    "Text": "Свернуть все"
   },
   {
     "ID": "controller.action.findRecipe",
-    "Text": "Find recipe"
+    "Text": "Найти рецепт"
   },
   {
     "ID": "controller.reference.previousHotbar",
-    "Text": "Previous hotbar slot"
+    "Text": "Предыдущий слот хотбара"
   },
   {
     "ID": "controller.reference.nextHotbar",
-    "Text": "Next hotbar slot"
+    "Text": "Следующий слот хотбара"
   },
   {
     "ID": "controller.reference.hotbarWheel",
-    "Text": "Hotbar wheel"
+    "Text": "Вызвать колесо хотбара"
   },
   {
     "ID": "controller.reference.previousItem",
-    "Text": "Previous item"
+    "Text": "Предыдущий предмет"
   },
   {
     "ID": "controller.reference.nextItem",
-    "Text": "Next item"
+    "Text": "Следующий предмет"
   },
   {
     "ID": "controller.reference.itemWheel",
-    "Text": "Item wheel"
+    "Text": "Колесо предметов"
   },
   {
     "ID": "controller.reference.previousMegTab",
-    "Text": "Previous MEG tab"
+    "Text": "Предыдущая вкладка MEG"
   },
   {
     "ID": "controller.reference.nextMegTab",
-    "Text": "Next MEG tab"
+    "Text": "Следующая вкладка MEG"
   },
   {
     "ID": "controller.reference.holsterCenter",
-    "Text": "hotbar wheel center"
+    "Text": "центр в колесе хотбара"
   },
   {
     "ID": "controller.action.quantityUp",
-    "Text": "Increase quantity"
+    "Text": "Увеличить количество"
   },
   {
     "ID": "controller.action.quantityUp10",
-    "Text": "Increase quantity by 10"
+    "Text": "Увеличить количество на 10"
   },
   {
     "ID": "controller.action.quantityDown",
-    "Text": "Decrease quantity"
+    "Text": "Уменьшить количество"
   },
   {
     "ID": "controller.action.quantityDown10",
-    "Text": "Decrease quantity by 10"
+    "Text": "Уменьшить количество на 10"
   },
   {
     "ID": "controller.action.quantityMin",
-    "Text": "Minimum quantity"
+    "Text": "Минимальное количество"
   },
   {
     "ID": "controller.action.quantityMax",
-    "Text": "Maximum quantity"
+    "Text": "Минимальное количество"
   },
   {
     "ID": "controller.action.analyzeRecipes",
-    "Text": "Analyze for recipes"
+    "Text": "Проанализировать рецепты"
   },
   {
     "ID": "controller.action.sortRecipes",
-    "Text": "Sort recipes"
+    "Text": "Отсортировать рецепты"
   },
   {
     "ID": "controller.action.markRead",
-    "Text": "Mark recipes read"
+    "Text": "Пометить рецепты просмотренными"
   },
   {
     "ID": "controller.action.journal",
-    "Text": "Journal"
+    "Text": "Журнал"
   },
   {
     "ID": "controller.action.creatures",
-    "Text": "Creatures"
+    "Text": "Существа"
   },
   {
     "ID": "controller.action.structures",
-    "Text": "Structures"
+    "Text": "Структуры"
   },
   {
     "ID": "controller.action.datapads",
-    "Text": "Datapads"
+    "Text": "Планшет"
   },
   {
     "ID": "keyboard.hint.ammo",
-    "Text": "Hold {0} for ammo wheel"
+    "Text": "Задержите {0} для колеса выбора боеприпасов"
   },
   {
     "ID": "keyboard.hint.rotate",
-    "Text": "{0} Rotate"
+    "Text": "{0} Повернуть"
   },
   {
     "ID": "keyboard.hint.flip",
-    "Text": "{0} Flip"
+    "Text": "{0} Отразить"
   },
   {
     "ID": "keyboard.hint.placeForeground",
-    "Text": "{0} Place foreground"
+    "Text": "{0} Поставить блок"
   },
   {
     "ID": "keyboard.hint.background",
-    "Text": "{0} Place background"
+    "Text": "{0} Поставить стену"
   },
   {
     "ID": "keyboard.hint.digForeground",
-    "Text": "{0} Dig foreground"
+    "Text": "{0} Копать блок"
   },
   {
     "ID": "keyboard.hint.digBackground",
-    "Text": "{0} Dig background"
+    "Text": "{0} Копать стену"
   },
   {
     "ID": "keyboard.hint.changeItem",
-    "Text": "{0}/{1} Change item"
+    "Text": "{0}/{1} Поменять предмет"
   },
   {
     "ID": "keyboard.hint.changeSlot",
-    "Text": "{0}/{1} Change slot"
+    "Text": "{0}/{1} Поменять слот"
   },
   {
     "ID": "keyboard.hint.itemWheel",
-    "Text": "Hold {0} for item wheel"
+    "Text": "Задержите {0} для колеса выбора предмета"
   },
   {
     "ID": "keyboard.hint.wheelSelect",
-    "Text": "Move mouse to select"
+    "Text": "Выберите при помощи мыши"
   },
   {
     "ID": "keyboard.hint.wheelReleaseAmmo",
-    "Text": "Release {0} to confirm"
+    "Text": "Отпустите {0} для подтверждения"
   },
   {
     "ID": "keyboard.hint.wheelReleaseItem",
-    "Text": "Release {0} to equip"
+    "Text": "Отпустите {0} для экипировки"
   },
   {
     "ID": "keyboard.hint.wheelReleaseHolster",
-    "Text": "Release {0} to holster"
+    "Text": "Отпустите {0}, чтобы убрать"
   },
   {
     "ID": "cutscene.hephaestusIntro.ship",
-    "Text": "Let me tell you about your ship."
+    "Text": "Дай расскажу о твоём же корабле."
   },
   {
     "ID": "cutscene.hephaestusIntro.cost",
-    "Text": "The Hephaestus is an interstellar colony ship, constructed by the United Nations at a cost of 278 billion dollars."
+    "Text": "Гефест – межзвёздный ковчег, собранный ООН и общей стоимостью в 278 миллионов долларов."
   },
   {
     "ID": "cutscene.hephaestusIntro.purpose",
-    "Text": "Its purpose is to transport one thousand, five hundred and thirty souls to a recently discovered potentially habitable planet 14 light years from Earth."
+    "Text": "Его цель – перевезти одну тысячу пятьсот тридцать душ на недавно открытую потенциально обитаемую планету в 14 световых годах от Земли."
   },
   {
     "ID": "cutscene.hephaestusIntro.osiris",
-    "Text": "This is Osiris. We think we can live there."
+    "Text": "Осирис. Кажется, мы можем тут жить."
   },
   {
     "ID": "cutscene.hephaestusIntro.engineering",
-    "Text": "This is the Engineering Bay, where our Chief Technician Larry is preparing the landing pods for their descent to Osiris."
+    "Text": "Это инженерный отсек. Здесь наш главный технолог Ларри подготавливает шаттлы к их спуску на Осирис."
   },
   {
     "ID": "cutscene.hephaestusIntro.hydroponics",
-    "Text": "This is the hydroponics bay, where we sustainably grow food for the crew during the voyage."
+    "Text": "Это отсек гидропоники. Тут безотходно растят еду для всего экипажа на время путешествия."
   },
   {
     "ID": "cutscene.hephaestusIntro.messHall",
-    "Text": "And this is the mess hall, where Chief Marco... does what he can with the algae."
+    "Text": "А это столовая, где шеф Марко… Делает всё что может с водорослями."
   },
   {
     "ID": "cutscene.hephaestusIntro.bridge",
-    "Text": "This is the bridge, where the captain, Dr. Stein, commands the ship."
+    "Text": "Это мостик, где капитан, Доктор Штейн, управляет кораблём."
   },
   {
     "ID": "cutscene.hephaestusIntro.cryogenics",
-    "Text": "Here is the Cryogenics Bay, where everyone who isn't essential to the ship's operation has been suspended."
+    "Text": "Здесь находится криоотсек, где все, кто не важен для работы корабля, находится в состоянии криосна."
   },
   {
     "ID": "cutscene.hephaestusIntro.crewQuarters",
-    "Text": "These are the active crew quarters,"
+    "Text": "Это каюты активного экипажа,"
   },
   {
     "ID": "cutscene.hephaestusIntro.player",
-    "Text": "And this, is you."
+    "Text": "А это, в общем-то говоря, ты."
   },
   {
     "ID": "cutscene.hephaestusIntro.skip",
-    "Text": "Hold {0} to Skip"
+    "Text": "Задержите {0} чтобы Пропустить"
   },
   {
     "ID": "crew.name.numbered",
-    "Text": "Crew {0}"
+    "Text": "Экипаж {0}"
   },
   {
     "ID": "dialogue.speaker.xenoidChief",
-    "Text": "Xenoid Chief"
+    "Text": "Вождь Ксеноидов"
   },
   {
     "ID": "item.category.????????",
@@ -5450,239 +5247,239 @@
   },
   {
     "ID": "item.category.Arm Armor",
-    "Text": "Arm Armor"
+    "Text": "Броня на руки"
   },
   {
     "ID": "item.category.Armor",
-    "Text": "Armor"
+    "Text": "Броня"
   },
   {
     "ID": "item.category.Battery",
-    "Text": "Battery"
+    "Text": "Батарея"
   },
   {
     "ID": "item.category.Block",
-    "Text": "Block"
+    "Text": "Блок"
   },
   {
     "ID": "item.category.Boot Armor",
-    "Text": "Boot Armor"
+    "Text": "Бронеботинки"
   },
   {
     "ID": "item.category.Cannister",
-    "Text": "Cannister"
+    "Text": "Канистра"
   },
   {
     "ID": "item.category.Cleaning Product",
-    "Text": "Cleaning Product"
+    "Text": "Бытовая химия"
   },
   {
     "ID": "item.category.Computers",
-    "Text": "Computers"
+    "Text": "Компьютеры"
   },
   {
     "ID": "item.category.Construction",
-    "Text": "Construction"
+    "Text": "Строительство"
   },
   {
     "ID": "item.category.Construction Parts",
-    "Text": "Construction Parts"
+    "Text": "Части для строительства"
   },
   {
     "ID": "item.category.Consumable",
-    "Text": "Consumable"
+    "Text": "Расходуемый предмет"
   },
   {
     "ID": "item.category.Container",
-    "Text": "Container"
+    "Text": "Контейнер"
   },
   {
     "ID": "item.category.Crafting",
-    "Text": "Crafting"
+    "Text": "Создание"
   },
   {
     "ID": "item.category.Cybernetic Implant",
-    "Text": "Cybernetic Implant"
+    "Text": "Кибернетический имплант"
   },
   {
     "ID": "item.category.Decorations",
-    "Text": "Decorations"
+    "Text": "Декорация"
   },
   {
     "ID": "item.category.Digging",
-    "Text": "Digging"
+    "Text": "Копание"
   },
   {
     "ID": "item.category.Electrical",
-    "Text": "Electrical"
+    "Text": "Электрика"
   },
   {
     "ID": "item.category.Energy Glove Upgrades",
-    "Text": "Energy Glove Upgrades"
+    "Text": "Улучшение для энергетической перчатки"
   },
   {
     "ID": "item.category.Explosive",
-    "Text": "Explosive"
+    "Text": "Взрывчатка"
   },
   {
     "ID": "item.category.Food",
-    "Text": "Food"
+    "Text": "Еда"
   },
   {
     "ID": "item.category.Gadget",
-    "Text": "Gadget"
+    "Text": "Гаджет"
   },
   {
     "ID": "item.category.Gemology",
-    "Text": "Gemology"
+    "Text": "Ювелирное дело"
   },
   {
     "ID": "item.category.Generator Parts",
-    "Text": "Generator Parts"
+    "Text": "Часть гереатора"
   },
   {
     "ID": "item.category.Glove Armor",
-    "Text": "Glove Armor"
+    "Text": "Перчатка"
   },
   {
     "ID": "item.category.Gross",
-    "Text": "Gross"
+    "Text": "Мерзость"
   },
   {
     "ID": "item.category.Helmet Armor",
-    "Text": "Helmet Armor"
+    "Text": "Шлем"
   },
   {
     "ID": "item.category.Instrument",
-    "Text": "Instrument"
+    "Text": "Музыкальный"
   },
   {
     "ID": "item.category.Key Item",
-    "Text": "Key Item"
+    "Text": "Ключевой предмет"
   },
   {
     "ID": "item.category.Leg Armor",
-    "Text": "Leg Armor"
+    "Text": "Поножи"
   },
   {
     "ID": "item.category.MEG Equipment",
-    "Text": "MEG Equipment"
+    "Text": "Экипировка для MEG"
   },
   {
     "ID": "item.category.Materials",
-    "Text": "Materials"
+    "Text": "Материал"
   },
   {
     "ID": "item.category.Medical",
-    "Text": "Medical"
+    "Text": "Медикамент"
   },
   {
     "ID": "item.category.Melee",
-    "Text": "Melee"
+    "Text": "Ближний бой"
   },
   {
     "ID": "item.category.Misc",
-    "Text": "Misc"
+    "Text": "Разное"
   },
   {
     "ID": "item.category.Misc.",
-    "Text": "Misc."
+    "Text": "Разн."
   },
   {
     "ID": "item.category.Missing Mod Content",
-    "Text": "Missing Mod Content"
+    "Text": "Контент из отсутствующей модификации"
   },
   {
     "ID": "item.category.Musical Device",
-    "Text": "Musical Device"
+    "Text": "Музыкальное устройство"
   },
   {
     "ID": "item.category.Placeable",
-    "Text": "Placeable"
+    "Text": "Размещаемое"
   },
   {
     "ID": "item.category.Plants",
-    "Text": "Plants"
+    "Text": "Растение"
   },
   {
     "ID": "item.category.Ranged",
-    "Text": "Ranged"
+    "Text": "Оружие дальнего боя"
   },
   {
     "ID": "item.category.Ruined Technology",
-    "Text": "Ruined Technology"
+    "Text": "Сломанное устройство"
   },
   {
     "ID": "item.category.Strange Crystal Device",
-    "Text": "Strange Crystal Device"
+    "Text": "Странное устройство с кристаллом"
   },
   {
     "ID": "item.category.Strange Material",
-    "Text": "Strange Material"
+    "Text": "Страныный материал"
   },
   {
     "ID": "item.category.Throwable",
-    "Text": "Throwable"
+    "Text": "Метательное"
   },
   {
     "ID": "item.category.Tool",
-    "Text": "Tool"
+    "Text": "Инструмент"
   },
   {
     "ID": "item.category.Torso Armor",
-    "Text": "Torso Armor"
+    "Text": "Нательная броня"
   },
   {
     "ID": "item.category.Trash",
-    "Text": "Trash"
+    "Text": "Мусор"
   },
   {
     "ID": "item.category.Xenostone Husk",
-    "Text": "Xenostone Husk"
+    "Text": "Ксенокаменная оболочка"
   },
   {
     "ID": "item.category.materials",
-    "Text": "materials"
+    "Text": "Материал"
   },
   {
     "ID": "item.category.weapons",
-    "Text": "weapons"
+    "Text": "Оружие"
   },
   {
     "ID": "char.loadingName",
-    "Text": "{0}(LOADING)"
+    "Text": "{0}(ЗАГРУЖАЕТСЯ)"
   },
   {
     "ID": "char.loadFailed",
-    "Text": "*LOAD FAILED*"
+    "Text": "*НЕ УДАЛОСЬ ЗАГРУЗИТЬ*"
   },
   {
     "ID": "item.category.Accessory",
-    "Text": "Accessory"
+    "Text": "Аксессуар"
   },
   {
     "ID": "item.category.Back Equipment",
-    "Text": "Back Equipment"
+    "Text": "Экипировка на спину"
   },
   {
     "ID": "item.category.armor",
-    "Text": "armor"
+    "Text": "Броня"
   },
   {
     "ID": "creative.folder.segment.xenostone_set",
-    "Text": "Xenostone Set"
+    "Text": "Ксенокаменный доспех"
   },
   {
     "ID": "creative.folder.segment.xenotech_set",
-    "Text": "Xenotech Set"
+    "Text": "Ксенотехнологический доспех"
   },
   {
     "ID": "consumable.restoreHealth",
-    "Text": "Restores health immediately"
+    "Text": "Моментально восстанавливает Здоровье"
   },
   {
     "ID": "consumable.restoreStrangeEnergy",
-    "Text": "Restores strange energy immediately"
+    "Text": "Моментально восстанавливает Странную энергию"
   },
   {
     "ID": "consumable.effectTimed",
@@ -5690,19 +5487,19 @@
   },
   {
     "ID": "consumable.effectPerSip",
-    "Text": "{0} per sip"
+    "Text": "{0} за глоток"
   },
   {
     "ID": "consumable.durationSeconds",
-    "Text": "{0:0.###} s"
+    "Text": "{0:0.###} с"
   },
   {
     "ID": "consumable.durationMinutes",
-    "Text": "{0:0.###} min"
+    "Text": "{0:0.###} мин"
   },
   {
     "ID": "consumable.durationHours",
-    "Text": "{0:0.###} h"
+    "Text": "{0:0.###} ч"
   },
   {
     "ID": "meg.extractedDataHeader",
@@ -5710,49 +5507,50 @@
   },
   {
     "ID": "armor.bonus.sourceConduit",
-    "Text": "Source Conduit: +{0:0.##} maximum alien energy. Recharges normally and powers bound tablets without a mnemonic."
+    "Text": "Проводник Истока: +{0:0.##} к запасу Странной энергии. Перезаряжается и запитывает связанные таблички без мнемоника."
   },
   {
     "ID": "armor.bonus.xenostoneWard",
-    "Text": "Xenostone Ward: {0:0.##}% less damage from xenoid sources and heat."
+    "Text": "Ксенокаменный оберег: Вы получаете на {0:0.##}% меньше урона из ксено-источников и теплом."
   },
-  { "ID": "equipment.droneFiringRateBonus", "Text": "Your drones fire {0}% faster." },
-  { "ID": "item.stat.repulsorEnergyPerProjectileSecond", "Text": "Energy/Second per Nearby Projectile: {0:0.###}" },
-  { "ID": "item.stat.batteryChargePerInput", "Text": "Battery Charge/Input: {0:0.###}" },
-  { "ID": "item.stat.activeProcessingInterval", "Text": "Active Processing Interval: {0:0.###} s" },
-  { "ID": "item.stat.livingTargetDpsRamp", "Text": "DPS Ramp/Second While Hitting Living Targets: {0:0.###}" },
-  { "ID": "item.stat.damagePerPulse", "Text": "Damage/Pulse: {0:0.###}" },
-  { "ID": "item.stat.damagePulseInterval", "Text": "Damage Pulse Interval: {0:0.###} s" },
-  { "ID": "item.stat.storedEnergyDrain", "Text": "Stored Energy/Second While Firing: {0:0.###}" },
-  { "ID": "item.stat.storedEnergyRegen", "Text": "Stored Energy/Second While Idle: {0:0.###}" },
-  { "ID": "item.stat.acquireDelay", "Text": "Target Acquisition Delay: {0:0.###} s" },
-  { "ID": "item.stat.storedEnergy", "Text": "Stored Energy: {0}/{1}" },
-  { "ID": "item.stat.heldAmmoRegeneration", "Text": "While Held: Regenerates 1 Shot Every {0:0.###} s" },
-  { "ID": "item.stat.clipCapacity", "Text": "Clip Capacity: {0}" },
-  { "ID": "item.stat.dartDamage", "Text": "Damage/Dart: {0:0.###}" },
-  { "ID": "item.stat.deployedDartOwnerRisk", "Text": "Deployed darts can harm their owner." },
-  { "ID": "ui.thermite.glob_lifetime", "Text": "Glob Lifetime: {0:0.###} seconds" },
-  { "ID": "ui.thermite.burn_refresh", "Text": "Burn Status: refreshed to {0:0.###} seconds while attached; continues after glob expires" },
-  { "ID": "item.stat.blockedArmorSlots", "Text": "Blocks These Equipment Slots: {0}" },
-  { "ID": "equipment.slot.ARM", "Text": "Arm Armor" },
-  { "ID": "equipment.slot.GLOVE", "Text": "Gloves" },
-  { "ID": "equipment.slot.SHIRT", "Text": "Shirt" },
-  { "ID": "equipment.slot.LEG", "Text": "Leg Armor" },
-  { "ID": "equipment.slot.BOOT", "Text": "Boots" },
-  { "ID": "equipment.slot.PANTS", "Text": "Pants" },
-  { "ID": "equipment.slot.SHOES", "Text": "Shoes" },
-  { "ID": "item.stat.ammoDamagePerPellet", "Text": "Base Ammo Damage/Pellet: {0:0.###} - {1:0.###}" },
-  { "ID": "item.stat.ammoDirectImpactDamage", "Text": "Direct Impact Damage: {0:0.###} - {1:0.###}" },
-  { "ID": "item.stat.primaryAmmoDamageModifier", "Text": "Primary Ammo Damage Multiplier: {0:0.###}x" },
-  { "ID": "item.stat.primaryPellets", "Text": "Primary Pellets/Discharge: {0}" },
-  { "ID": "item.stat.secondaryShotgunPayload", "Text": "Secondary: {0} Shells, {1} Pellets" },
-  { "ID": "item.stat.secondaryShotgunBurst", "Text": "Secondary: {0} Discharges, 1 Shell Each" },
-  { "ID": "item.stat.grenadeFuse", "Text": "Fuse: {0:0.###} s from Launch" },
-  { "ID": "item.stat.blastRadiusTiles", "Text": "Blast Radius: {0:0.###} Tiles" },
-  { "ID": "item.stat.launcherGrenadeDetonation", "Text": "Bounces off terrain. Detonates on creature contact or when its fuse expires." },
-  { "ID": "item.stat.decoyDeploymentTimer", "Text": "Deployment Timer: {0:0.###} s, then Fades" },
-  { "ID": "item.stat.trapContactDamage", "Text": "Base Trap Contact Damage: {0:0.###} Physical" },
-  { "ID": "item.stat.trapPlayerStun", "Text": "Base Player Stun Duration: {0:0.###} s" },
-  { "ID": "item.stat.capacitorChargePerCell", "Text": "Capacitor Charge/Cell: {0:0.###} (up to maximum)" },
-  { "ID": "item.stat.returnsEmptyCell", "Text": "Returns 1 Empty Power Cell when used." }
+  { "ID": "equipment.droneFiringRateBonus",              "Text": "Ваши дроны стреляют на {0}% быстрее." },
+  { "ID": "item.stat.repulsorEnergyPerProjectileSecond", "Text": "Энергии в секунду за Снаряд Рядом: {0:0.###}" },
+  { "ID": "item.stat.batteryChargePerInput",             "Text": "Заряд батареи за ввод: {0:0.###}" },
+  { "ID": "item.stat.activeProcessingInterval",          "Text": "Период активной обработки:: {0:0.###} с" },
+  { "ID": "item.stat.livingTargetDpsRamp",               "Text": "Увеличение УВС в секунду при ударах по живым целям: {0:0.###}" },
+  { "ID": "item.stat.damagePerPulse",                    "Text": "Урон за пульс: {0:0.###}" },
+  { "ID": "item.stat.damagePulseInterval",               "Text": "Интервал пульсов: {0:0.###} с" },
+  { "ID": "item.stat.storedEnergyDrain",                 "Text": "Накопление энергии в секунду во время стрельбы: {0:0.###}" },
+  { "ID": "item.stat.storedEnergyRegen",                 "Text": "Накопление энергии в секунду в простое: {0:0.###}" },
+  { "ID": "item.stat.acquireDelay",                      "Text": "Задержка определения цели: {0:0.###} с" },
+  { "ID": "item.stat.storedEnergy",                      "Text": "Энергия: {0}/{1}" },
+  { "ID": "item.stat.heldAmmoRegeneration",              "Text": "Пока в руках: Регенерирует 1 снаряд каждые {0:0.###} с" },
+  { "ID": "item.stat.clipCapacity",                      "Text": "Патронов в обойме: {0}" },
+  { "ID": "item.stat.dartDamage",                        "Text": "Урон дротика: {0:0.###}" },
+  { "ID": "item.stat.deployedDartOwnerRisk",             "Text": "Выпущенные дротики могут наносить владельцу урон." },
+  { "ID": "ui.thermite.glob_lifetime",                   "Text": "Время жизни сгустка: {0:0.###} с" },
+  { "ID": "ui.thermite.burn_refresh",                    "Text": "Статус горения: обновляется до {0:0.###} с пока прикреплён; продолжается после истечения сгустка" },
+  { "ID": "item.stat.blockedArmorSlots",                 "Text": "Блокирует эти слоты при установке: {0}" },
+  { "ID": "equipment.slot.ARM",                          "Text": "Броня рук" },
+  { "ID": "equipment.slot.GLOVE",                        "Text": "Перчатки" },
+  { "ID": "equipment.slot.SHIRT",                        "Text": "Рубашка" },
+  { "ID": "equipment.slot.LEG",                          "Text": "Поножи" },
+  { "ID": "equipment.slot.BOOT",                         "Text": "Бронеботинки" },
+  { "ID": "equipment.slot.PANTS",                        "Text": "Штаны" },
+  { "ID": "equipment.slot.SHOES",                        "Text": "Ботинки" },
+  { "ID": "item.stat.ammoDamagePerPellet",               "Text": "Урон осколка: {0:0.###} - {1:0.###}" },
+  { "ID": "item.stat.ammoDirectImpactDamage",            "Text": "Урон от прямого попадания: {0:0.###} - {1:0.###}" },
+  { "ID": "item.stat.primaryAmmoDamageModifier",         "Text": "Множитель урона снаряда первичного огня: {0:0.###}x" },
+  { "ID": "item.stat.primaryPellets",                    "Text": "Осколков в выстреле: {0}" },
+  { "ID": "item.stat.secondaryShotgunPayload",           "Text": "Альтернативный огонь: {0} патрона, {1} осколков" },
+  { "ID": "item.stat.secondaryShotgunBurst",             "Text": "Альтернативный огонь: {0} выстрела, 1 патрон в каждом" },
+  { "ID": "item.stat.grenadeFuse",                       "Text": "Фитиль: {0:0.###} с после запуска" },
+  { "ID": "item.stat.blastRadiusTiles",                  "Text": "Радиус взрыва: {0:0.###} клеток" },
+  { "ID": "item.stat.launcherGrenadeDetonation",         "Text": "Отскакивает от земли. Взрывается при контакте с существом, или при догорании фитиля." },
+  { "ID": "item.stat.decoyDeploymentTimer",              "Text": "Время работы: {0:0.###} с, потом исчезает" },
+  { "ID": "item.stat.trapContactDamage",                 "Text": "Контактный физический урон ловушки: {0:0.###}" },
+  { "ID": "item.stat.trapPlayerStun",                    "Text": "Время оглушения игрока: {0:0.###} s" },
+  { "ID": "item.stat.capacitorChargePerCell",            "Text": "Заряд конденсатора за ячейку: {0:0.###} (до максимального)" },
+  { "ID": "item.stat.returnsEmptyCell",                  "Text": "При использовании разряжается в Пустую Энергоячейку." },
+  { "ID": "craft.discoverIngredient",                    "Text": "{0} чтобы узнать" }
 ]
