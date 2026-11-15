@@ -982,7 +982,7 @@
   },
   {
     "ID": "load.tip.map",
-    "Text": "Совет: Откройте карту и посмотрите, как много Вы прошли, нажатием клаиши {0}."
+    "Text": "Совет: Откройте карту и посмотрите, как много Вы прошли, нажатием клавиши {0}."
   },
   {
     "ID": "load.tip.scanCodex",
@@ -990,7 +990,7 @@
   },
   {
     "ID": "load.tip.organize",
-    "Text": "Совет: Если Вы носите слишком много вещей, используйте контейнеры, чтобы организовать их."
+    "Text": "Совет: Если Вы носите слишком много вещей, используйте контейнеры."
   },
   {
     "ID": "load.tip.holdReload",
@@ -4096,8 +4096,7 @@
   },
   {
     "ID": "creative.folder.segment.shells",
-    "Text": "Shells",
-    "__Comment": "TODO"
+    "Text": "Патроны для дробовика"
   },
   {
     "ID": "creative.folder.segment.shield",
@@ -4449,8 +4448,7 @@
   },
   {
     "ID": "interaction.connect",
-    "Text": "Присоединиться",
-    "__Comment": "Или всё-таки \"подключить?\""
+    "Text": "Подключиться"
   },
   {
     "ID": "interaction.play",
@@ -4554,8 +4552,7 @@
   },
   {
     "ID": "interaction.hold",
-    "Text": "Держать",
-    "__Comment": "TODO"
+    "Text": "Задержите"
   },
   {
     "ID": "interaction.nextChannel",
@@ -4671,7 +4668,7 @@
   },
   {
     "ID": "controller.action.choose",
-    "Text": "Выберите"
+    "Text": "Выбрать"
   },
   {
     "ID": "controller.action.next",
@@ -4823,11 +4820,11 @@
   },
   {
     "ID": "controller.hint.cancelDraw",
-    "Text": "Нажмите {0} для отмены вытаскивания"
+    "Text": "Нажмите {0} для отмены"
   },
   {
     "ID": "controller.hint.light",
-    "Text": "Нажмите {0} для фонарика"
+    "Text": "Нажмите {0} для встроенной лампы в MEG"
   },
   {
     "ID": "controller.hint.zoom",

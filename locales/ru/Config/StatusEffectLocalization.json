@@ -1,1 +1,336 @@
-[]
+[
+  {
+    "ID": "status.RESPAWN_PROTECTION",
+    "Text": "Защита после возрождения\nВы неуязвимы на 60 секунд после возрождения. Эффект заканчивается, если Вы используете какой-либо предмет, лазер, или сделаете пинок."
+  },
+  {
+    "ID": "status.SPITTER_SPIT",
+    "Text": "Разъедающая желчь Плевуна."
+  },
+  {
+    "ID": "status.HEAL_OVER_TIME",
+    "Text": "Восстановление здоровья."
+  },
+  {
+    "ID": "status.ENERGY_OVER_TIME",
+    "Text": "Восстановление энергии."
+  },
+  {
+    "ID": "status.RESPAWN",
+    "Text": "Вы возрождаетесь."
+  },
+  {
+    "ID": "status.SLOW",
+    "Text": "Вы замедлены."
+  },
+  {
+    "ID": "status.WELL_FED",
+    "Text": "Вы хорошо поели и восстанавливаете здоровье."
+  },
+  {
+    "ID": "status.FIRE",
+    "Text": "Вы горите."
+  },
+  {
+    "ID": "status.THORNS",
+    "Text": "Вы наносите контактный урон."
+  },
+  {
+    "ID": "status.MOVE_SPEED",
+    "Text": "Скорость Вашего передвижения и атаки увеличена."
+  },
+  {
+    "ID": "status.MELEE_SPEED",
+    "Text": "Ваши атаки в ближнем бою быстрее."
+  },
+  {
+    "ID": "status.MAX_ENERGY",
+    "Text": "Максимальный запас энергии увеличен."
+  },
+  {
+    "ID": "status.MAX_HEALTH",
+    "Text": "Максимальный запас здоровья увеличен."
+  },
+  {
+    "ID": "status.SOLAR_CHARGE",
+    "Text": "Вы заряжетесь от солнца."
+  },
+  {
+    "ID": "status.REDUCE_FALL_DAMAGE",
+    "Text": "Вы сопротивляетесь урону от падения."
+  },
+  {
+    "ID": "status.CHARGE_ON_STEP",
+    "Text": "Вы заряжаетесь от шагов."
+  },
+  {
+    "ID": "status.STATIC_CAPACITOR",
+    "Text": "Конденсатор статического напряжения заряжает Вас."
+  },
+  {
+    "ID": "status.ARMORED",
+    "Text": "Получаемый Вами урон уменьшен."
+  },
+  {
+    "ID": "status.ANTGOO",
+    "Text": "Вы в какой-то слизи."
+  },
+  {
+    "ID": "status.STINKY",
+    "Text": "Вы воняете."
+  },
+  {
+    "ID": "status.RESIST_FIRE",
+    "Text": "Вы сопротивляетесь урону от огня."
+  },
+  {
+    "ID": "status.RESIST_FIRE_PERCENT",
+    "Text": "Вы сопротивляетесь урону от огня."
+  },
+  {
+    "ID": "status.RESIST_CORROSIVE_PERCENT",
+    "Text": "Вы сопротивляетесь урону кислотой."
+  },
+  {
+    "ID": "status.HUD_MOB_HEALTH",
+    "Text": "Вы видите здоровье существ."
+  },
+  {
+    "ID": "status.XENOLITH",
+    "Text": "???"
+  },
+  {
+    "ID": "status.HARD_LIKE_ROCK",
+    "Text": "Вы крепки, как камень."
+  },
+  {
+    "ID": "status.JUMP_HEIGHT",
+    "Text": "Вы прыгаете выше."
+  },
+  {
+    "ID": "status.THROW_POWER",
+    "Text": "Ваш бросок усилен."
+  },
+  {
+    "ID": "status.OPTICAL_CAMO",
+    "Text": "Вы что-то типа невидимы."
+  },
+  {
+    "ID": "status.PROJECTILE_REPULSOR",
+    "Text": "Вы отражаете летящие в Вас снаряды."
+  },
+  {
+    "ID": "status.CALM",
+    "Text": "Вы спокойны."
+  },
+  {
+    "ID": "status.FREEZE",
+    "Text": "Вы замерзаете."
+  },
+  {
+    "ID": "status.XENOID_IMPORTANT",
+    "Text": "???"
+  },
+  {
+    "ID": "status.RESIST_SULFUR_GAS_PERCENT",
+    "Text": "Вы сопротивляетесь урону от серного газа."
+  },
+  {
+    "ID": "status.SOUL_DRAIN",
+    "Text": "Increases the amount of soul energy drained.",
+    "__Comment": "TODO"
+  },
+  {
+    "ID": "status.SOUL_EFFECT",
+    "Text": "Вы наносите больше урона по душам врагов."
+  },
+  {
+    "ID": "status.BLEED",
+    "Text": "Вы истекаете кровью."
+  },
+  {
+    "ID": "status.DUGLETTE_POISON",
+    "Text": "Вы получаете урон и более уязвимы для атак."
+  },
+  {
+    "ID": "status.LIGHT_AURA",
+    "Text": "Вы светитесь."
+  },
+  {
+    "ID": "status.RESIST_BLEED",
+    "Text": "Вы сопротивляетесь кровотечению."
+  },
+  {
+    "ID": "status.SPELL_DAMAGE",
+    "Text": "Вы наносите больше урона Странными Способностями."
+  },
+  {
+    "ID": "status.SPELL_COST",
+    "Text": "Вы тратите меньше Странной Энергии."
+  },
+  {
+    "ID": "status.SLIGHT_MELEE_DAMAGE",
+    "Text": "Ваши атаки в ближнем бою немного быстрее."
+  },
+  {
+    "ID": "status.MEDIUM_MELEE_DAMAGE",
+    "Text": "Ваши атаки в ближнем бою быстрее."
+  },
+  {
+    "ID": "status.GREAT_MELEE_DAMAGE",
+    "Text": "Ваши атаки в ближнем бою очень быстры."
+  },
+  {
+    "ID": "status.SLIGHT_RANGED_DAMAGE",
+    "Text": "Вы наносите немного больше урона в дальнем бою."
+  },
+  {
+    "ID": "status.MEDIUM_RANGED_DAMAGE",
+    "Text": "Вы наносите больше урона в дальнем бою."
+  },
+  {
+    "ID": "status.GREAT_RANGED_DAMAGE",
+    "Text": "Вы наносите сильно больше урона в дальнем бою."
+  },
+  {
+    "ID": "status.THE_HUNGER",
+    "Text": "The Hunger",
+    "__Comment": "TODO"
+  },
+  {
+    "ID": "status.RESIST_POISON_PERCENT",
+    "Text": "Вы сопротивляетесь яду."
+  },
+  {
+    "ID": "status.VULNERABILITY",
+    "Text": "Вы уязвимы."
+  },
+  {
+    "ID": "status.PROTECTION",
+    "Text": "Вы сопротивляетесь урону."
+  },
+  {
+    "ID": "status.POISON",
+    "Text": "Вы отравлены."
+  },
+  {
+    "ID": "status.DODGE_SPEED",
+    "Text": "Вы лучше уклоняетесь."
+  },
+  {
+    "ID": "status.RESIST_XENITE_PERCENT",
+    "Text": "Вы сопротивляетесь Ксено-урону"
+  },
+  {
+    "ID": "status.CHARGE_ALIEN_ENERGY",
+    "Text": "Вы восстанавливаете запас Странной Энергии."
+  },
+  {
+    "ID": "status.MELEE_DAMAGE_PERCENT",
+    "Text": "Вы наносите больше урона в ближнем бою."
+  },
+  {
+    "ID": "status.CURE",
+    "Text": "Вы исцелены от отрицательных эффектов."
+  },
+  {
+    "ID": "status.MAX_STAMINA",
+    "Text": "Максимальный запас выносливости увеличен."
+  },
+  {
+    "ID": "status.RIDICULOUSLY_FULL",
+    "Text": "Вы невероятно объелись. Не стоит так много есть. Правда."
+  },
+  {
+    "ID": "status.PARASITE_PHASE_ONE",
+    "Text": "Почему-то Вы очень голодны."
+  },
+  {
+    "ID": "status.PARASITE_PHASE_TWO",
+    "Text": "В вас что-то растёт, и это что-то заставляет вас испытывать невероятный голод."
+  },
+  {
+    "ID": "status.PARASITE_PHASE_THREE",
+    "Text": "Вы едите за двоих."
+  },
+  {
+    "ID": "status.IMPROVED_WELL_FED",
+    "Text": "Вы восстанавливаете здоровье лучше прежнего."
+  },
+  {
+    "ID": "status.MOVEMENT_STAMINA_COST",
+    "Text": "Вам легче передвигаться."
+  },
+  {
+    "ID": "status.RANGED_ACCURACY",
+    "Text": "Вы точнее стреляете."
+  },
+  {
+    "ID": "status.MELEE_STAMINA_COST",
+    "Text": "Вам легче атаковать."
+  },
+  {
+    "ID": "status.BIOREACTOR",
+    "Text": "Переваривая еду, Вы восстанавливаете Энергию."
+  },
+  {
+    "ID": "status.ENERGY_SHIELD",
+    "Text": "Вас защищает энергетический щит."
+  },
+  {
+    "ID": "status.STIMULANT",
+    "Text": "Скорость Вашего передвижения увеличена."
+  },
+  {
+    "ID": "status.FORTITUDE",
+    "Text": "Вы легче переносите жару и холод и сопротивляетесь замедлению."
+  },
+  {
+    "ID": "status.CONSTITUTION",
+    "Text": "Вы сопротивляетесь яду, кислоте и болезням."
+  },
+  {
+    "ID": "status.INCREASED_STAMINA_REGEN",
+    "Text": "Вы быстрее восстанавливаете выносливость."
+  },
+  {
+    "ID": "status.INCREASED_INTENSITY",
+    "Text": "Эффекты еды усилены."
+  },
+  {
+    "ID": "status.INCREASED_DURATION",
+    "Text": "Эффекты еды продлены."
+  },
+  {
+    "ID": "status.SAD_BAD_FOOD",
+    "Text": "Вам грустно из-за той гадости, которую вы съели."
+  },
+  {
+    "ID": "status.MAX_HEALTH_PERCENT",
+    "Text": "Максимальный запас здоровья увеличен."
+  },
+  {
+    "ID": "status.PARASITIC",
+    "Text": "Могут водиться паразиты."
+  },
+  {
+    "ID": "status.ANTIPARASITIC",
+    "Text": "Вы сопротивляетесь паразитам."
+  },
+  {
+    "ID": "status.REDUCE_HEALTH_REGEN",
+    "Text": "Понижает естественное восстановление здоровья."
+  },
+  {
+    "ID": "status.IPECAC",
+    "Text": "Заставляет Вас вернуть на свет всё, что Вы недавно съели."
+  },
+  {
+    "ID": "status.SOURCE_CONDUIT",
+    "Text": "Проводник Истока."
+  },
+  {
+    "ID": "status.XENOSTONE_WARD",
+    "Text": "Тотем из Ксено-камня."
+  }
+]

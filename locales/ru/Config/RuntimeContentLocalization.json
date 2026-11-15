@@ -1,1 +1,582 @@
-[]
+[
+  {
+    "Kind": "Flora",
+    "ID": "sol.apple_tree",
+    "Name": "Яблоня",
+    "Description": "Дерево, привезённое с Земли. На нём растут яблоки."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.bana_bush",
+    "Name": "Куст баны",
+    "Description": "Куст, на котором растут плоды баны."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.bloo_bush",
+    "Name": "Куст сини",
+    "Description": "Куст, на котором растут плоды сини."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.bustnut_bush",
+    "Name": "Куст бомбореха",
+    "Description": "Странный куст, на котором растут бомборехи."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.buttnut_tree",
+    "Name": "Дерево попореха",
+    "Description": "Отдалённо напоминающее что-то дерево, на котором растёт странноватый орех с маслянистой текстурой."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.citrica_stalk_large",
+    "Name": "Кислица",
+    "Description": "Инопланетное растение, на котором растут плоды кислицы."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.citrica_stalk_med",
+    "Name": "Кислица",
+    "Description": "Инопланетное растение, на котором растут плоды кислицы."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.citrica_stalk",
+    "Name": "Кислица",
+    "Description": "Инопланетное растение, на котором растут плоды кислицы."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.corn_fruiting",
+    "Name": "Стебель кукурузы",
+    "Description": "Стебель, на котором растут початки кукурузы."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.cotton_fruiting",
+    "Name": "Хлопок",
+    "Description": "Стебель хлопка."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.delicious_bush",
+    "Name": "Вкусный куст",
+    "Description": "Куст, на котором растут вкусные плоды."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.hard_nut_tree",
+    "Name": "Дерево крепких орешков",
+    "Description": "Знакомое, но странное дерево, на котором растут крепкие орешки. То есть, не Вы."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.jiggly_tree",
+    "Name": "Трясковое дерево",
+    "Description": "Знакомое, но странное дерево, на котором растут плоды Тряскофрукта."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.juicy_tree",
+    "Name": "Сочное дерево",
+    "Description": "Знакомое, но странное дерево, на котором растут плоды Сочнофрукта."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.ominous_tree_green",
+    "Name": "Зловещее дерево",
+    "Description": "Странное зловещее дерево."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.ominous_tree_orange",
+    "Name": "Зловещее дерево",
+    "Description": "Странное зловещее дерево."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.ominous_tree_purple",
+    "Name": "Зловещее дерево",
+    "Description": "Странное зловещее дерево."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.ominous_tree_white",
+    "Name": "Зловещее дерево",
+    "Description": "Странное зловещее дерево."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.orange_tree",
+    "Name": "Апельсиновое дерево",
+    "Description": "Дерево, привезённое с Земли. На нём растут апельсины."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.peach_tree",
+    "Name": "Персиковое дерево",
+    "Description": "Дерево, привезённое с Земли. На нём растут апельсины."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.podfruit_tree",
+    "Name": "Выводковое дерево",
+    "Description": "Дерево, на котором растут плоды выводки."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.spray_nut_fruiting",
+    "Name": "Росток дроборехового дерева",
+    "Description": "Стебель, на котором растёт большое семечко."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.sweety_tree",
+    "Name": "Сладковатое дерево",
+    "Description": "Знакомое, но странное дерево, на котором растут сладкие фрукты."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.wheat_fruiting",
+    "Name": "Росток пшеницы",
+    "Description": "Росток пшеницы."
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_blast",
+    "Name": "Взрывчатый тоник",
+    "Description": "В этом сосуде налита густая, взрывчатая жижа из биотоплива и какого-то странного растения. Я бы такое не пил.",
+    "OverrideAmmoDescriptionString": "Взрывчатый тоник"
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_cure",
+    "Name": "Лечащий тоник",
+    "Description": "Простой тоник, созданный чтобы быстро восстановить Ваше здоровье.",
+    "OverrideAmmoDescriptionString": "Лечащий тоник"
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_energy",
+    "Name": "Тоник энергии",
+    "Description": "Простой тоник, созданный чтобы быстро восстановить Вашу энергию.",
+    "OverrideAmmoDescriptionString": "Тоник энергии"
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_greater_blast",
+    "Name": "Разрывной тоник",
+    "Description": "В этом сосуде налита густая, разрывная жижа из биотоплива и какого-то странного растения. Такое я бы точно не пил. Не надо. Стой.",
+    "OverrideAmmoDescriptionString": "Разрывной тоник"
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_greater_heal",
+    "Name": "Исцеляющий тоник",
+    "Description": "Хороший тоник, созданный чтобы быстро восстановить приличное количество Вашего здоровья.",
+    "OverrideAmmoDescriptionString": "Исцеляющий тоник"
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_heal",
+    "Name": "Тоник лечения",
+    "Description": "Простой тоник, созданный чтобы быстро восстановить Ваше здоровье.",
+    "OverrideAmmoDescriptionString": "Тоник лечения"
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_arms_autocannon",
+    "effect.01": "Каждый выстрел расходует 5 Энергии Вашего конденсатора."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_arms_bolt_driver",
+    "effect.01": "Каждый выстрел расходует 15 Энергии Вашего конденсатора."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_arms_forgeblade",
+    "effect.01": "Расходует 1 Энергию Вашего конденсатора в секунду, пока активно."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_eyes_laser",
+    "effect.01": "Даёт способность излучать Лазер из глаз.",
+    "effect.02": "Расходует 1 Энергию Вашего конденсатора в секунду, когда активно."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_eyes_synthetic",
+    "effect.01": "Показывает здоровье существ.",
+    "effect.02": "Показывает траекторию снарядов."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_stomach_bioreactor",
+    "effect.01": "Генерирует 2 Энергии вашего Конденсатора в секунду, когда у Вас есть еда в желудке.",
+    "effect.02": "Удваивает скорость переваривания пищи.",
+    "effect.03": "Не даёт паразитам развиться в Вашем желудке."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_stomach_metabolic",
+    "effect.01": "Даёт способность Ускоренного Метаболизма. На десять секунд восстанавливает 3 единицы Здоровья в секунду, но расходует вдесятеро больше еды.",
+    "effect.02": "Не даёт паразитам развиться в Вашем желудке."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_stomach_regurgitator",
+    "effect.01": "Даёт способность Изрыгнуть. Вы выстреливаете кислотным снарядом, потребляя при этом еду из желудка.",
+    "effect.02": "Не даёт паразитам развиться в Вашем желудке."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_stomach_synthetic",
+    "effect.01": "Удваивает восстановление здоровья, получаемое за статус \"Хорошо поел\".",
+    "effect.02": "Не даёт паразитам развиться в Вашем желудке."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_axe",
+    "effect.01": "Ваша следующая атака в ближнем бою выпускает разряд энергии, увеличивая наносимый урон на 25%. Перезаряжается 3 секунды."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_club",
+    "effect.01": "Ваша следующая атака в ближнем бою выпускает разряд энергии, увеличивая наносимый урон на 25%. Перезаряжается 3 секунды."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_dagger",
+    "effect.01": "Ваша следующая атака в ближнем бою выпускает разряд энергии, увеличивая наносимый урон на 25%. Перезаряжается 3 секунды."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_greatsword",
+    "effect.01": "Ваша следующая атака в ближнем бою выпускает разряд энергии, увеличивая наносимый урон на 25%. Перезаряжается 3 секунды."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_pick",
+    "effect.01": "Ваша следующая атака в ближнем бою выпускает разряд энергии, увеличивая наносимый урон на 25%. Перезаряжается 3 секунды."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_spear",
+    "effect.01": "Ваша следующая атака в ближнем бою выпускает разряд энергии, увеличивая наносимый урон на 25%. Перезаряжается 3 секунды."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_sword",
+    "effect.01": "Ваша следующая атака в ближнем бою выпускает разряд энергии, увеличивая наносимый урон на 25%. Перезаряжается 3 секунды."
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.bustnut_shrapnel",
+    "Name": "Осколок Взрывореха"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.buttnut_shrapnel",
+    "Name": "Осколок Попореха"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.green_ominous",
+    "Name": "Зелёный зловещий снаряд"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.orange_ominous",
+    "Name": "Оранжевый зловещий снаряд"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.purple_ominous",
+    "Name": "Фиолетовый зловещий снаряд"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.spraynut_shrapnel",
+    "Name": "Осколок дробореха"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.white_ominous",
+    "Name": "Белый зловещий снаряд"
+  },
+  {
+    "Kind": "Status",
+    "ID": "sol.mod_max_health",
+    "Name": "Увеличение запаса здоровья.",
+    "Description": "Ваш запас здоровья увеличен."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.granite_hinged_door",
+    "Name": "Гранитная дверь",
+    "Description": "Гранитная дверь."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.iron_hinged_door",
+    "Name": "Железная дверь",
+    "Description": "Железная дверь."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.marble_hinged_door",
+    "Name": "Мраморная дверь",
+    "Description": "Мраморная дверь."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.ramshackle_hinged_door",
+    "Name": "Ветхая дверь",
+    "Description": "Так себе сколоченная дверь из таких себе материалов. Стыдоба."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.steel_hinged_door",
+    "Name": "Стальная дверь",
+    "Description": "Стальная дверь."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.stone_hinged_door",
+    "Name": "Каменная дверь",
+    "Description": "Каменная дверь."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_hinged_door",
+    "Name": "Техно-дверь",
+    "Description": "Высокотехнологичная дверь."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.wood_hinged_door",
+    "Name": "Деревянная дверь",
+    "Description": "Деревянная дверь."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.large_specimen_container",
+    "Name": "Большая колба с экспериментом",
+    "Description": "Большая стеклянная колба с каким-то экспериментом внутри."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.specimen_container_chicken_fetus",
+    "Name": "Большая колба с зародышем курицы",
+    "Description": "Большая стеклянная колба с каким-то экспериментом внутри."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.specimen_container_mature_chicken_fetus",
+    "Name": "Большая колба со взрослой курицей",
+    "Description": "Большая стеклянная колба с каким-то экспериментом внутри."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_barricade",
+    "Name": "Строительная ограда",
+    "Description": "Ограда, которой помечается зона активного строительства."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_materials",
+    "Name": "Стройматериалы",
+    "Description": "Материалы. Для строительства. Стройматериалы."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_panels",
+    "Name": "Строящиеся панели",
+    "Description": "Панели, которые строят."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_posts",
+    "Name": "Строительные столбики",
+    "Description": "Столбики, которыми помечается зона активного строительства."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_scaffold",
+    "Name": "Строительные леса",
+    "Description": "Большие строительные леса."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_wall_tarp_large",
+    "Name": "Большой строительный брезент",
+    "Description": "Большой строительный брезент."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_wall_tarp_small",
+    "Name": "Маленький строительный брезент",
+    "Description": "Маленький строительный брезент."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.corroded_coolant_tank",
+    "Name": "Разъеденный баллон системы охлаждения",
+    "Description": "Большой баллон с хладагентом, разъеденный какой-то органической кислотой."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.corroded_wooden_crate",
+    "Name": "Разъеденный деревянный ящик",
+    "Description": "Деревянный ящик, который разъело какой-то органической кислотой."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_data_storage",
+    "Name": "Серверная стойка с данными",
+    "Description": "Высокотехнологичная серверная стойка, хранящая информацию из систем станции \"Первопроходец\"."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_extension_ladder",
+    "Name": "Стремянка",
+    "Description": "Большая стремянка для строительства."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.pioneer_generator_coolant",
+    "Name": "Баллоны системы охлаждения",
+    "Description": "Набор баллонов с хладагентом, охлаждающим генератор станции \"Первопроходец\"."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_server_stack",
+    "Name": "Серверная стойка",
+    "Description": "Серверная стойка станции \"Первопроходец\"."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_stacked_panels",
+    "Name": "Стопка строительных плит",
+    "Description": "Стопка плит, которые определенно будут использованы для всяческого строительства на станции \"Первопроходец\"."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_window_round1",
+    "Name": "Техно-окно 1",
+    "DisplayName": "Сводное укреплённое окно",
+    "Description": "Полукруглое техно-окно."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_window_square3",
+    "Name": "Квадратное техно-окно 3",
+    "DisplayName": "Маленькое прямоугольное укреплённое окно",
+    "Description": "Прямоугольное техно-окно."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_window_square4",
+    "Name": "Квадратное техно-окно 4",
+    "DisplayName": "Высокое укреплённое окно",
+    "Description": "Прямоугольное техно-окно."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_sconce_empty",
+    "Name": "Пустое бра из ксено-камня",
+    "Description": "Инопланетная декорация из неизвестного материала."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_sconce_filled",
+    "Name": "Наполненное бра из ксено-камня",
+    "Description": "Инопланетная декорация из неизвестного материала."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.ruined_claw_door",
+    "Name": "Сломанная дверь",
+    "Description": "Разбитые остатки, отдалённо напоминающие дверь."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.ruined_claw_statue",
+    "Name": "Сломанная статуя",
+    "Description": "Разбитые остатки чего-то похожего на статую. Судя по кускам, разбросанным вокруг, когда-то это была клешня, крепко держащая фиолетовую сферу."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_decor_claw",
+    "Name": "Клешня из ксено-камня",
+    "Description": "Инопланетная декорация из неизвестного материала."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_decor_runestone",
+    "Name": "Покрытая рунами декорация из ксено-камня",
+    "DisplayName": "Рунный камень из ксено-камня",
+    "Description": "Инопланетная декорация из неизвестного материала. Покрыта неизвестными мне рунами."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_decor_stonestack0",
+    "Name": "Груда ксено-камня",
+    "Description": "Груда из неизвестной породы."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_decor_stonestack1",
+    "Name": "Груда ксено-камня 2",
+    "DisplayName": "Груда ксено-камня",
+    "Description": "Груда из неизвестной породы."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_ringstone_empty",
+    "Name": "Пустая лампа-кольцо из ксено-камня",
+    "Description": "Инопланетная декорация из неизвестного материала."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_ringstone_filled",
+    "Name": "Лампа-кольцо из ксено-камня",
+    "Description": "Инопланетная декорация из неизвестного материала."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xns_recess_0",
+    "Name": "Углубление из ксено-камня 0",
+    "DisplayName": "Сводчатое углубление из ксено-камня",
+    "Description": "Рукотворное углубление из неизвестного материала."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xns_recess_3",
+    "Name": "Углубление из ксено-камня 3",
+    "DisplayName": "Маленькое углубление из ксено-камня",
+    "Description": "Рукотворное углубление из неизвестного материала."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xns_recess_4",
+    "Name": "Углубление из ксено-камня 4",
+    "DisplayName": "Широкое углубление из ксено-камня",
+    "Description": "Рукотворное углубление из неизвестного материала."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_barnacle",
+    "Name": "Моллюск из ксено-камня",
+    "Description": "Каменный нарост с мерзковатой, спорно живой, штукой выпирающей из него."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_boulder",
+    "Name": "Валун из ксено-камня",
+    "Description": "Большой валун, непробиваемый ни одним известным методом. Однако, он поставлен весьма неустойчиво, и достаточно сильный удар прямо по нему может его сломать."
+  }
+]
