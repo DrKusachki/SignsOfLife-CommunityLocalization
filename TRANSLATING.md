@@ -5,15 +5,15 @@ translated rows to the matching file under `locales/<code>/Config/`. You can
 start with one row. Missing rows and empty translated fields stay in English.
 For submissions to this repository, read [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-Test this snapshot with **Signs of Life 1.0.7**, checking the version on the main
-menu. Use a published build containing the exact snapshot commit in
-[`english/SOURCE.json`](english/SOURCE.json); this repository does not confirm
-the live Steam rollout.
+Test this snapshot with **Signs of Life 1.1.1**, checking the version on the
+main menu. See [`english/SOURCE.json`](english/SOURCE.json) for the reference
+version and date. Some text may be missing or different in older game versions.
+Missing or empty translations use the English supplied by the installed game.
 
-Older beta builds may lack newer text or layout fixes. Version 0.26.16 has
-earlier translation support. Text introduced after your installed build stays
-English or is not shown until the corresponding game update. Missing or empty
-translations always use the English supplied by the installed game.
+After an update, read [the English change report](changes.md) and
+[the updating guide](UPDATING.md) before testing an older pack. If a pack fails
+to load, fix the reported JSON errors and retry **Load Now**. Mod Prep checks
+localization table shapes and field types before upload.
 
 ## Find your file
 
@@ -66,7 +66,8 @@ Common UI terms to keep consistent:
 | Dig Laser / Extraction Laser | MEG mining beam. Prefer the equivalent of “Dig Laser” for a short UI label. |
 | Grab Laser / Manipulation Laser | Pulls world items. Prefer the equivalent of “Grab Laser” for a short UI label. |
 | Wrist Scanner / Scan Laser | Scans creatures and ore. Its beam hurts xenoids. |
-| Hotbar / scroll slots | The 1–8 equipment row. |
+| Hotbar / scroll slots | Manual mode has ten storage slots, bound by default to 1–9 and 0, and is now the default. Automatic mode has eight category slots. |
+| Hotbar Layout / Hotbar Radial | Separate settings: Manual or Automatic layout, and Categories or Hotbar Slots for the radial menu. |
 | Quick slots | Z/X utility slots, separate from the hotbar. |
 | Projects / Build in World | Large structures built directly in the world rather than produced as inventory items. |
 | Codex | Creature and datapad archive in the MEG. |
@@ -160,10 +161,14 @@ from `UILocalization.json`, so use the same stat terms in both files.
 
 **`RecipeLocalization.json`** has recipe names, category labels, and
 adjusted-result labels. Keep recipe `Name`, category `Key`, result IDs, and
-`DisplaySource` unchanged. Translate a recipe `DisplayName` when the English
+`DisplaySource` references unchanged. Translate a recipe `DisplayName` when the English
 row supplies one. A `DisplaySource` row normally shows its single result's
 localized item, tile, prefab, or structure name; an explicit recipe
-`DisplayName` can override that. Rows with neither field need no translation
+`DisplayName` can override that. To switch an older locale override to
+inheritance, supply the reference `DisplaySource` and omit its old
+`DisplayName`. If both are supplied, a valid, nonempty `DisplayName` wins.
+An unresolved reference falls back to the English recipe name.
+Rows with neither field need no translation
 at present. Translate categories and adjusted-result labels as complete
 phrases. Recipe search uses *only the displayed name*, so try searching for
 your translation rather than the English `Name` key.
@@ -226,9 +231,10 @@ have a choice.
   voice quirks, jokes, and invented syllables.
 
 The `PREVIEW`, `INPUT`, `PROMPT`, and decorative `MAGNETIC HANDLE` labels are
-embedded in game artwork and cannot yet be changed by a locale pack. Current fonts support Latin and
-Cyrillic; see the README's [font and script limits](README.md#font-and-script-limits)
-for other scripts.
+embedded in game artwork and cannot yet be changed by a locale pack. See the
+README's [font and script limits](README.md#font-and-script-limits) for current
+glyph coverage and layout limitations. You may want to recheck translated text
+in narrow controls after a font change.
 
 ## Setting and terminology (spoilers)
 

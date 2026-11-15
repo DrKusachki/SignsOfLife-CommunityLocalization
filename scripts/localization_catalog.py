@@ -122,14 +122,82 @@ def _text(row: dict[str, Any], field: str, label: str) -> str | None:
     return value if value.strip() else None
 
 
+def _last_keyed_rows(value: Any, key: str, label: str,
+                     *, numeric: bool = False, item: bool = False):
+    # Validate every identity, then extract prose only from each whole winning row.
+    # A blank or omitted field must not resurrect a discarded translation.
+    winners = {}
+    for row in _rows(value, label):
+        ident = _identity(row, key, label, numeric=numeric, item=item)
+        winners[ident] = row
+    return winners.items()
+
+
+def _validate_prose_shapes(table: str, data: Any) -> None:
+    # Typed runtime tables deserialize every row before replacing duplicates.
+    # Preserve malformed-field errors, without retaining discarded prose.
+    if table == "RuntimeContentLocalization.json":
+        return  # Its JObject overlay reads fields only after selecting winners.
+    if table in {"ArmorSetData.json", "RecipeLocalization.json"}:
+        if not isinstance(data, dict):
+            raise ValueError(f"{table} must be an object")
+        sections = (("Pieces", ("Name", "Description")), ("Sets", ())) if table == "ArmorSetData.json" else (
+            (section, ("DisplayName",)) for section in ("Recipes", "Categories", "Slots", "AdjustedResults")
+        )
+        groups = [(data.get(section, []), names, f"{table}.{section}") for section, names in sections]
+    else:
+        names = ("Text",) if table in UI_TABLES or table == "GlyphLocalization.json" else (
+            ("Normal", "Robot", "Gangster", "Cowboy") if table == "DialogLocalization.json" else (
+                PROSE_TABLES[table][1] if table in PROSE_TABLES else ("DisplayName",)
+            )
+        )
+        groups = [(data, names, table)]
+    for value, names, label in groups:
+        for row in _rows(value, label):
+            for name in names:
+                _text(row, name, label)
+            maps = ("Templates",) if table == "InventoryItemData.json" else (
+                ("DescriptionsByState", "SpecificTooltips") if table == "StaticPrefabRegistrationData.json" else ()
+            )
+            for name in maps:
+                nested = row.get(name)
+                if nested is None:
+                    continue
+                if not isinstance(nested, dict):
+                    raise ValueError(f"{label}.{name} must be an object")
+                for key in nested:
+                    if not isinstance(key, str) or not key.strip():
+                        raise ValueError(f"{label}.{name} needs nonblank string keys")
+                    _text(nested, key, f"{label}.{name}")
+            if table == "InventoryItemData.json":
+                variants = _optional_rows(row.get("DescriptionVariants"), label + ".DescriptionVariants")
+                for variant in variants:
+                    _identity(variant, "ID", label + ".DescriptionVariants")
+                    for name in ("Name", "Text"):
+                        _text(variant, name, label + ".DescriptionVariants")
+            if table == "ArmorSetData.json":
+                bonuses = row.get("Bonuses")
+                if bonuses is not None:
+                    if not isinstance(bonuses, list):
+                        raise ValueError(f"{label}.Bonuses must be an array")
+                    # Locale armor matching preserves null positional slots.
+                    for bonus in bonuses:
+                        if bonus is not None:
+                            if not isinstance(bonus, dict):
+                                raise ValueError(f"{label}.Bonuses contains a non-object row")
+                            _text(bonus, "Description", label + ".Bonuses")
+
+
 def fields_for_table(table: str, data: Any) -> dict[Address, str]:
     """Return only nonblank authored prose, keyed by stable identities.
 
-    Armor pieces without ItemType are valid legacy authoring rows, but cannot
-    be targeted by a locale overlay and are therefore excluded.
+    Repeated identities select the whole last row before extracting prose,
+    matching locale overlays. Armor pieces without ItemType are valid legacy
+    authoring rows, but cannot be targeted by an overlay and are excluded.
     """
     if table not in TABLES:
         raise ValueError(f"Unsupported localization table: {table}")
+    _validate_prose_shapes(table, data)
     result: dict[Address, str] = {}
 
     def add(ident: str, field: str, text: str | None,
@@ -148,14 +216,8 @@ def fields_for_table(table: str, data: Any) -> dict[Address, str]:
 
     def keyed_rows(value: Any, key: str, section: str = "",
                    numeric: bool = False, item: bool = False):
-        seen = set()
         label = table + (f".{section}" if section else "")
-        for row in _rows(value, label):
-            ident = _identity(row, key, label, numeric=numeric, item=item)
-            if ident in seen:
-                raise ValueError(f"Duplicate {label} identity: {ident}")
-            seen.add(ident)
-            yield ident, row
+        return _last_keyed_rows(value, key, label, numeric=numeric, item=item)
 
     if table in UI_TABLES:
         for ident, row in keyed_rows(data, "ID"):
@@ -223,14 +285,12 @@ def fields_for_table(table: str, data: Any) -> dict[Address, str]:
         for ident, row in keyed_rows(data, "ID", numeric=table == "TileLocalization.json"):
             scalars(row, ident, ("Text",) if table == "GlyphLocalization.json" else ("DisplayName",))
     elif table == "RuntimeContentLocalization.json":
-        seen = set()
+        winners = {}
         for row in _rows(data, table):
             ident = _identity(row, "ID", table)
             kind = _identity(row, "Kind", table)
-            identity = (kind, ident)
-            if identity in seen:
-                raise ValueError(f"Duplicate {table} identity: {identity}")
-            seen.add(identity)
+            winners[kind, ident] = row
+        for (kind, ident), row in winners.items():
             for field, value in row.items():
                 if field not in {"Kind", "ID"} and isinstance(value, str) and value.strip():
                     add(ident, field, value, kind=kind)
@@ -293,6 +353,7 @@ def _align_armor_overlay(data: Any, reference: Any) -> dict[str, Any]:
     table = "ArmorSetData.json"
     if not isinstance(data, dict):
         raise ValueError(f"{table} must be an object")
+    _validate_prose_shapes(table, data)
     if reference is _MISSING:
         reference = {}
     # Validate source identities before borrowing any of them.
@@ -307,12 +368,10 @@ def _align_armor_overlay(data: Any, reference: Any) -> dict[str, Any]:
             ident = _identity(row, key, f"{table}.{section}")
             by_id[ident] = row
         rows = []
-        for row in _rows(data.get(section, []), f"{table}.{section}"):
-            if section == "Pieces" and row.get("ItemType") is None:
-                # Match the existing treatment of non-addressable legacy rows.
-                rows.append(dict(row))
-                continue
-            ident = _identity(row, key, f"{table}.{section}")
+        overlay_rows = _rows(data.get(section, []), f"{table}.{section}")
+        if section == "Pieces":
+            overlay_rows = [row for row in overlay_rows if row.get("ItemType") is not None]
+        for ident, row in _last_keyed_rows(overlay_rows, key, f"{table}.{section}"):
             if section == "Pieces":
                 ident = ident.strip()  # Enum.TryParse(row.ItemType.Trim()).
             normalized = dict(row)

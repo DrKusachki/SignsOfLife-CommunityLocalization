@@ -1,5 +1,9 @@
 [
   {
+    "ID": "tooltip.CODEX_PLANTS",
+    "Text": "View the details of plants that you have scanned with your wrist scanner."
+  },
+  {
     "ID": "tooltip.HEALTH",
     "Text": "Health ({0}/{1}) and Stamina ({2}/{3})"
   },
@@ -46,6 +50,10 @@
   {
     "ID": "tooltip.SCROLL_SLOTS",
     "Text": "Scroll Slots - Automatically filled by items in your inventory. You can scroll through the items in a category with your mousewheel."
+  },
+  {
+    "ID": "tooltip.SCROLL_SLOTS.manual",
+    "Text": "Manual Hotbar - Drag items here to fill slots. Select a slot to equip its item. Drag an item off the bar to clear its slot."
   },
   {
     "ID": "tooltip.QUICK_SLOTS",
@@ -284,32 +292,64 @@
     "Text": "Blocks that you can build with will be in this slot."
   },
   {
+    "ID": "tooltip.HUD_ICON_BLOCKS.manual",
+    "Text": "Hold the hotkey for this slot to open the radial menu for blocks."
+  },
+  {
     "ID": "tooltip.HUD_ICON_CONSUMABLE",
     "Text": "Consumables other than normal food."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_CONSUMABLE.manual",
+    "Text": "Hold the hotkey for this slot to open the radial menu for consumables other than normal food."
   },
   {
     "ID": "tooltip.HUD_ICON_FOOD",
     "Text": "Food, for eating."
   },
   {
+    "ID": "tooltip.HUD_ICON_FOOD.manual",
+    "Text": "Hold the hotkey for this slot to open the radial menu for food."
+  },
+  {
     "ID": "tooltip.HUD_ICON_DIG",
     "Text": "Digging tools will be in this slot."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_DIG.manual",
+    "Text": "Hold the hotkey for this slot to open the radial menu for digging tools."
   },
   {
     "ID": "tooltip.HUD_ICON_GADGET",
     "Text": "Gadgets will be in this slot."
   },
   {
+    "ID": "tooltip.HUD_ICON_GADGET.manual",
+    "Text": "Hold the hotkey for this slot to open the radial menu for gadgets."
+  },
+  {
     "ID": "tooltip.HUD_ICON_MELEE",
     "Text": "Melee weapons will be in this slot."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_MELEE.manual",
+    "Text": "Hold the hotkey for this slot to open the radial menu for melee weapons."
   },
   {
     "ID": "tooltip.HUD_ICON_RANGED",
     "Text": "Ranged weapons will be in this slot."
   },
   {
+    "ID": "tooltip.HUD_ICON_RANGED.manual",
+    "Text": "Hold the hotkey for this slot to open the radial menu for ranged weapons."
+  },
+  {
     "ID": "tooltip.HUD_ICON_THROWABLE",
     "Text": "Throwable things will be in this slot."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_THROWABLE.manual",
+    "Text": "Hold the hotkey for this slot to open the radial menu for throwable items."
   },
   {
     "ID": "tooltip.GRID_BUTTON",
@@ -409,10 +449,6 @@
   },
   {
     "ID": "tooltip.FAVORITES_BUTTON",
-    "Text": "Toggle between displaying your hotbar as scrollable slots or manual slots that you can drag items to. Hotkey: {0}."
-  },
-  {
-    "ID": "tooltip.HOTBAR_HELP_BUTTON",
-    "Text": "Hotbar help"
+    "Text": "Toggle between Automatic categories and Manual storage slots. Switching to Automatic returns stored items to your backpack and clears the manual layout."
   }
 ]

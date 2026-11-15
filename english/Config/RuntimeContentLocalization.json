@@ -3,145 +3,145 @@
     "Kind": "Flora",
     "ID": "sol.apple_tree",
     "Name": "Apple Tree",
-    "Description": "An earth native tree that grows apples over time."
+    "Description": "Grows apples that temporarily increase movement speed."
   },
   {
     "Kind": "Flora",
     "ID": "sol.bana_bush",
     "Name": "Bana Bush",
-    "Description": "A bush that grows a bana-like fruit."
+    "Description": "Grows Bana Fruit that improves resistance to freezing and slowing effects."
   },
   {
     "Kind": "Flora",
     "ID": "sol.bloo_bush",
     "Name": "Bloo Bush",
-    "Description": "A bush that grows a bloo fruit."
+    "Description": "Grows Blue Fruit that improves poison resistance."
   },
   {
     "Kind": "Flora",
     "ID": "sol.bustnut_bush",
     "Name": "Bustnut Bush",
-    "Description": "A strange bush that grows a volatile nut."
+    "Description": "Grows explosive nuts that increase melee speed when used in meals."
   },
   {
     "Kind": "Flora",
     "ID": "sol.buttnut_tree",
     "Name": "Buttery Nut Tree",
-    "Description": "A somewhat familiar looking tree that grows a strange, juicy fruit."
+    "Description": "Grows Buttery Nuts for meals that increase melee speed."
   },
   {
     "Kind": "Flora",
     "ID": "sol.citrica_stalk_large",
     "Name": "Citrica Plant",
-    "Description": "An alien plant that coincidentally produces citrica fruit."
+    "Description": "Grows Citrica Fruit that increases stamina regeneration."
   },
   {
     "Kind": "Flora",
     "ID": "sol.citrica_stalk_med",
     "Name": "Citrica Plant",
-    "Description": "An alien plant that coincidentally produces citrica fruit."
+    "Description": "Grows Citrica Fruit that increases stamina regeneration."
   },
   {
     "Kind": "Flora",
     "ID": "sol.citrica_stalk",
     "Name": "Citrica Plant",
-    "Description": "An alien plant that coincidentally produces citrica fruit."
+    "Description": "Grows Citrica Fruit that increases stamina regeneration."
   },
   {
     "Kind": "Flora",
     "ID": "sol.corn_fruiting",
     "Name": "Corn Stalk",
-    "Description": "A stalk that grows cobs of corn when fully grown."
+    "Description": "Grows corn that reduces stamina spent on movement."
   },
   {
     "Kind": "Flora",
     "ID": "sol.cotton_fruiting",
     "Name": "Cotton",
-    "Description": "A stalk of cotton."
+    "Description": "Produces cotton for cloth and padding."
   },
   {
     "Kind": "Flora",
     "ID": "sol.delicious_bush",
     "Name": "Delicious Bush",
-    "Description": "A bush that grows a delicious fruit."
+    "Description": "Grows Delicious Fruit that temporarily increases maximum health."
   },
   {
     "Kind": "Flora",
     "ID": "sol.hard_nut_tree",
     "Name": "Hardnut Tree",
-    "Description": "A familiar yet strange looking tree that grows some kind of hard nut over time."
+    "Description": "Grows Hard Nuts for meals that increase melee speed."
   },
   {
     "Kind": "Flora",
     "ID": "sol.jiggly_tree",
-    "Name": "Jilggy Tree",
-    "Description": "A familiar yet strange looking tree that grows some kind of jiggly fruit over time."
+    "Name": "Jiggly Tree",
+    "Description": "Grows Jiggly Fruit that temporarily increases maximum health."
   },
   {
     "Kind": "Flora",
     "ID": "sol.juicy_tree",
     "Name": "Peach Tree",
-    "Description": "A somewhat familiar looking tree that grows a strange, juicy fruit."
+    "Description": "Grows Juicy Fruit that restores health over time."
   },
   {
     "Kind": "Flora",
     "ID": "sol.ominous_tree_green",
     "Name": "Ominous Tree",
-    "Description": "A strange ominous looking tree."
+    "Description": "Mature trees yield colored crystals for Ominous Wands."
   },
   {
     "Kind": "Flora",
     "ID": "sol.ominous_tree_orange",
     "Name": "Ominous Tree",
-    "Description": "A strange ominous looking tree."
+    "Description": "Mature trees yield colored crystals for Ominous Wands."
   },
   {
     "Kind": "Flora",
     "ID": "sol.ominous_tree_purple",
     "Name": "Ominous Tree",
-    "Description": "A strange ominous looking tree."
+    "Description": "Mature trees yield colored crystals for Ominous Wands."
   },
   {
     "Kind": "Flora",
     "ID": "sol.ominous_tree_white",
     "Name": "Ominous Tree",
-    "Description": "A strange ominous looking tree."
+    "Description": "Mature trees yield colored crystals for Ominous Wands."
   },
   {
     "Kind": "Flora",
     "ID": "sol.orange_tree",
     "Name": "Orange Tree",
-    "Description": "An earth native tree that grows oranges over time."
+    "Description": "Grows oranges that increase stamina regeneration."
   },
   {
     "Kind": "Flora",
     "ID": "sol.peach_tree",
     "Name": "Peach Tree",
-    "Description": "An earth native tree that grows peaches over time."
+    "Description": "Grows peaches that temporarily increase movement speed."
   },
   {
     "Kind": "Flora",
     "ID": "sol.podfruit_tree",
     "Name": "Podfruit Tree",
-    "Description": "A tree that grows a podded fruit."
+    "Description": "Grows Pod Fruit that increases maximum health. Cook it first to avoid parasites."
   },
   {
     "Kind": "Flora",
     "ID": "sol.spray_nut_fruiting",
     "Name": "Spraynut Stalk",
-    "Description": "A stalk that grows a large seed."
+    "Description": "Grows shard-spraying nuts that increase melee speed when used in meals."
   },
   {
     "Kind": "Flora",
     "ID": "sol.sweety_tree",
     "Name": "Sweety Tree",
-    "Description": "A somewhat familiar looking tree that grows a strange, sweet fruit."
+    "Description": "Grows Sweet Fruit that temporarily increases movement speed."
   },
   {
     "Kind": "Flora",
     "ID": "sol.wheat_fruiting",
     "Name": "Wheat Stalk",
-    "Description": "A stalk of wheat."
+    "Description": "Yields wheat that temporarily reduces damage taken when eaten."
   },
   {
     "Kind": "Fluid",

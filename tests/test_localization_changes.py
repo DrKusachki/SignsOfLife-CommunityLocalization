@@ -151,6 +151,46 @@ class LocalizationChangesTests(unittest.TestCase):
         self.assertEqual(report.fingerprint(review["translation"]), review["translationHash"])
         self.assertTrue(review["acknowledgment"])
 
+    def test_refresh_and_status_use_winning_duplicate_rows_without_rewriting_translations(self):
+        self.make_repo(self.previous, {"tip": "Old"}, {"tip": "[fr] Old"})
+        self.make_repo(self.repo, {"tip": "New"}, {"tip": "[fr] New"}, commit="new-source")
+        for root, english, translation in ((self.previous, "Old", "[fr] Old"),
+                                            (self.repo, "New", "[fr] New")):
+            write_json(root / "english/Config" / TABLE, [
+                {"ID": "tip", "Text": "discarded English"}, {"ID": "tip", "Text": english},
+            ])
+            write_json(root / "locales/fr/Config" / TABLE, [
+                {"ID": "tip", "Text": "discarded translation"}, {"ID": "tip", "Text": translation},
+            ])
+        previous_bytes = tree_bytes(self.previous)
+        translations = (self.repo / "locales/fr/Config" / TABLE).read_bytes()
+
+        changes = report.refresh(self.previous, self.repo, self.registry)
+
+        self.assertEqual(1, changes["summary"]["changed"])
+        self.assertEqual("Old", changes["changes"][0]["oldEnglish"])
+        self.assertEqual("New", changes["changes"][0]["newEnglish"])
+        locale = self.locale_status()
+        self.assertEqual(1, locale["summary"]["needsReview"])
+        self.assertEqual("Old", locale["needsReview"][0]["previousEnglish"])
+        self.assertEqual("[fr] New", locale["needsReview"][0]["translation"])
+        self.assertEqual(previous_bytes, tree_bytes(self.previous))
+        self.assertEqual(translations, (self.repo / "locales/fr/Config" / TABLE).read_bytes())
+
+    def test_status_reports_blank_winning_duplicate_as_missing(self):
+        self.prepare_change()
+        for winner in ({}, {"Text": ""}, {"Text": None}):
+            with self.subTest(winner=winner):
+                write_json(self.repo / "locales/fr/Config" / TABLE, [
+                    {"ID": "tip", "Text": "[fr] discarded"}, {"ID": "tip", **winner},
+                ])
+
+                locale = self.locale_status()
+
+                self.assertEqual(1, locale["summary"]["missing"])
+                self.assertEqual(0, locale["summary"]["needsReview"])
+                self.assertIn(address("tip"), locale["missing"])
+
     def test_repeated_noop_refresh_does_not_erase_needs_review(self):
         report_changes = self.prepare_change()
         self.assertEqual(1, report_changes["summary"]["changed"])
