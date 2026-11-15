@@ -1,7 +1,7 @@
 {
   "game": "Signs of Life",
-  "targetGameVersion": "1.0.14",
-  "snapshotDate": "2026-11-13",
+  "targetGameVersion": "1.1.1",
+  "snapshotDate": "2026-11-15",
   "overlayableFiles": [
     "Config/UILocalization.json",
     "Config/TooltipLocalization.json",

@@ -11,15 +11,18 @@ Use the English files here as a reference and put translated entries in a
 language pack. You can start with one line; untranslated entries stay in English
 in the game.
 
-This English snapshot targets **Signs of Life 1.0.14**. Check the version on the
+This English snapshot targets **Signs of Life 1.1.1**. Check the version on the
 game's main menu before testing your translation pack. Some text may be missing
 or different in older game versions.
 
 Missing or empty translations fall back to the English supplied by your installed game.
 
 The game loads a locale as an ordinary mod pack: copy `locales/<code>/` into
-`Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
-restart. Enable only one locale pack at a time; the last loaded overlay wins.
+`Documents/My Games/Signs of Life/Mods` and enable it in Mods outside a
+multiplayer session. Locale packs load when enabled; after fixing a failed
+load, use **Load Now** to retry. Disabling a loaded pack reloads content;
+restart if the game reports that reload failed. Enable only one locale pack
+at a time; the last loaded overlay wins.
 
 <!-- translation-updates -->
 ## Keeping a translation current
@@ -61,7 +64,7 @@ and words correctly left the same as English may count as untranslated.
 
 <!-- coverage-table:start -->
 
-A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8286 fields in this snapshot.
+A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8269 fields in this snapshot.
 
 | Language | Pack | Text coverage |
 | --- | --- | ---: |
@@ -102,9 +105,16 @@ A field counts toward text coverage when it is non-empty and not a copy of Engli
 
 ## Font and script limits
 
+The interface now uses Russo One with Liberation Mono and Noto fallback fonts.
+You may want to recheck wrapping and narrow controls when testing an existing
+translation.
+The fallback fonts include glyphs for Latin, Cyrillic, Greek, Vietnamese,
+Hebrew, Arabic, Armenian, and Thai. Glyph coverage does not add right-to-left
+layout or complex-script shaping. CJK and Hangul glyphs are not included.
+
 <!-- unsupported-table:start -->
 
-The shipped fonts cannot draw these scripts yet, so there is no pack folder.
+These languages do not have starter pack folders in this repository. Check the glyph and layout limits above before creating a pack.
 
 | Language | Code | Script |
 | --- | --- | --- |

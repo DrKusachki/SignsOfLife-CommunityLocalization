@@ -464,6 +464,32 @@
     {
       "from": {
         "table": "UILocalization.json",
+        "id": "item.stat.ammoBaseDamageParenthesized",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "item.stat.ammoDamageRange",
+        "field": "Text"
+      },
+      "reason": "Guns, bows, crossbows and standalone ammo share the shorter ammo damage label."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "item.stat.ammoDamageParenthesized",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "item.stat.ammoDamageRange",
+        "field": "Text"
+      },
+      "reason": "Guns, bows, crossbows and standalone ammo share the shorter ammo damage label."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
         "id": "item.stat.arrowAp",
         "field": "Text"
       },
@@ -925,6 +951,442 @@
       },
       "to": null,
       "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.behavior.assign",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.behavior.defense",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.behavior.hostOnly",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.behavior.outings",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.behavior.production",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.behavior.recallCrew",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.behavior.recalled",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.behavior.resumeOutings",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.behavior.returnDelay",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.behavior.riskHelp",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.tab.behavior",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.tab.policy",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.family.maintenance",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.family.survey",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.fieldCapacity",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.fieldDuty",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.recall",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.risk",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.risk.bold",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.risk.cautious",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.risk.normal",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.stance.avoid",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.stance.normal",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.policy.stance.prefer",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused in this snapshot; the colony computer's Behavior tab and former Policy controls are hidden."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.production.bowls",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Pottery now uses the localized sol.clay_bowl item name. Do not copy the retired plural UI label into the singular item Name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.production.plates",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Pottery now uses the localized sol.clay_plate item name. Do not copy the retired plural UI label into the singular item Name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.activity.hunting",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused activity label in the disabled Crew roster. The live Hunting production job keeps crew.ops.job.Hunting."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.summary.plate",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Pottery delivery summaries now combine the localized item name with a quantity. Do not copy this count phrase into the singular item Name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.summary.plates",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Pottery delivery summaries now combine the localized item name with a quantity. Do not copy this count phrase into the singular item Name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.summary.bowl",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Pottery delivery summaries now combine the localized item name with a quantity. Do not copy this count phrase into the singular item Name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.summary.bowls",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Pottery delivery summaries now combine the localized item name with a quantity. Do not copy this count phrase into the singular item Name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "item.category.Misc",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "item.category.Misc.",
+        "field": "Text"
+      },
+      "reason": "Both miscellaneous item grouping keys now share the existing Misc. display label."
+    },
+    {
+      "from": {
+        "table": "TooltipLocalization.json",
+        "id": "tooltip.HOTBAR_HELP_BUTTON",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "The dedicated hotbar help button was removed; this tooltip has no replacement."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "bind.switchHotbar",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "The hotbar mode-switch shortcut was removed. Choose the layout through the button or Settings instead."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.production.atPost",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused guard-duty display text was removed; no replacement translation is needed."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "crew.ops.production.guardBlocked",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused guard-duty display text was removed; no replacement translation is needed."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "grinder.blade",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "These machine slot labels were not displayed and have been removed."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "grinder.fuel",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "These machine slot labels were not displayed and have been removed."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "prefab.fcSlot",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "These machine slot labels were not displayed and have been removed."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "tinker.item",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "These machine slot labels were not displayed and have been removed."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "item.meleeAttackSpeed",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "The inactive crafting-details stat labels were removed. Current item statistics keep their separate labels."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "item.meleeDamage",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "The inactive crafting-details stat labels were removed. Current item statistics keep their separate labels."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "opt.baked",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "The obsolete font glyph-mode selector was removed; no replacement translation is needed."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "opt.runtime",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "The obsolete font glyph-mode selector was removed; no replacement translation is needed."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.fontGlyphs",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "The obsolete font glyph-mode selector was removed; no replacement translation is needed."
+    },
+    {
+      "from": {
+        "table": "helpData.json",
+        "id": "HOTBAR",
+        "field": "Category"
+      },
+      "to": null,
+      "reason": "The old HOTBAR help topic was removed; there is no replacement topic."
+    },
+    {
+      "from": {
+        "table": "helpData.json",
+        "id": "HOTBAR",
+        "field": "Label"
+      },
+      "to": null,
+      "reason": "The old HOTBAR help topic was removed; there is no replacement topic."
+    },
+    {
+      "from": {
+        "table": "helpData.json",
+        "id": "HOTBAR",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "The old HOTBAR help topic was removed; there is no replacement topic."
     }
   ]
 }

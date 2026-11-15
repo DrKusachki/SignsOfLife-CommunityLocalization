@@ -536,7 +536,7 @@ def render_unsupported_table(unsupported: list) -> str:
     lines = [
         UNSUPPORTED_TABLE_START,
         "",
-        "The shipped fonts cannot draw these scripts yet, so there is no pack folder.",
+        "These languages do not have starter pack folders in this repository. Check the glyph and layout limits above before creating a pack.",
         "",
         "| Language | Code | Script |",
         "| --- | --- | --- |",

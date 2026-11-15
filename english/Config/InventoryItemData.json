@@ -2340,7 +2340,7 @@
         "ItemID":  4023,
         "Complexity":  3,
         "Name":  "Strange Tablet",
-        "Description":  "A strange tablet of unfamiliar material, covered in tool marks and engravings.\n\nUse alternate fire or hold the quick slot key to use it on yourself.\n\nIt seems inactive.",
+        "Description":  "A strange tablet of unfamiliar material, covered in tool marks and engravings. It seems inactive.\n\nIt looks like it fits in a slot on that Strange Gadget you found on the asteroid. You can open the Strange Gadget using its button at the top of the screen.",
         "Templates":  {
                           "bound":  "A strange tablet of unfamiliar material, covered in tool marks and engravings.\n\nUse alternate fire or hold the quick slot key to use it on yourself.\n\nIt seems to be pulsing with energy.",
                           "learnedUnboundInfo": "Use alternate fire or hold the quick slot key to use it on yourself.\n\nIt seems inactive.",
@@ -5216,7 +5216,7 @@
         "Complexity":  1,
         "Name":  "Delicious Fruit",
         "AutoOrganizeString":  "forager",
-        "Description":  "This delicious fruit has a sweet smell.",
+        "Description":  "This delicious fruit has a tangy smell.",
         "Category":  "Food"
     },
     {
@@ -5248,7 +5248,7 @@
         "Complexity":  1,
         "Name":  "Sweet Fruit",
         "AutoOrganizeString":  "forager",
-        "Description":  "An incredibly sweet fruit that increases your maximum stamina when eaten.",
+        "Description":  "An incredibly sweet fruit.",
         "Category":  "Food"
     },
     {
@@ -5835,7 +5835,7 @@
         "Complexity":  1,
         "Name":  "Human Brain",
         "AutoOrganizeString":  "hunter",
-        "Description":  "A human brain. It looks like it was living... until recently.",
+        "Description":  "A human brain. It looks like it was living… until recently.",
         "Category":  "Food"
     },
     {
@@ -6428,7 +6428,7 @@
         "Complexity":  1,
         "Name":  "Parasitic Abscess",
         "AutoOrganizeString":  "hunter",
-        "Description":  "A gross sac of squirming putrid... something.",
+        "Description":  "A gross sac of squirming putrid… something.",
         "Category":  "Throwable"
     },
     {
@@ -7034,7 +7034,7 @@
         "Complexity":  1,
         "Name":  "Good Berry",
         "AutoOrganizeString":  "forager",
-        "Description":  "A tiny berry with the curious quality of keeping you full for a ridiculously long time. Just... don't eat two of them."
+        "Description":  "A tiny berry with the curious quality of keeping you full for a ridiculously long time. Just… don't eat two of them."
     },
     {
         "ItemID":  "sol.honeycomb",
@@ -7458,7 +7458,7 @@
         "Complexity":  1,
         "Name":  "Raw Human Meat",
         "AutoOrganizeString":  "hunter",
-        "Description":  "Raw red meat. You should probably cook it on a heat source. Or.. maybe just leave it where you found it..."
+        "Description":  "Raw red meat. You should probably cook it on a heat source. Or.. maybe just leave it where you found it…"
     },
     {
         "ItemID":  "sol.raw_poultry",
@@ -7617,7 +7617,7 @@
         "ItemID":  "sol.cyber_legs_behemoth",
         "Complexity":  5,
         "Name":  "Cybernetic Legs (Behemoth)",
-        "Description":  "These cybernetic legs are extremely armored but...  I'm going to be honest, they're irresponsibly bulky."
+        "Description":  "These cybernetic legs are extremely armored but…  I'm going to be honest, they're irresponsibly bulky."
     },
     {
         "ItemID":  "sol.cyber_legs_heavy",
@@ -8319,7 +8319,7 @@
         "Complexity":  1,
         "Name":  "Bust Nut",
         "AutoOrganizeString":  "forager",
-        "Description":  "A volatile nut that explodes if jostled too much. If it is planted in bare dirt then it will grow into a beautiful plant, just... do it carefully."
+        "Description":  "A volatile nut that explodes if jostled too much. If it is planted in bare dirt then it will grow into a beautiful plant, just… do it carefully."
     },
     {
         "ItemID":  "sol.buttery_nut",
@@ -8340,7 +8340,7 @@
         "Complexity":  1,
         "Name":  "Podfruit Seed",
         "AutoOrganizeString":  "forager",
-        "Description":  "This is... a seed with an incredibly sharp point on the end. It can be planted if dropped on bare dirt."
+        "Description":  "This is… a seed with an incredibly sharp point on the end. It can be planted if dropped on bare dirt."
     },
     {
         "ItemID":  "sol.spray_nut",
@@ -8424,7 +8424,7 @@
         "Complexity":  1,
         "Name":  "Ominous Seed",
         "AutoOrganizeString":  "forager",
-        "Description":  "This appears to be some kind of ominous looking seed. If planted on bare dirt, it will probably grow into... something."
+        "Description":  "This appears to be some kind of ominous looking seed. If planted on bare dirt, it will probably grow into… something."
     },
     {
         "ItemID":  "sol.orange_seed",

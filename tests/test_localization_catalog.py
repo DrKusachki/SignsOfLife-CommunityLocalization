@@ -153,23 +153,117 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(len(fields), 3)
         self.assertEqual({a.kind for a in fields}, {"a:b", "a"})
 
-    def test_duplicate_identities_and_bonus_keys_are_rejected(self):
+    def test_repeated_rows_replace_whole_rows_for_each_table(self):
         cases = [
-            ("UILocalization.json", [{"ID": "same"}, {"ID": "same", "Text": "text"}]),
-            ("DialogLocalization.json", [{"ID": 2}, {"ID": "02"}]),
-            ("InventoryItemData.json", [{"ItemID": 1}, {"ItemID": "1"}]),
-            ("InventoryItemData.json", [{"ItemID": 1, "DescriptionVariants": [{"ID": "same"}, {"ID": "same"}]}]),
-            ("RuntimeContentLocalization.json", [{"Kind": "Flora", "ID": "same"}, {"Kind": "Flora", "ID": "same"}]),
-            ("RecipeLocalization.json", {"Recipes": [{"Name": "same"}, {"Name": "same"}]}),
-            ("ArmorSetData.json", {"Pieces": [{"ItemType": "HAT"}, {"ItemType": "HAT"}]}),
-            ("ArmorSetData.json", {"Sets": [{"Name": "set", "Bonuses": [
-                {"Effect": "same", "NumPieces": 2, "Description": "a"},
-                {"Effect": "same", "NumPieces": 2, "Description": "b"},
-            ]}]}),
+            ("UILocalization.json", "ID", "same", "Text", "unused"),
+            ("TooltipLocalization.json", "ID", "same", "Text", "unused"),
+            ("StatusEffectLocalization.json", "ID", "same", "Text", "unused"),
+            ("DialogLocalization.json", "ID", 2, "Normal", "Robot"),
+            ("helpData.json", "Key", "same", "Text", "Label"),
+            ("journalEntries.json", "ID", 2, "Message", "unused"),
+            ("InventoryItemData.json", "ItemID", 2, "Name", "Description"),
+            ("MeleeWeaponData.json", "ItemID", 2, "Name", "Description"),
+            ("RangedWeaponData.json", "ItemID", 2, "Name", "Description"),
+            ("ProjectileRegistrationData.json", "SaveName", "same", "Name", "unused"),
+            ("CreatureRegistrationData.json", "LivingEntityType", "same", "Name", "Description"),
+            ("StaticPrefabRegistrationData.json", "StaticPrefabType", "same", "Name", "Description"),
+            ("DatapadTextData.json", "ID", 2, "Text", "Title"),
+            ("TileLocalization.json", "ID", 2, "DisplayName", "unused"),
+            ("GlyphLocalization.json", "ID", "same", "Text", "unused"),
+        ]
+        for table, key, ident, field, discarded_field in cases:
+            with self.subTest(table=table):
+                fields = fields_for_table(table, [
+                    {key: ident, field: "first", discarded_field: "discarded"},
+                    {key: str(ident), field: "last"},
+                ])
+                self.assertEqual(fields, {Address(table, str(ident), field): "last"})
+
+    def test_blank_or_omitted_winning_fields_do_not_restore_discarded_prose(self):
+        for winner in ({}, {"Text": ""}, {"Text": " \t"}, {"Text": None}):
+            with self.subTest(winner=winner):
+                self.assertEqual(fields_for_table("UILocalization.json", [
+                    {"ID": "same", "Text": "discarded"}, {"ID": "same", **winner},
+                ]), {})
+        self.assertEqual(fields_for_table("InventoryItemData.json", [
+            {"ItemID": 1, "Name": "discarded", "Templates": {"full": "discarded"},
+             "DescriptionVariants": [{"ID": "full", "Name": "discarded"}]},
+            {"ItemID": "1", "Description": "winner"},
+        ]), {Address("InventoryItemData.json", "1", "Description"): "winner"})
+
+    def test_description_variants_select_whole_last_row(self):
+        self.assertEqual(fields_for_table("InventoryItemData.json", [{
+            "ItemID": 1, "DescriptionVariants": [
+                {"ID": "full", "Name": "discarded", "Text": "discarded"},
+                {"ID": "blank", "Name": "discarded"},
+                {"ID": "full", "Text": "winner"}, {"ID": "blank", "Name": ""},
+            ],
+        }]), {Address("InventoryItemData.json", "1", "DescriptionVariants.full.Text"): "winner"})
+
+    def test_runtime_duplicates_match_kind_and_id_before_reading_prose(self):
+        self.assertEqual(fields_for_table("RuntimeContentLocalization.json", [
+            {"Kind": "Flora", "ID": "sol.same", "Name": "discarded", "Description": "discarded"},
+            {"Kind": "Flora", "ID": "sol.same", "Name": {}, "Description": []},
+            {"Kind": "Fluid", "ID": "sol.same", "Name": "fluid"},
+            {"Kind": "Flora", "ID": "sol.same", "Name": "flora"},
+        ]), {
+            Address("RuntimeContentLocalization.json", "sol.same", "Name", kind="Flora"): "flora",
+            Address("RuntimeContentLocalization.json", "sol.same", "Name", kind="Fluid"): "fluid",
+        })
+
+    def test_recipe_duplicates_are_scoped_to_their_section(self):
+        data = {section: [{key: "same", "DisplayName": "discarded"},
+                          {key: "same", "DisplayName": section}]
+                for section, key in (("Recipes", "Name"), ("Categories", "Key"),
+                                     ("Slots", "Key"), ("AdjustedResults", "Key"))}
+        self.assertEqual(fields_for_table("RecipeLocalization.json", data), {
+            Address("RecipeLocalization.json", "same", "DisplayName", section=section): section
+            for section in data
+        })
+
+    def test_armor_duplicates_replace_piece_and_set_rows_before_bonus_extraction(self):
+        self.assertEqual(fields_for_table("ArmorSetData.json", {
+            "Pieces": [{"ItemType": "HAT", "Description": "discarded", "Bonuses": [{}]},
+                       {"ItemType": "HAT", "Name": "winner"}],
+            "Sets": [{"Name": "set", "Bonuses": [{"Description": "discarded"}]},
+                     {"Name": "set", "Bonuses": []}],
+        }), {Address("ArmorSetData.json", "HAT", "Name", section="Pieces"): "winner"})
+
+    def test_discarded_malformed_fields_and_missing_identities_are_rejected(self):
+        cases = [
+            ("UILocalization.json", [{"ID": "same", "Text": {}}, {"ID": "same", "Text": "winner"}]),
+            ("DialogLocalization.json", [{"ID": 1, "Robot": []}, {"ID": 1, "Normal": "winner"}]),
+            ("InventoryItemData.json", [{"ItemID": 1, "Templates": []}, {"ItemID": 1, "Name": "winner"}]),
+            ("InventoryItemData.json", [{"ItemID": 1, "DescriptionVariants": [{"ID": "same", "Text": {}}]},
+                                        {"ItemID": 1, "Name": "winner"}]),
+            ("InventoryItemData.json", [{"ItemID": 1, "DescriptionVariants": [
+                {"ID": "same", "Name": []}, {"ID": "same", "Name": "winner"},
+            ]}]),
+            ("ArmorSetData.json", {"Pieces": [{"ItemType": "HAT", "Name": []},
+                                              {"ItemType": "HAT", "Name": "winner"}]}),
+            ("ArmorSetData.json", {"Sets": [{"Name": "set", "Bonuses": {}}, {"Name": "set"}]}),
+            ("RecipeLocalization.json", {"Recipes": [{"Name": "same", "DisplayName": {}},
+                                                      {"Name": "same", "DisplayName": "winner"}]}),
+            ("GlyphLocalization.json", [{"ID": "same", "Text": []}, {"ID": "same", "Text": "winner"}]),
+            ("UILocalization.json", [{"Text": "missing"}, {"ID": "same", "Text": "winner"}]),
+            ("InventoryItemData.json", [{"ItemID": 1, "DescriptionVariants": [
+                {"Text": "missing"}, {"ID": "same", "Text": "winner"},
+            ]}]),
+            ("InventoryItemData.json", [{"ItemID": 1, "DescriptionVariants": [{"Text": "missing"}]},
+                                        {"ItemID": 1, "Name": "winner"}]),
+            ("RuntimeContentLocalization.json", [{"ID": "sol.same", "Name": "missing"},
+                                                 {"Kind": "Flora", "ID": "sol.same", "Name": "winner"}]),
         ]
         for table, data in cases:
-            with self.subTest(table=table, data=data), self.assertRaisesRegex(ValueError, "Duplicate"):
+            with self.subTest(table=table), self.assertRaises(ValueError):
                 fields_for_table(table, data)
+
+    def test_ambiguous_authored_armor_bonus_keys_remain_rejected(self):
+        with self.assertRaisesRegex(ValueError, "Duplicate"):
+            fields_for_table("ArmorSetData.json", {"Sets": [{"Name": "set", "Bonuses": [
+                {"Effect": "same", "NumPieces": 2, "Description": "a"},
+                {"Effect": "same", "NumPieces": 2, "Description": "b"},
+            ]}]})
 
     def test_malformed_shapes_and_text_are_rejected(self):
         cases = [
@@ -236,6 +330,31 @@ class CatalogFileTests(unittest.TestCase):
         self.assertNotIn(Address("ArmorSetData.json", "IRON_GLOVES", "Description", section="Pieces"), fields)
         self.assertFalse(any(value.startswith("English") for value in fields.values()))
         self.assertEqual((english / "ArmorSetData.json").read_bytes(), original_source)
+
+    def test_armor_alignment_selects_winning_rows_before_resolving_bonuses(self):
+        source = {
+            "Pieces": [{"ItemType": "HAT", "Name": "discarded", "Bonuses": []},
+                       {"ItemType": "HAT", "Name": "source", "Description": "source description",
+                        "Bonuses": [{"Effect": "THORNS", "Description": "source bonus"}]}],
+            "Sets": [{"Name": "set", "Bonuses": [
+                {"Effect": "MAX_HEALTH", "NumPieces": 2, "Description": "source set bonus"},
+            ]}],
+        }
+        overlay = {
+            "Pieces": [{"ItemType": "HAT", "Description": "discarded", "Bonuses": [
+                {"Description": "discarded bonus"}, {"Description": "no matching source index"},
+            ]}, {"ItemType": "HAT", "Name": "winner", "Bonuses": [
+                {"Description": "winner bonus"},
+            ]}],
+            "Sets": [{"Name": "set", "Bonuses": [
+                {"NumPieces": 99, "Description": "no matching source count"},
+            ]}, {"Name": "set"}],
+        }
+        english, locale = self.armor_catalogs(source, overlay)
+        self.assertEqual(load_catalog(locale, reference_dir=english), {
+            Address("ArmorSetData.json", "HAT", "Name", section="Pieces"): "winner",
+            Address("ArmorSetData.json", "HAT", 'Bonuses.["THORNS",null].Description', section="Pieces"): "winner bonus",
+        })
 
     def test_set_bonuses_match_first_num_pieces_or_original_overlay_index(self):
         source = {"Sets": [{"Name": "set", "Bonuses": [
@@ -379,7 +498,9 @@ class CatalogFileTests(unittest.TestCase):
             link.rmdir()
 
     def test_current_source_catalogue_uses_all_supported_schemas(self):
-        config = ROOT / "english" / "Config"
+        config = ROOT / "Signs of Life" / "Content" / "Config"
+        if not config.is_dir():
+            config = ROOT / "english" / "Config"
         fields = load_catalog(config)
         self.assertEqual({address.table for address in fields}, set(TABLES))
         self.assertEqual(fields[Address("InventoryItemData.json", "10086", "DescriptionVariants.partial.Name")], "Xenite Crystal")
