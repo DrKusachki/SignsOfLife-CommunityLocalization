@@ -26,12 +26,10 @@ for `sol.clay_bowl` and `sol.clay_plate`, with quantities shown separately.
 Do not copy the retired plural labels or count phrases into those item names.
 Both miscellaneous item categories now use `item.category.Misc.`.
 
-Construction Nails and Mud Brick Slab recipe names inherit their result's
-localized item or tile name; they do not add separate recipe-name translation
-tasks. For an older recipe override, a locale row can supply `DisplaySource`
-to use the shared name instead. Omit the old `DisplayName` from that row when
-switching to inheritance. A valid, nonempty `DisplayName` takes precedence if
-both are supplied. Keep `DisplaySource` references unchanged as identifiers.
+To switch an older recipe override to the shared result name, copy
+`DisplaySource` from the English reference into your locale's recipe row and
+remove `DisplayName` from that same row. A `DisplayName` only in English does
+not block this. Keep a locale `DisplayName` if you want separate recipe wording.
 
 You may want to test wrapping and narrow controls again with the current fonts;
 see the README's [font and script limits](README.md#font-and-script-limits).

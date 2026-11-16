@@ -160,18 +160,19 @@ from `UILocalization.json`, so use the same stat terms in both files.
 ## Crafting and blocks
 
 **`RecipeLocalization.json`** has recipe names, category labels, and
-adjusted-result labels. Keep recipe `Name`, category `Key`, result IDs, and
-`DisplaySource` references unchanged. Translate a recipe `DisplayName` when the English
-row supplies one. A `DisplaySource` row normally shows its single result's
-localized item, tile, prefab, or structure name; an explicit recipe
-`DisplayName` can override that. To switch an older locale override to
-inheritance, supply the reference `DisplaySource` and omit its old
-`DisplayName`. If both are supplied, a valid, nonempty `DisplayName` wins.
-An unresolved reference falls back to the English recipe name.
-Rows with neither field need no translation
-at present. Translate categories and adjusted-result labels as complete
-phrases. Recipe search uses *only the displayed name*, so try searching for
-your translation rather than the English `Name` key.
+adjusted-result labels. Keep recipe `Name` and `DisplaySource` references
+unchanged.
+
+When an English recipe row has `DisplaySource`, translate the referenced item,
+block, or object's name in its own file. The recipe uses that translation
+automatically. Otherwise, translate `DisplayName` when supplied. Rows with
+neither field need no translation.
+
+You can add a `DisplayName` in your locale if a recipe needs different wording
+from its result.
+
+Translate categories and adjusted-result labels as complete phrases, keeping
+`Key` unchanged. Recipe search uses only the displayed name.
 
 **`TileLocalization.json`** uses numeric tile `ID`. Translate `DisplayName`
 once for the block item and its matching inherited recipe. Keep the ID.
