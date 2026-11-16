@@ -96,7 +96,7 @@
   },
   {
     "ID": 20,
-    "Normal": "Well, I don't know what I expected...",
+    "Normal": "Well, I don't know what I expected…",
     "Robot": "Anomalous result recorded."
   },
   {
@@ -131,7 +131,7 @@
   },
   {
     "ID": 27,
-    "Normal": "Did... Did you eat the can as well as the beans or what?",
+    "Normal": "Did… Did you eat the can as well as the beans or what?",
     "Robot": "Have you consumed both the can and the beans?"
   },
   {
@@ -141,7 +141,7 @@
   },
   {
     "ID": 29,
-    "Normal": "Its... an acquired taste.",
+    "Normal": "Its… an acquired taste.",
     "Robot": "It is not for everyone."
   },
   {
@@ -254,7 +254,7 @@
   },
   {
     "ID": 52,
-    "Normal": "Uhhh... CLOSE SESAME?",
+    "Normal": "Uhhh… CLOSE SESAME?",
     "Robot": "Initiate Sesame closing sequence."
   },
   {
@@ -299,7 +299,7 @@
   },
   {
     "ID": 61,
-    "Normal": "You've gotta be fuckin' kidding...",
+    "Normal": "You've gotta be fuckin' kidding…",
     "Robot": "Anomalous result recorded."
   },
   {
@@ -388,13 +388,13 @@
   },
   {
     "ID": 79,
-    "Normal": "I have no clue what that is, let alone how to make one.",
-    "Robot": "I am not familiar with this concept, nor do I possess the knowledge to construct it."
+    "Normal": "I haven't found a recipe for that. We might learn more as we explore.",
+    "Robot": "No matching recipe is available in my records. Further exploration may provide more information."
   },
   {
     "ID": 80,
-    "Normal": "I don't know how to make that.",
-    "Robot": "I am unable to fulfill that request."
+    "Normal": "I don't have a crafting recipe for that. There may be another way to make it.",
+    "Robot": "No matching crafting recipe is available. An alternative production method may exist."
   },
   {
     "ID": 81,
@@ -417,7 +417,7 @@
   },
   {
     "ID": 85,
-    "Normal": "Scanning the vessel..."
+    "Normal": "Scanning the vessel…"
   },
   {
     "ID": 86,
@@ -429,7 +429,7 @@
   },
   {
     "ID": 88,
-    "Normal": "Attempting communication with vessel..."
+    "Normal": "Attempting communication with vessel…"
   },
   {
     "ID": 89,
@@ -519,7 +519,7 @@
   },
   {
     "ID": 109,
-    "Normal": "It looks like the satellite relay has been aligned... with something.",
+    "Normal": "It looks like the satellite relay has been aligned… with something.",
     "Robot": "The satellite relay has been aligned with an unidentified object."
   },
   {
@@ -544,7 +544,7 @@
   },
   {
     "ID": 114,
-    "Normal": "Uh... This doesn't look like it was built by human hands...",
+    "Normal": "Uh… This doesn't look like it was built by human hands…",
     "Robot": "It appears this did not originate from a human source."
   },
   {
@@ -574,7 +574,7 @@
   },
   {
     "ID": 120,
-    "Normal": "Mmm... I just remembered a recipe using a thing you just picked up.",
+    "Normal": "Mmm… I just remembered a recipe using a thing you just picked up.",
     "Robot": "I have located a recipe that incorporates the item you have just acquired."
   },
   {
@@ -649,12 +649,12 @@
   },
   {
     "ID": 135,
-    "Normal": "You need to drag that from your inventory into the world. It probably isn't a good idea to use a smelter while its inside your backpack...",
+    "Normal": "You need to drag that from your inventory into the world. It probably isn't a good idea to use a smelter while its inside your backpack…",
     "Robot": "Drag the item from your inventory into the game environment. It is not recommended to use a smelter while the item is within the backpack."
   },
   {
     "ID": 136,
-    "Normal": "Ummm you need to use that when its in the world, probably not a good idea to use a smelter while its inside your backpack...",
+    "Normal": "Ummm you need to use that when its in the world, probably not a good idea to use a smelter while its inside your backpack…",
     "Robot": "It is inadvisable to use a smelter while it is contained within a backpack."
   },
   {
@@ -669,7 +669,7 @@
   },
   {
     "ID": 139,
-    "Normal": "Ok lets see... you seem to be alive, check. You don't seem to have any @BRAIN DAMAGE@, but uh, lets just say I can't rule it out... I'll just write \"probably fine\" really small in that box.",
+    "Normal": "Ok lets see… you seem to be alive, check. You don't seem to have any @BRAIN DAMAGE@, but uh, lets just say I can't rule it out… I'll just write \"probably fine\" really small in that box.",
     "Robot": "Verified that subject is alive. No visible signs of brain damage, although cannot be ruled out with certainty. Status listed as \"probably fine\" in relevant documentation."
   },
   {
@@ -814,7 +814,7 @@
   },
   {
     "ID": 168,
-    "Normal": "You can switch to @MANUAL@ mode by changing the @INVENTORY TYPE@ setting in the @SETTINGS MENU@. In @MANUAL@ mode, you can choose exactly which items go in the slots by dragging and dropping them into a slot."
+    "Normal": "You can switch to @MANUAL@ mode by changing the @HOTBAR LAYOUT@ setting in the @SETTINGS MENU@. In @MANUAL@ mode, you can choose exactly which items go in the slots by dragging and dropping them into a slot."
   },
   {
     "ID": 169,
@@ -832,7 +832,7 @@
   },
   {
     "ID": 172,
-    "Normal": "So... you know... use the tools provided or don't come crying to me when your pack is a disaster.",
+    "Normal": "So… you know… use the tools provided or don't come crying to me when your pack is a disaster.",
     "Robot": "It is advised that you utilize the resources provided."
   },
   {
@@ -947,7 +947,7 @@
   },
   {
     "ID": 195,
-    "Normal": "Well, I mean... If anyone there is still alive.",
+    "Normal": "Well, I mean… If anyone there is still alive.",
     "Robot": "Assuming that there is still life present."
   },
   {
@@ -972,7 +972,7 @@
   },
   {
     "ID": 200,
-    "Normal": "Well this is interesting...",
+    "Normal": "Well this is interesting…",
     "Robot": "This situation is noteworthy."
   },
   {
@@ -987,7 +987,7 @@
   },
   {
     "ID": 203,
-    "Normal": "Hmm... It looks like the start command was sent, but the device still didn't activate.",
+    "Normal": "Hmm… It looks like the start command was sent, but the device still didn't activate.",
     "Robot": "The start command was sent but the device has not activated."
   },
   {
@@ -1145,7 +1145,7 @@
   },
   {
     "ID": 237,
-    "Normal": "You can @EQUIP@ food by @RIGHT CLICKING@ it in your inventory, and you can @USE@ something you have equipped by @LEFT CLICKING@."
+    "Normal": "You can @EQUIP@ food by pressing [secondary] on it in your inventory, and you can @USE@ something you have equipped by pressing [primary]."
   },
   {
     "ID": 238,
@@ -1153,11 +1153,11 @@
   },
   {
     "ID": 239,
-    "Normal": "You can @OPEN@ the @DRESSER@ by @RIGHT CLICKING@ on it."
+    "Normal": "You can @OPEN@ the @DRESSER@ by pressing [worldsecondary] on it."
   },
   {
     "ID": 240,
-    "Normal": "You can @EQUIP CLOTHING@ by @RIGHT CLICKING@ it, and you can manage your equipment using the @EQUIPMENT MENU@."
+    "Normal": "You can @EQUIP CLOTHING@ by pressing [secondary] on it, and you can manage your equipment using the @EQUIPMENT MENU@."
   },
   {
     "ID": 241,
@@ -1173,7 +1173,7 @@
   },
   {
     "ID": 244,
-    "Normal": "@RIGHT CLICK@ on the @BACKPACK@ near your @BED@ to put it on."
+    "Normal": "Press [worldsecondary] on the @BACKPACK@ near your @BED@ to put it on."
   },
   {
     "ID": 245,
@@ -1189,7 +1189,7 @@
   },
   {
     "ID": 248,
-    "Normal": "Ok... so I have @GOOD@ news and @BAD@ news, which do you want to hear first?"
+    "Normal": "Ok… so I have @GOOD@ news and @BAD@ news, which do you want to hear first?"
   },
   {
     "ID": 249,
@@ -1221,7 +1221,7 @@
   },
   {
     "ID": 256,
-    "Normal": "- \"I found some strange alien artifacts. I... may have activated one.\""
+    "Normal": "- \"I found some strange alien artifacts. I… may have activated one.\""
   },
   {
     "ID": 257,
@@ -1249,7 +1249,7 @@
   },
   {
     "ID": 263,
-    "Normal": "I... think it is some kind of alien craft."
+    "Normal": "I… think it is some kind of alien craft."
   },
   {
     "ID": 264,
@@ -1333,7 +1333,7 @@
   },
   {
     "ID": 284,
-    "Normal": "Select the @TEST BLOCK@ on your Block hotbar. Or open your inventory ([menukey]) and press [secondary] on it in the @BLOCK POUCH@. Aim at the outlined empty space and hold [primary] to place it."
+    "Normal": "Open your inventory ([menukey]) and press [secondary] on the @TEST BLOCK@ in the @BLOCK POUCH@. Aim at the outlined empty space and hold [primary] to place it."
   },
   {
     "ID": 285,
@@ -1617,7 +1617,7 @@
   },
   {
     "ID": 355,
-    "Normal": "- \"Ok, um... nice talking to you.\""
+    "Normal": "- \"Ok, um… nice talking to you.\""
   },
   {
     "ID": 356,
@@ -1825,7 +1825,7 @@
   },
   {
     "ID": 407,
-    "Normal": "But then... Calamity. So many lost."
+    "Normal": "But then… Calamity. So many lost."
   },
   {
     "ID": 408,
@@ -1905,7 +1905,7 @@
   },
   {
     "ID": 427,
-    "Normal": "- \"Uhhh... long story short, it involves alien artifacts.\""
+    "Normal": "- \"Uhhh… long story short, it involves alien artifacts.\""
   },
   {
     "ID": 428,
@@ -1917,7 +1917,7 @@
   },
   {
     "ID": 430,
-    "Normal": "- \"It's a long story...\" (Tell it slowly, and with great detail)"
+    "Normal": "- \"It's a long story…\" (Tell it slowly, and with great detail)"
   },
   {
     "ID": 431,
@@ -1945,7 +1945,7 @@
   },
   {
     "ID": 437,
-    "Normal": "...what did you do?"
+    "Normal": "…what did you do?"
   },
   {
     "ID": 438,
@@ -1965,7 +1965,7 @@
   },
   {
     "ID": 442,
-    "Normal": "- \"Well when you put it like that...\""
+    "Normal": "- \"Well when you put it like that…\""
   },
   {
     "ID": 443,
@@ -2021,7 +2021,7 @@
   },
   {
     "ID": 456,
-    "Normal": "- \"Aw shucks...\""
+    "Normal": "- \"Aw shucks…\""
   },
   {
     "ID": 457,
@@ -2045,7 +2045,7 @@
   },
   {
     "ID": 462,
-    "Normal": "- \"So... now what?\""
+    "Normal": "- \"So… now what?\""
   },
   {
     "ID": 463,
@@ -2057,7 +2057,7 @@
   },
   {
     "ID": 465,
-    "Normal": "There are quite a lot of logistics to work out, and it sounds like there are quite a few... hazards on the planet."
+    "Normal": "There are quite a lot of logistics to work out, and it sounds like there are quite a few… hazards on the planet."
   },
   {
     "ID": 466,
@@ -2077,7 +2077,7 @@
   },
   {
     "ID": 470,
-    "Normal": "It appears that it goes back to the moment that you activated that alien gadget on the asteroid. Just before the Hephaestus was destroyed."
+    "Normal": "It appears that it goes back to the moment that you activated that strange alien altar on the asteroid. Just before the Hephaestus was destroyed."
   },
   {
     "ID": 471,
@@ -2089,7 +2089,7 @@
   },
   {
     "ID": 473,
-    "Normal": "This is your chance."
+    "Normal": "You need to know, this is a one-way trip. I don't know if you can come back here."
   },
   {
     "ID": 474,
@@ -2309,11 +2309,11 @@
   },
   {
     "ID": 536,
-    "Normal": "There was that weird vault door under the @MINING BASE@... It might be worth trying to get inside."
+    "Normal": "There was that weird vault door under the @MINING BASE@… It might be worth trying to get inside."
   },
   {
     "ID": 537,
-    "Normal": "There was also that weird vault door under the @MINING BASE@... It might be worth trying to get inside."
+    "Normal": "There was also that weird vault door under the @MINING BASE@… It might be worth trying to get inside."
   },
   {
     "ID": 538,
@@ -2653,7 +2653,7 @@
   },
   {
     "ID": 625,
-    "Normal": "Right click on your backpack to put it on."
+    "Normal": "Press [worldsecondary] on your backpack to put it on."
   },
   {
     "ID": 626,
@@ -2661,15 +2661,15 @@
   },
   {
     "ID": 627,
-    "Normal": "Left click outside of your inventory to eat the apple."
+    "Normal": "Press [primary] outside of your inventory to eat the apple."
   },
   {
     "ID": 628,
-    "Normal": "Right click on the apple in your inventory ([menukey]) to hold it."
+    "Normal": "Press [secondary] on the apple in your inventory ([menukey]) to hold it."
   },
   {
     "ID": 629,
-    "Normal": "Right click on your dresser to open it."
+    "Normal": "Press [worldsecondary] on your dresser to open it."
   },
   {
     "ID": 630,
@@ -2693,7 +2693,7 @@
   },
   {
     "ID": 635,
-    "Normal": "You were not authorized to retrieve that..."
+    "Normal": "You were not authorized to retrieve that…"
   },
   {
     "ID": 636,
@@ -2805,7 +2805,7 @@
   },
   {
     "ID": 664,
-    "Normal": "*nari... kresh...*"
+    "Normal": "*nari… kresh…*"
   },
   {
     "ID": 665,
@@ -2953,7 +2953,7 @@
   },
   {
     "ID": 701,
-    "Normal": "I can't believe we're all here... after everything, it almost feels unreal."
+    "Normal": "I can't believe we're all here… after everything, it almost feels unreal."
   },
   {
     "ID": 702,
@@ -2969,7 +2969,7 @@
   },
   {
     "ID": 705,
-    "Normal": "Sometimes I catch myself smiling when I remember... we actually got a second chance."
+    "Normal": "Sometimes I catch myself smiling when I remember… we actually got a second chance."
   },
   {
     "ID": 706,
@@ -2981,15 +2981,15 @@
   },
   {
     "ID": 708,
-    "Normal": "Funny... I dreamed about Osiris before we left, but it was nothing like this."
+    "Normal": "Funny… I dreamed about Osiris before we left, but it was nothing like this."
   },
   {
     "ID": 709,
-    "Normal": "We're officially pioneers... the first to see Osiris, and survive it, thanks to you."
+    "Normal": "We're officially pioneers… the first to see Osiris, and survive it, thanks to you."
   },
   {
     "ID": 710,
-    "Normal": "The ship feels... different. Like it's carrying more than just us now."
+    "Normal": "The ship feels… different. Like it's carrying more than just us now."
   },
   {
     "ID": 711,
@@ -3005,11 +3005,11 @@
   },
   {
     "ID": 714,
-    "Normal": "I've seen a lot in my life, but what you did... that was something else entirely."
+    "Normal": "I've seen a lot in my life, but what you did… that was something else entirely."
   },
   {
     "ID": 715,
-    "Normal": "Honestly, I can't stop thinking about what we left behind... and what we saved."
+    "Normal": "Honestly, I can't stop thinking about what we left behind… and what we saved."
   },
   {
     "ID": 716,
@@ -3174,10 +3174,30 @@
   },
   {
     "ID": 756,
-    "Normal": "Hmm, my sensors indicate that only works if something else is activated somewhere..."
+    "Normal": "Hmm, my sensors indicate that only works if something else is activated somewhere…"
   },
   {
     "ID": 757,
     "Normal": "It looks like you need an activated Xenolith somewhere for that to work."
+  },
+  {
+    "ID": 758,
+    "Normal": "That big rock monster seems to be exhausted, but his hand is still blocking the way. Maybe if you scan it I can figure something out."
+  },
+  {
+    "ID": 759,
+    "Normal": "That big rock monster seems to be exhausted, but his hand is still blocking the way. It looks like a strong slam might dislodge it."
+  },
+  {
+    "ID": 760,
+    "Normal": "My sensors indicate that a slam from one of those pissed off hounds could knock over those precarious piles of rubble."
+  },
+  {
+    "ID": 761,
+    "Normal": "You don't need to go yet if you don't want to, we can just open the portal again later."
+  },
+  {
+    "ID": 762,
+    "Normal": "When we ...landed... your body exploded and your backpack flew off. It's over there."
   }
 ]

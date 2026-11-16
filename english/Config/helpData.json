@@ -81,14 +81,7 @@
     "IsDefault": true,
     "Category": "Inventory",
     "Label": "Eating Food",
-    "Text": "In order to eat food, you must first equip it and then press [primary] in the world. You can equip the food by either selecting it with [secondary] in your inventory or selecting it from the food slot on your hotbar.\n\nAs long as you have some food in your stomach you will regenerate health slowly."
-  },
-  {
-    "Key": "HOTBAR",
-    "IsDefault": true,
-    "Category": "Inventory",
-    "Label": "Hotbar",
-    "Text": "By default, your hotbar will automatically fill with items from your inventory and you can scroll through the item in a category's slot with ([itemcycle]).\n\n[image:Sprites/Help/hotbar-automatic]\n\nYou can hold the hotbar slot number to open a radial menu, with all the items in the category.\n\n[image:Sprites/Help/hotbar-radial]\n\nIf you'd prefer a simpler, more familiar hotbar, you can use the MANUAL mode:\n\n[image:Sprites/Help/hotbar-mode-switch]\n\nIn manual mode, you can drag items directly to the hotbar.\n\n[image:Sprites/Help/hotbar-manual]"
+    "Text": "In order to eat food, you must first equip it and then press [primary] in the world. You can equip food by selecting it with [secondary] in your inventory. In Manual hotbar mode, drag food onto a slot and select that slot. In Automatic mode, select it from the food category.\n\nAs long as you have some food in your stomach you will regenerate health slowly."
   },
   {
     "Key": "EQUIPPING",

@@ -873,6 +873,10 @@
       "DisplaySource": "Structure:sol.construction_materials"
     },
     {
+      "Name": "Construction Nails",
+      "DisplaySource": "Item:sol.construction_nails"
+    },
+    {
       "Name": "Construction Panels",
       "DisplaySource": "Structure:sol.construction_panels"
     },
@@ -2543,6 +2547,10 @@
     {
       "Name": "Mud Brick Roof",
       "DisplaySource": "Tile:397"
+    },
+    {
+      "Name": "Mud Brick Slab",
+      "DisplaySource": "Tile:779"
     },
     {
       "Name": "Mud Brick Slope",

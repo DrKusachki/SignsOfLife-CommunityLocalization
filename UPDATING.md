@@ -8,6 +8,38 @@ Check the target game version in this repository's README before testing your
 pack. Updating the English reference does not update an installed translation
 pack.
 
+## Updating a 1.0.14 pack for 1.1.1
+
+You may want to start with the new plant-scanning and Codex text, Colossal Hand
+hints, hotbar instructions, intro controls, and AGIS dialogue. Item descriptions
+and colony stock and delivery labels have also changed. Many other revisions replace
+three periods with an ellipsis; your existing wording may not need a change.
+
+Manual hotbars are now the default. Keep Manual storage slots distinct from
+Automatic categories, and distinguish the Hotbar Layout setting from Hotbar
+Radial. The load notice explains how existing players can return to Automatic
+mode. The old HOTBAR help topic, its dedicated help-button tooltip, and the
+Switch Hotbar Type binding label are retired without replacement.
+
+Pottery buttons and delivery summaries use the localized singular item names
+for `sol.clay_bowl` and `sol.clay_plate`, with quantities shown separately.
+Do not copy the retired plural labels or count phrases into those item names.
+Both miscellaneous item categories now use `item.category.Misc.`.
+
+Construction Nails and Mud Brick Slab recipe names inherit their result's
+localized item or tile name; they do not add separate recipe-name translation
+tasks. For an older recipe override, a locale row can supply `DisplaySource`
+to use the shared name instead. Omit the old `DisplayName` from that row when
+switching to inheritance. A valid, nonempty `DisplayName` takes precedence if
+both are supplied. Keep `DisplaySource` references unchanged as identifiers.
+
+You may want to test wrapping and narrow controls again with the current fonts;
+see the README's [font and script limits](README.md#font-and-script-limits).
+If a locale pack fails to load, fix the reported JSON errors and retry
+**Load Now**. Mod Prep also reports localization table and field errors before
+upload. Disabling a loaded pack reloads content; restart if the game reports
+that reload failed.
+
 ## Read the change report
 
 | Status | What to do |

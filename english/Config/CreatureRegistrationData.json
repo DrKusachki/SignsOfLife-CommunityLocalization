@@ -165,7 +165,7 @@
   {
     "LivingEntityType": "EXPLOSIVE_CHICKEN",
     "Name": "Explosive Chicken",
-    "Description": "This is a chicken with a proximity explosive attached. That is, uh... weird.",
+    "Description": "This is a chicken with a proximity explosive attached. That is, uh… weird.",
     "CodexCategory": "Earth-Native",
     "Health": 25
   },
@@ -580,7 +580,7 @@
   {
     "LivingEntityType": "MECHINGTON_EGG",
     "Name": "Boombox Egg",
-    "Description": "This... is a boombox... that hatched out of a big metal egg?",
+    "Description": "This… is a boombox… that hatched out of a big metal egg?",
     "CodexCategory": "Robotic",
     "Health": 100
   },
@@ -595,7 +595,7 @@
   {
     "LivingEntityType": "MECHINGTON_BROOD",
     "Name": "Mechington Brood",
-    "Description": "This is some kind of mechanical chicken that lays proximity mine eggs. It's eggs all the way down...",
+    "Description": "This is some kind of mechanical chicken that lays proximity mine eggs. It's eggs all the way down…",
     "CodexCategory": "Robotic",
     "Health": 100,
     "MeleeDamage": 50
@@ -758,9 +758,14 @@
   {
     "LivingEntityType": "XENOSTONE_COLOSSUS_ORB",
     "Name": "Xenostone Colossus Orb",
-    "Description": "This um... well, this is some sort of orb floating in the air... surrounded by chunks of Xenostone. My deep learning algorithms are pretty much giving up on this one bud.",
+    "Description": "This um… well, this is some sort of orb floating in the air… surrounded by chunks of Xenostone. My deep learning algorithms are pretty much giving up on this one bud.",
     "Health": 30,
     "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "COLOSSAL_HAND",
+    "Name": "Colossal Hand",
+    "Description": "A colossal hand that seems to be blocking your path. Perhaps a strong slam might dislodge it."
   },
   {
     "LivingEntityType": "CRYSTAL_NUG_BABY",

@@ -1,5 +1,41 @@
 [
   {
+    "ID": "loadNotice.manualHotbarDefault",
+    "Text": "Hey folks, quick update:\nWe re-worked the hotbars, and made the more traditional style hotbar the default.\nIf you preferred the automatic mode, you can switch back to it in the settings menu.\n"
+  },
+  {
+    "ID": "codex.plants",
+    "Text": "Plants"
+  },
+  {
+    "ID": "category.plants",
+    "Text": "Plants"
+  },
+  {
+    "ID": "controller.action.plants",
+    "Text": "Plants"
+  },
+  {
+    "ID": "hud.plantScanned",
+    "Text": "Plant scanned"
+  },
+  {
+    "ID": "codex.pumpkinBush",
+    "Text": "Pumpkin Bush"
+  },
+  {
+    "ID": "codex.pumpkinBushDescription",
+    "Text": "Grows pumpkins and berries that improve resistance to freezing and slowing effects."
+  },
+  {
+    "ID": "codex.legacyStrawberry",
+    "Text": "Woodland Strawberry"
+  },
+  {
+    "ID": "codex.legacyStrawberryDescription",
+    "Text": "Grows edible strawberries that also provide seeds."
+  },
+  {
     "ID": "housing.inspection.title",
     "Text": "Room inspection"
   },
@@ -324,14 +360,6 @@
     "Text": "Smooth"
   },
   {
-    "ID": "opt.baked",
-    "Text": "Baked"
-  },
-  {
-    "ID": "opt.runtime",
-    "Text": "Runtime"
-  },
-  {
     "ID": "opt.doubleTap",
     "Text": "Double-Tap"
   },
@@ -628,6 +656,10 @@
     "Text": "UI Scale {0}% is too large for {1} x {2}. UI Scale has been set to {3}% to keep the interface visible."
   },
   {
+    "ID": "settings.scaleLimitTooltip",
+    "Text": "Maximum {0} at {1} x {2}: {3}%. Higher scales need a higher resolution."
+  },
+  {
     "ID": "settings.scaleFiltering",
     "Text": "Scale Filtering"
   },
@@ -680,10 +712,6 @@
     "Text": "Font Size"
   },
   {
-    "ID": "settings.fontGlyphs",
-    "Text": "Font Glyphs"
-  },
-  {
     "ID": "settings.autoRun",
     "Text": "Auto Run"
   },
@@ -710,6 +738,18 @@
   {
     "ID": "settings.hotbarLayout",
     "Text": "Hotbar Layout"
+  },
+  {
+    "ID": "settings.hotbarRadial",
+    "Text": "Hotbar Radial"
+  },
+  {
+    "ID": "opt.categories",
+    "Text": "Categories"
+  },
+  {
+    "ID": "opt.hotbarSlots",
+    "Text": "Hotbar Slots"
   },
   {
     "ID": "settings.inventoryLayout",
@@ -789,7 +829,7 @@
   },
   {
     "ID": "load.preparing",
-    "Text": "Preparing..."
+    "Text": "Preparing…"
   },
   {
     "ID": "load.elapsed",
@@ -969,7 +1009,7 @@
   },
   {
     "ID": "load.tip.hotbarMode",
-    "Text": "Tip: You can switch from \"Automatic\" hotbar mode to \"Manual\" by pressing {0}."
+    "Text": "Tip: You can switch between Manual and Automatic hotbar modes using Hotbar Layout in Settings."
   },
   {
     "ID": "load.tip.molecules",
@@ -989,7 +1029,7 @@
   },
   {
     "ID": "load.tip.organize",
-    "Text": "Tip: If you are carrying too much, use containers and the grab laser to organize items without opening every inventory."
+    "Text": "Tip: To quickly move items between open containers, click the destination window to select it, then hover over an item in the other window and press [grablaserkey]."
   },
   {
     "ID": "load.tip.holdReload",
@@ -1001,7 +1041,7 @@
   },
   {
     "ID": "load.tip.holdHotbar",
-    "Text": "Tip: You can hold Hotbar buttons to open a radial item selection menu."
+    "Text": "Tip: In Automatic hotbar mode, hold a numbered slot's key to open its radial item selection menu."
   },
   {
     "ID": "load.tip.futuristicTip",
@@ -1444,6 +1484,18 @@
     "Text": "Ore Scanner"
   },
   {
+    "ID": "bind.equipDigLaser",
+    "Text": "Equip Dig Laser"
+  },
+  {
+    "ID": "bind.equipWristScanner",
+    "Text": "Equip Wrist Scanner"
+  },
+  {
+    "ID": "bind.equipAgisEmitter",
+    "Text": "Equip AGIS Emitter"
+  },
+  {
     "ID": "bind.openChat",
     "Text": "Open Chat"
   },
@@ -1526,10 +1578,6 @@
   {
     "ID": "bind.agisInvestigate",
     "Text": "AGIS Investigate"
-  },
-  {
-    "ID": "bind.switchHotbar",
-    "Text": "Switch Hotbar Type"
   },
   {
     "ID": "bind.zoomIn",
@@ -1876,58 +1924,6 @@
     "Text": "Task interrupted."
   },
   {
-    "ID": "crew.ops.tab.policy",
-    "Text": "Policy"
-  },
-  {
-    "ID": "crew.policy.family.maintenance",
-    "Text": "Maintenance"
-  },
-  {
-    "ID": "crew.policy.family.survey",
-    "Text": "Survey"
-  },
-  {
-    "ID": "crew.policy.stance.avoid",
-    "Text": "Avoid"
-  },
-  {
-    "ID": "crew.policy.stance.normal",
-    "Text": "Normal"
-  },
-  {
-    "ID": "crew.policy.stance.prefer",
-    "Text": "Prefer"
-  },
-  {
-    "ID": "crew.policy.risk",
-    "Text": "Risk"
-  },
-  {
-    "ID": "crew.policy.risk.cautious",
-    "Text": "Cautious"
-  },
-  {
-    "ID": "crew.policy.risk.normal",
-    "Text": "Normal"
-  },
-  {
-    "ID": "crew.policy.risk.bold",
-    "Text": "Bold"
-  },
-  {
-    "ID": "crew.policy.fieldCapacity",
-    "Text": "Field Capacity"
-  },
-  {
-    "ID": "crew.policy.recall",
-    "Text": "Recall"
-  },
-  {
-    "ID": "crew.policy.fieldDuty",
-    "Text": "Field Duty"
-  },
-  {
     "ID": "agis.unknownDescription",
     "Text": "I have no idea what that is."
   },
@@ -2137,7 +2133,7 @@
   },
   {
     "ID": "menu.retrievingRecentUpdates",
-    "Text": "Retrieving recent updates..."
+    "Text": "Retrieving recent updates…"
   },
   {
     "ID": "menu.recentUpdatesUnavailable",
@@ -2312,10 +2308,6 @@
     "Text": "Spread: {0}"
   },
   {
-    "ID": "item.stat.ammoBaseDamageParenthesized",
-    "Text": "Ammo Base Damage: ({0} - {1})"
-  },
-  {
     "ID": "item.stat.ammoSpeedModifier",
     "Text": "Ammo Speed Modifier: {0}"
   },
@@ -2330,10 +2322,6 @@
   {
     "ID": "item.stat.maxProjectiles",
     "Text": "Max Projectiles: {0}"
-  },
-  {
-    "ID": "item.stat.ammoDamageParenthesized",
-    "Text": "Ammo Damage: ({0} - {1})"
   },
   {
     "ID": "item.stat.arrowDamageType",
@@ -2529,11 +2517,11 @@
   },
   {
     "ID": "mp.pingRetrieving",
-    "Text": "Ping: Retrieving..."
+    "Text": "Ping: Retrieving…"
   },
   {
     "ID": "mp.playersRetrieving",
-    "Text": "Players: Retrieving..."
+    "Text": "Players: Retrieving…"
   },
   {
     "ID": "world.deleteConfirm",
@@ -2624,14 +2612,6 @@
     "Text": "Delete \"{0}\" from the Steam Workshop?\n\nThis permanently removes the Workshop item for everyone — it is not just uninstalling it from your game. This cannot be undone."
   },
   {
-    "ID": "item.meleeDamage",
-    "Text": "DMG: {0}"
-  },
-  {
-    "ID": "item.meleeAttackSpeed",
-    "Text": "ATK SPD: {0}"
-  },
-  {
     "ID": "world.moon",
     "Text": "Moon"
   },
@@ -2657,23 +2637,11 @@
   },
   {
     "ID": "datapad.saving",
-    "Text": "Saving..."
+    "Text": "Saving…"
   },
   {
     "ID": "datapad.editRejected",
     "Text": "Edit rejected"
-  },
-  {
-    "ID": "grinder.fuel",
-    "Text": "FUEL"
-  },
-  {
-    "ID": "grinder.blade",
-    "Text": "BLADE"
-  },
-  {
-    "ID": "tinker.item",
-    "Text": "Item"
   },
   {
     "ID": "tinker.accuracy",
@@ -2720,16 +2688,12 @@
     "Text": "Description: {0}"
   },
   {
-    "ID": "prefab.fcSlot",
-    "Text": "FC"
-  },
-  {
     "ID": "mods.statusVanilla",
     "Text": "Status: Loaded this session (vanilla — always enabled)"
   },
   {
     "ID": "mods.statusMarkedDisabled",
-    "Text": "Status: Loaded this session — marked disabled (Disable reloads content to unload)"
+    "Text": "Status: Still loaded this session - disabled for the next launch."
   },
   {
     "ID": "mods.statusDisabled",
@@ -2813,7 +2777,7 @@
   },
   {
     "ID": "crew.ops.activity.clay",
-    "Text": "Clay Digging"
+    "Text": "Clay digging"
   },
   {
     "ID": "crew.ops.activity.fruit",
@@ -2826,10 +2790,6 @@
   {
     "ID": "crew.ops.activity.healing",
     "Text": "Healing"
-  },
-  {
-    "ID": "crew.ops.activity.hunting",
-    "Text": "Hunting"
   },
   {
     "ID": "crew.ops.activity.mining",
@@ -2846,46 +2806,6 @@
   {
     "ID": "crew.ops.back",
     "Text": "Back"
-  },
-  {
-    "ID": "crew.ops.behavior.assign",
-    "Text": "Assign jobs on the Production page."
-  },
-  {
-    "ID": "crew.ops.behavior.defense",
-    "Text": "Defense"
-  },
-  {
-    "ID": "crew.ops.behavior.hostOnly",
-    "Text": "Only the host can change behavior."
-  },
-  {
-    "ID": "crew.ops.behavior.outings",
-    "Text": "Crew outings are enabled."
-  },
-  {
-    "ID": "crew.ops.behavior.production",
-    "Text": "Resource production continues during recall."
-  },
-  {
-    "ID": "crew.ops.behavior.recallCrew",
-    "Text": "Recall crew"
-  },
-  {
-    "ID": "crew.ops.behavior.recalled",
-    "Text": "Crew are recalled to the landing pad."
-  },
-  {
-    "ID": "crew.ops.behavior.resumeOutings",
-    "Text": "Resume outings"
-  },
-  {
-    "ID": "crew.ops.behavior.returnDelay",
-    "Text": "Returns wait until unseen for five minutes."
-  },
-  {
-    "ID": "crew.ops.behavior.riskHelp",
-    "Text": "Controls how far crew intercept threats."
   },
   {
     "ID": "crew.ops.details",
@@ -3001,7 +2921,7 @@
   },
   {
     "ID": "crew.ops.orders.matchingStock",
-    "Text": "Matching stock: {0}"
+    "Text": "Current stock {0}"
   },
   {
     "ID": "crew.ops.orders.moveDown",
@@ -3056,20 +2976,8 @@
     "Text": "Use - / + to assign workers."
   },
   {
-    "ID": "crew.ops.production.atPost",
-    "Text": "At post: {0} / {1}"
-  },
-  {
-    "ID": "crew.ops.production.bowls",
-    "Text": "Bowls"
-  },
-  {
     "ID": "crew.ops.production.counts",
     "Text": "Crew: {0}   Assigned: {1}   Available: {2}"
-  },
-  {
-    "ID": "crew.ops.production.guardBlocked",
-    "Text": "Blocked travel waits until unseen for 5 minutes."
   },
   {
     "ID": "crew.ops.production.guardDefends",
@@ -3098,10 +3006,6 @@
   {
     "ID": "crew.ops.production.pausedNoWorkers",
     "Text": "Paused: no workers assigned"
-  },
-  {
-    "ID": "crew.ops.production.plates",
-    "Text": "Plates"
   },
   {
     "ID": "crew.ops.production.range",
@@ -3233,7 +3137,7 @@
   },
   {
     "ID": "crew.ops.summary.deliveries",
-    "Text": "Latest deliveries to Pneumail (per job):"
+    "Text": "Latest deliveries to Pneumail:"
   },
   {
     "ID": "crew.ops.summary.medics",
@@ -3256,10 +3160,6 @@
     "Text": "Workers: {0} available / {1} crew"
   },
   {
-    "ID": "crew.ops.tab.behavior",
-    "Text": "Behavior"
-  },
-  {
     "ID": "crew.ops.tab.production",
     "Text": "Production"
   },
@@ -3277,7 +3177,7 @@
   },
   {
     "ID": "crew.ops.thaw.pending",
-    "Text": "Thaw request pending..."
+    "Text": "Thaw request pending…"
   },
   {
     "ID": "crew.ops.thaw.requiredRooms",
@@ -3321,7 +3221,7 @@
   },
   {
     "ID": "crew.ops.freeze.pending",
-    "Text": "Freeze request pending..."
+    "Text": "Freeze request pending…"
   },
   {
     "ID": "crew.ops.freeze.ready",
@@ -3337,7 +3237,7 @@
   },
   {
     "ID": "crew.ops.waitingForHost",
-    "Text": "Waiting for host information..."
+    "Text": "Waiting for host information…"
   },
   {
     "ID": "crew.ops.summary.salad",
@@ -3346,22 +3246,6 @@
   {
     "ID": "crew.ops.summary.salads",
     "Text": "{0} salads"
-  },
-  {
-    "ID": "crew.ops.summary.plate",
-    "Text": "{0} clay plate"
-  },
-  {
-    "ID": "crew.ops.summary.plates",
-    "Text": "{0} clay plates"
-  },
-  {
-    "ID": "crew.ops.summary.bowl",
-    "Text": "{0} clay bowl"
-  },
-  {
-    "ID": "crew.ops.summary.bowls",
-    "Text": "{0} clay bowls"
   },
   {
     "ID": "crew.ops.summary.ingot",
@@ -3401,7 +3285,7 @@
   },
   {
     "ID": "crew.ops.job.ClayDigging",
-    "Text": "Clay Digging"
+    "Text": "Clay digging"
   },
   {
     "ID": "crew.ops.job.Cooking",
@@ -3505,7 +3389,7 @@
   },
   {
     "ID": "crew.ops.thaw.failure.Unavailable",
-    "Text": "Waiting for host information..."
+    "Text": "Waiting for host information…"
   },
   {
     "ID": "crew.ops.thaw.failure.WrongPlanet",
@@ -3513,7 +3397,7 @@
   },
   {
     "ID": "crew.ops.thaw.failure.CheckingRooms",
-    "Text": "Checking rooms..."
+    "Text": "Checking rooms…"
   },
   {
     "ID": "crew.ops.thaw.failure.MoreRooms",
@@ -5193,7 +5077,7 @@
   },
   {
     "ID": "cutscene.hephaestusIntro.messHall",
-    "Text": "And this is the mess hall, where Chief Marco... does what he can with the algae."
+    "Text": "And this is the mess hall, where Chief Marco… does what he can with the algae."
   },
   {
     "ID": "cutscene.hephaestusIntro.bridge",
@@ -5360,10 +5244,6 @@
     "Text": "Melee"
   },
   {
-    "ID": "item.category.Misc",
-    "Text": "Misc"
-  },
-  {
     "ID": "item.category.Misc.",
     "Text": "Misc."
   },
@@ -5495,44 +5375,164 @@
     "ID": "armor.bonus.xenostoneWard",
     "Text": "Xenostone Ward: {0:0.##}% less damage from xenoid sources and heat."
   },
-  { "ID": "equipment.droneFiringRateBonus", "Text": "Your drones fire {0}% faster." },
-  { "ID": "item.stat.repulsorEnergyPerProjectileSecond", "Text": "Energy/Second per Nearby Projectile: {0:0.###}" },
-  { "ID": "item.stat.batteryChargePerInput", "Text": "Battery Charge/Input: {0:0.###}" },
-  { "ID": "item.stat.activeProcessingInterval", "Text": "Active Processing Interval: {0:0.###} s" },
-  { "ID": "item.stat.livingTargetDpsRamp", "Text": "DPS Ramp/Second While Hitting Living Targets: {0:0.###}" },
-  { "ID": "item.stat.damagePerPulse", "Text": "Damage/Pulse: {0:0.###}" },
-  { "ID": "item.stat.damagePulseInterval", "Text": "Damage Pulse Interval: {0:0.###} s" },
-  { "ID": "item.stat.storedEnergyDrain", "Text": "Stored Energy/Second While Firing: {0:0.###}" },
-  { "ID": "item.stat.storedEnergyRegen", "Text": "Stored Energy/Second While Idle: {0:0.###}" },
-  { "ID": "item.stat.acquireDelay", "Text": "Target Acquisition Delay: {0:0.###} s" },
-  { "ID": "item.stat.storedEnergy", "Text": "Stored Energy: {0}/{1}" },
-  { "ID": "item.stat.heldAmmoRegeneration", "Text": "While Held: Regenerates 1 Shot Every {0:0.###} s" },
-  { "ID": "item.stat.clipCapacity", "Text": "Clip Capacity: {0}" },
-  { "ID": "item.stat.dartDamage", "Text": "Damage/Dart: {0:0.###}" },
-  { "ID": "item.stat.deployedDartOwnerRisk", "Text": "Deployed darts can harm their owner." },
-  { "ID": "ui.thermite.glob_lifetime", "Text": "Glob Lifetime: {0:0.###} seconds" },
-  { "ID": "ui.thermite.burn_refresh", "Text": "Burn Status: refreshed to {0:0.###} seconds while attached; continues after glob expires" },
-  { "ID": "item.stat.blockedArmorSlots", "Text": "Blocks These Equipment Slots: {0}" },
-  { "ID": "equipment.slot.ARM", "Text": "Arm Armor" },
-  { "ID": "equipment.slot.GLOVE", "Text": "Gloves" },
-  { "ID": "equipment.slot.SHIRT", "Text": "Shirt" },
-  { "ID": "equipment.slot.LEG", "Text": "Leg Armor" },
-  { "ID": "equipment.slot.BOOT", "Text": "Boots" },
-  { "ID": "equipment.slot.PANTS", "Text": "Pants" },
-  { "ID": "equipment.slot.SHOES", "Text": "Shoes" },
-  { "ID": "item.stat.ammoDamagePerPellet", "Text": "Base Ammo Damage/Pellet: {0:0.###} - {1:0.###}" },
-  { "ID": "item.stat.ammoDirectImpactDamage", "Text": "Direct Impact Damage: {0:0.###} - {1:0.###}" },
-  { "ID": "item.stat.primaryAmmoDamageModifier", "Text": "Primary Ammo Damage Multiplier: {0:0.###}x" },
-  { "ID": "item.stat.primaryPellets", "Text": "Primary Pellets/Discharge: {0}" },
-  { "ID": "item.stat.secondaryShotgunPayload", "Text": "Secondary: {0} Shells, {1} Pellets" },
-  { "ID": "item.stat.secondaryShotgunBurst", "Text": "Secondary: {0} Discharges, 1 Shell Each" },
-  { "ID": "item.stat.grenadeFuse", "Text": "Fuse: {0:0.###} s from Launch" },
-  { "ID": "item.stat.blastRadiusTiles", "Text": "Blast Radius: {0:0.###} Tiles" },
-  { "ID": "item.stat.launcherGrenadeDetonation", "Text": "Bounces off terrain. Detonates on creature contact or when its fuse expires." },
-  { "ID": "item.stat.decoyDeploymentTimer", "Text": "Deployment Timer: {0:0.###} s, then Fades" },
-  { "ID": "item.stat.trapContactDamage", "Text": "Base Trap Contact Damage: {0:0.###} Physical" },
-  { "ID": "item.stat.trapPlayerStun", "Text": "Base Player Stun Duration: {0:0.###} s" },
-  { "ID": "item.stat.capacitorChargePerCell", "Text": "Capacitor Charge/Cell: {0:0.###} (up to maximum)" },
-  { "ID": "item.stat.returnsEmptyCell", "Text": "Returns 1 Empty Power Cell when used." },
-  { "ID": "craft.discoverIngredient", "Text": "{0} to discover" }
+  {
+    "ID": "equipment.droneFiringRateBonus",
+    "Text": "Your drones fire {0}% faster."
+  },
+  {
+    "ID": "item.stat.repulsorEnergyPerProjectileSecond",
+    "Text": "Energy/Second per Nearby Projectile: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.batteryChargePerInput",
+    "Text": "Battery Charge/Input: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.activeProcessingInterval",
+    "Text": "Active Processing Interval: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.livingTargetDpsRamp",
+    "Text": "DPS Ramp/Second While Hitting Living Targets: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.damagePerPulse",
+    "Text": "Damage/Pulse: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.damagePulseInterval",
+    "Text": "Damage Pulse Interval: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.storedEnergyDrain",
+    "Text": "Stored Energy/Second While Firing: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.storedEnergyRegen",
+    "Text": "Stored Energy/Second While Idle: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.acquireDelay",
+    "Text": "Target Acquisition Delay: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.storedEnergy",
+    "Text": "Stored Energy: {0}/{1}"
+  },
+  {
+    "ID": "item.stat.heldAmmoRegeneration",
+    "Text": "While Held: Regenerates 1 Shot Every {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.clipCapacity",
+    "Text": "Clip Capacity: {0}"
+  },
+  {
+    "ID": "item.stat.dartDamage",
+    "Text": "Damage/Dart: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.deployedDartOwnerRisk",
+    "Text": "Deployed darts can harm their owner."
+  },
+  {
+    "ID": "ui.thermite.glob_lifetime",
+    "Text": "Glob Lifetime: {0:0.###} seconds"
+  },
+  {
+    "ID": "ui.thermite.burn_refresh",
+    "Text": "Burn Status: refreshed to {0:0.###} seconds while attached; continues after glob expires"
+  },
+  {
+    "ID": "item.stat.blockedArmorSlots",
+    "Text": "Blocks These Equipment Slots: {0}"
+  },
+  {
+    "ID": "equipment.slot.ARM",
+    "Text": "Arm Armor"
+  },
+  {
+    "ID": "equipment.slot.GLOVE",
+    "Text": "Gloves"
+  },
+  {
+    "ID": "equipment.slot.SHIRT",
+    "Text": "Shirt"
+  },
+  {
+    "ID": "equipment.slot.LEG",
+    "Text": "Leg Armor"
+  },
+  {
+    "ID": "equipment.slot.BOOT",
+    "Text": "Boots"
+  },
+  {
+    "ID": "equipment.slot.PANTS",
+    "Text": "Pants"
+  },
+  {
+    "ID": "equipment.slot.SHOES",
+    "Text": "Shoes"
+  },
+  {
+    "ID": "item.stat.ammoDamagePerPellet",
+    "Text": "Base damage per pellet: {0:0.###} - {1:0.###}"
+  },
+  {
+    "ID": "item.stat.ammoDirectImpactDamage",
+    "Text": "Direct Impact Damage: {0:0.###} - {1:0.###}"
+  },
+  {
+    "ID": "item.stat.primaryAmmoDamageModifier",
+    "Text": "Primary Ammo Damage Multiplier: {0:0.###}x"
+  },
+  {
+    "ID": "item.stat.primaryPellets",
+    "Text": "Primary Pellets/Discharge: {0}"
+  },
+  {
+    "ID": "item.stat.secondaryShotgunPayload",
+    "Text": "Secondary: {0} Shells, {1} Pellets"
+  },
+  {
+    "ID": "item.stat.secondaryShotgunBurst",
+    "Text": "Secondary: {0} Discharges, 1 Shell Each"
+  },
+  {
+    "ID": "item.stat.grenadeFuse",
+    "Text": "Fuse: {0:0.###} s from Launch"
+  },
+  {
+    "ID": "item.stat.blastRadiusTiles",
+    "Text": "Blast Radius: {0:0.###} Tiles"
+  },
+  {
+    "ID": "item.stat.launcherGrenadeDetonation",
+    "Text": "Bounces off terrain. Detonates on creature contact or when its fuse expires."
+  },
+  {
+    "ID": "item.stat.decoyDeploymentTimer",
+    "Text": "Deployment Timer: {0:0.###} s, then Fades"
+  },
+  {
+    "ID": "item.stat.trapContactDamage",
+    "Text": "Base Trap Contact Damage: {0:0.###} Physical"
+  },
+  {
+    "ID": "item.stat.trapPlayerStun",
+    "Text": "Base Player Stun Duration: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.capacitorChargePerCell",
+    "Text": "Capacitor Charge/Cell: {0:0.###} (up to maximum)"
+  },
+  {
+    "ID": "item.stat.returnsEmptyCell",
+    "Text": "Returns 1 Empty Power Cell when used."
+  },
+  {
+    "ID": "craft.discoverIngredient",
+    "Text": "{0} to discover"
+  }
 ]
