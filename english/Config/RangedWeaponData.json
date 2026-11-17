@@ -832,6 +832,23 @@
         "GunDamageModifier":  1
     },
     {
+        "Kind":  "Gun",
+        "ItemID":  6139,
+        "Name":  "Thumpgun",
+        "Description":  "A unique gun composed of a combination of biological and mechanical parts. It fires ball bearings with great force.",
+        "ClipSize":  1,
+        "FireDelay":  1100,
+        "AltFireDelay":  1100,
+        "MinSpread":  0.015,
+        "MaxSpread":  0.04,
+        "HandlingSpeed":  0.8,
+        "Kick":  0.6,
+        "Weight":  2,
+        "MovementAimingPenalty":  0.7,
+        "GunDamageModifier":  1,
+        "AltGunDamageModifier":  1
+    },
+    {
         "Kind":  "Bow",
         "ItemID":  8000,
         "Name":  "Wooden Bow",

@@ -1,5 +1,11 @@
 [
   {
+    "SaveName": "Thumpgun Ball",
+    "Name": "Thumpgun Ball",
+    "MinDamage": 18,
+    "MaxDamage": 24
+  },
+  {
     "SaveName": "5.56 Round",
     "Name": "5.56 Round",
     "MinDamage": 22,
