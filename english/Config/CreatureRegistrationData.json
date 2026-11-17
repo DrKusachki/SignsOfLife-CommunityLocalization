@@ -111,6 +111,14 @@
     "DamageReduction": 30
   },
   {
+    "LivingEntityType": "REPAIRED_CRICKET_DRONE",
+    "Name": "Repaired Cricket Drone",
+    "Description": "This seems to be some kind of robotic defense drone. It has some kind of compartment on the side, but you would need some kind of tool to access it.",
+    "CodexCategory": "Robotic",
+    "Health": 800,
+    "DamageReduction": 30
+  },
+  {
     "LivingEntityType": "CRYSTAL_NUG",
     "Name": "Crystal Nug",
     "Description": "This seems to be some kind of nug-like creature.",
@@ -758,7 +766,7 @@
   {
     "LivingEntityType": "XENOSTONE_COLOSSUS_ORB",
     "Name": "Xenostone Colossus Orb",
-    "Description": "This um… well, this is some sort of orb floating in the air… surrounded by chunks of Xenostone. My deep learning algorithms are pretty much giving up on this one bud.",
+    "Description": "This appears to be some sort of floating disruption in space-time. It seems like it is somewhat unstable, and may become volatile if struck.",
     "Health": 30,
     "MeleeDamage": 10
   },

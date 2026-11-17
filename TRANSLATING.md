@@ -5,10 +5,8 @@ translated rows to the matching file under `locales/<code>/Config/`. You can
 start with one row. Missing rows and empty translated fields stay in English.
 For submissions to this repository, read [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-Test this snapshot with **Signs of Life 1.1.1**, checking the version on the
-main menu. See [`english/SOURCE.json`](english/SOURCE.json) for the reference
-version and date. Some text may be missing or different in older game versions.
-Missing or empty translations use the English supplied by the installed game.
+Before testing, match the version on the game's main menu to the target version
+in the [README](README.md). Older versions may use different English.
 
 After an update, read [the English change report](changes.md) and
 [the updating guide](UPDATING.md) before testing an older pack. If a pack fails

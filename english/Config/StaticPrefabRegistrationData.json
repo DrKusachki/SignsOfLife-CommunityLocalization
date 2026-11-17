@@ -2498,5 +2498,12 @@
     "DisplayName": "Large Xenostone Table",
     "Description": "A large xenostone table.",
     "CodexCategory": "Alien Furniture"
+  },
+  {
+    "StaticPrefabType": "HANGAR_AIRLOCK_DOOR",
+    "SaveName": "Player Hangar Airlock Door",
+    "Name": "Hangar Airlock Door",
+    "Description": "That is a large airlock door.",
+    "CodexCategory": "Doors"
   }
 ]

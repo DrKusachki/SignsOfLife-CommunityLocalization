@@ -1491,6 +1491,7 @@
         "ItemID":  2099,
         "Complexity":  2,
         "Name":  "Pumpkin Bomb",
+        "AutoOrganizeString":  "munition",
         "Description":  "A small pumpkin that is inexplicably volatile and prone to explosion.",
         "Category":  "Throwable"
     },
@@ -3259,6 +3260,11 @@
     {
         "ItemID":  6138,
         "Complexity":  5,
+        "Category":  "Ranged"
+    },
+    {
+        "ItemID":  6139,
+        "Complexity":  3,
         "Category":  "Ranged"
     },
     {
@@ -8096,6 +8102,12 @@
         "Complexity":  3,
         "Name":  "Nut Chucker",
         "Description":  "A marvel of engineering that chucks nuts and seeds. Hold the fire button to start winding it and watch the nuts (and seeds) fly."
+    },
+    {
+        "ItemID":  "sol.minigun",
+        "Complexity":  5,
+        "Name":  "Minigun",
+        "Description":  "A rapid-fire machine gun with multiple rotating barrels that can unleash thousands of rounds per minute. Fires 5.56 rounds."
     },
     {
         "ItemID":  "sol.ominous_wand_green",
