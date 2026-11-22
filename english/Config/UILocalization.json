@@ -12,6 +12,10 @@
     "Text": "Plants"
   },
   {
+    "ID": "category.structure",
+    "Text": "Structure"
+  },
+  {
     "ID": "controller.action.plants",
     "Text": "Plants"
   },
@@ -704,6 +708,18 @@
     "Text": "Interaction Prompts"
   },
   {
+    "ID": "settings.agisQuietDialoguePosition",
+    "Text": "Agis Notifications"
+  },
+  {
+    "ID": "opt.nearAgis",
+    "Text": "Near AGIS"
+  },
+  {
+    "ID": "opt.bottom",
+    "Text": "Bottom"
+  },
+  {
     "ID": "settings.swapMouseButtons",
     "Text": "Swap Mouse Buttons"
   },
@@ -741,7 +757,7 @@
   },
   {
     "ID": "settings.hotbarRadial",
-    "Text": "Hotbar Radial"
+    "Text": "Manual Hotbar Radial Type"
   },
   {
     "ID": "opt.categories",
@@ -4272,6 +4288,10 @@
     "Text": "Enter"
   },
   {
+    "ID": "interaction.exit",
+    "Text": "Exit"
+  },
+  {
     "ID": "interaction.inspect",
     "Text": "Inspect"
   },
@@ -5532,7 +5552,159 @@
     "Text": "Returns 1 Empty Power Cell when used."
   },
   {
+    "ID": "item.stat.cryoFreezeDuration",
+    "Text": "Base Freeze Duration: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.heatImpactDamage",
+    "Text": "Direct Impact Damage: {0:0.###} Energy"
+  },
+  {
+    "ID": "item.stat.heatBurnDamagePerSecond",
+    "Text": "Base Burn Damage/Second: {0:0.###} Heat"
+  },
+  {
+    "ID": "item.stat.heatBurnDuration",
+    "Text": "Base Burn Duration: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.explosiveArrowDetonation",
+    "Text": "Detonates on impact."
+  },
+  {
+    "ID": "item.stat.miningPowerLevel",
+    "Text": "Mining Power: Level {0:0.##}"
+  },
+  {
+    "ID": "item.stat.blockDurabilityLevel",
+    "Text": "Durability: Level {0:0.##}"
+  },
+  {
+    "ID": "item.stat.blockDurabilityUnbreakable",
+    "Text": "Durability: Unbreakable"
+  },
+  {
+    "ID": "item.stat.opticalCamoCoverage",
+    "Text": "Requires Optical Camouflage patches on helmet, torso armor, arm armor, gloves, leg armor, and boots. Armor-incompatible cybernetic limbs must be patched in place of the armor they block."
+  },
+  {
     "ID": "craft.discoverIngredient",
     "Text": "{0} to discover"
+  },
+  {
+    "ID": "craft.workbench.analyze",
+    "Text": "Analyze"
+  },
+  {
+    "ID": "craft.workbench.sort",
+    "Text": "Sort"
+  },
+  {
+    "ID": "craft.workbench.markRead",
+    "Text": "Mark read"
+  },
+  {
+    "ID": "craft.workbench.sources",
+    "Text": "Sources"
+  },
+  {
+    "ID": "craft.workbench.carried",
+    "Text": "Carried inventory"
+  },
+  {
+    "ID": "craft.workbench.storage",
+    "Text": "Nearby storage"
+  },
+  {
+    "ID": "craft.workbench.storageIncluded",
+    "Text": "Counts include carried items and reachable storage."
+  },
+  {
+    "ID": "craft.workbench.unavailableIngredient",
+    "Text": "Ingredient unavailable"
+  },
+  {
+    "ID": "craft.workbench.missingMaterial",
+    "Text": "{0}: need {1} more"
+  },
+  {
+    "ID": "craft.workbench.missingTool",
+    "Text": "Required tool: {0}"
+  },
+  {
+    "ID": "craft.workbench.missingToolUnknown",
+    "Text": "Required tool unavailable."
+  },
+  {
+    "ID": "craft.workbench.missingStation",
+    "Text": "Required station: {0}"
+  },
+  {
+    "ID": "craft.workbench.noRefiner",
+    "Text": "No compatible refiner in reach."
+  },
+  {
+    "ID": "craft.workbench.destination",
+    "Text": "Transfer destination: {0}"
+  },
+  {
+    "ID": "craft.workbench.baseTime",
+    "Text": "Base processing time: {0} s per batch"
+  },
+  {
+    "ID": "craft.workbench.noStation",
+    "Text": "No tool or station required."
+  },
+  {
+    "ID": "craft.workbench.inputAmount",
+    "Text": "This input: {0}"
+  },
+  {
+    "ID": "craft.workbench.batches",
+    "Text": "Batches"
+  },
+  {
+    "ID": "craft.workbench.craftQuantity",
+    "Text": "Craft {0}"
+  },
+  {
+    "ID": "craft.workbench.result",
+    "Text": "Result: {0}"
+  },
+  {
+    "ID": "craft.workbench.selectRecipe",
+    "Text": "Select a recipe."
+  },
+  {
+    "ID": "craft.workbench.recipes",
+    "Text": "Recipes"
+  },
+  {
+    "ID": "craft.workbench.have",
+    "Text": "Have"
+  },
+  {
+    "ID": "craft.workbench.need",
+    "Text": "Need"
+  },
+  {
+    "ID": "craft.workbench.recipe",
+    "Text": "Recipe"
+  },
+  {
+    "ID": "craft.workbench.material",
+    "Text": "Material {0}"
+  },
+  {
+    "ID": "craft.workbench.ready",
+    "Text": "Ready to craft"
+  },
+  {
+    "ID": "craft.workbench.blocked",
+    "Text": "Requirements missing"
+  },
+  {
+    "ID": "craft.workbench.quantityOptions",
+    "Text": "Batch options"
   }
 ]

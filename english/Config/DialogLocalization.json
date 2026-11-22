@@ -3199,5 +3199,73 @@
   {
     "ID": 762,
     "Normal": "When we ...landed... your body exploded and your backpack flew off. It's over there."
+  },
+  {
+    "ID": 763,
+    "Normal": "ALERT - THING DETECTED - EXECUTE EVASIVE MANEUVERS!"
+  },
+  {
+    "ID": 764,
+    "Normal": "That block appears to be weak. Maybe it can be dislodged!"
+  },
+  {
+    "ID": 800,
+    "Normal": "I've used the on-board processing of the Hephaestus to crunch some numbers. We can control this thing a bit."
+  },
+  {
+    "ID": 801,
+    "Normal": "Do you want to go back in time, or go to your original version of Osiris?"
+  },
+  {
+    "ID": 802,
+    "Normal": "Go back in time"
+  },
+  {
+    "ID": 803,
+    "Normal": "Go back to old Osiris"
+  },
+  {
+    "ID": 769,
+    "Normal": "You may need to get rid of that strange totem before those hound can survive in here."
+  },
+  {
+    "ID": 770,
+    "Normal": "Press it press it press it!"
+  },
+  {
+    "ID": 771,
+    "Normal": "Press [equipkey] to equip the @DIG LASER@."
+  },
+  {
+    "ID": 772,
+    "Normal": "Open your inventory ([menukey]) and press [secondary] on the @DIG LASER@ in the @KEY ITEMS@ pouch."
+  },
+  {
+    "ID": 773,
+    "Normal": "Aim at the @TEST BLOCK@ and hold [primary] until it breaks."
+  },
+  {
+    "ID": 774,
+    "Normal": "Open your inventory ([menukey]) and press [secondary] on the @TEST BLOCK@ in the @BLOCK POUCH@."
+  },
+  {
+    "ID": 775,
+    "Normal": "Aim at the outlined space and hold [primary] to place the @TEST BLOCK@."
+  },
+  {
+    "ID": 776,
+    "Normal": "Use the @AGIS WALL PANEL@ ([worldsecondary]) to get a replacement @TEST BLOCK@."
+  },
+  {
+    "ID": 777,
+    "Normal": "Press [equipkey] to equip the @WRIST SCANNER@."
+  },
+  {
+    "ID": 778,
+    "Normal": "Open your inventory ([menukey]) and press [secondary] on the @WRIST SCANNER@ in the @KEY ITEMS@ pouch."
+  },
+  {
+    "ID": 779,
+    "Normal": "Aim at the chicken and hold [primary] until the scan completes."
   }
 ]

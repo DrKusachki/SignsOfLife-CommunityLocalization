@@ -11,7 +11,7 @@ Use the English files here as a reference and put translated entries in a
 language pack. You can start with one line; untranslated entries stay in English
 in the game.
 
-This English snapshot targets **Signs of Life 1.1.1**. Check the version on the
+This English snapshot targets **Signs of Life 1.1.5**. Check the version on the
 game's main menu before testing your translation pack. Some text may be missing
 or different in older game versions.
 
@@ -27,17 +27,9 @@ at a time; the last loaded overlay wins.
 <!-- translation-updates -->
 ## Keeping a translation current
 
-After an English snapshot refresh, read [the English change report](changes.md),
-[your language's review status](translation-review.md), and
-[the updating guide](UPDATING.md). The report shows new and changed wording,
-replacement fields for consolidated text, and entries that are no longer used.
-Review a replacement's wording and tokens before reusing an older translation.
-
-Coverage measures how much text is translated. The separate review status shows
-existing translations that need checking against current English. Reports do
-not move or overwrite your translations. The review workflow on a translation
-PR provides status for your latest edits; the checked-in reports describe the
-last English refresh.
+Updating an existing pack? Start with the [updating guide](UPDATING.md).
+Use [the English change report](changes.md) to find changed fields and
+[your language's review status](translation-review.md) to see what needs checking.
 
 ## Contributing translations
 
@@ -64,7 +56,7 @@ and words correctly left the same as English may count as untranslated.
 
 <!-- coverage-table:start -->
 
-A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8269 fields in this snapshot.
+A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8345 fields in this snapshot.
 
 | Language | Pack | Text coverage |
 | --- | --- | ---: |

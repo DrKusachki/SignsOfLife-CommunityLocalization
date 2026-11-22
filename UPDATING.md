@@ -1,138 +1,57 @@
 # Updating a translation after an English refresh
 
-Start with `changes.md`, then find your language in `translation-review.md`.
-The reports identify fields by table, stable ID, and field name. Recipe and armor addresses also include a
-section; runtime-content addresses include a kind. Array order is not identity.
+Check the target version in the [README](README.md) against the game's main
+menu. Keep editing the files in `locales/<code>/Config/`. The
+[English reference](english/Config/) is the source for wording and IDs.
 
-Check the target game version in this repository's README before testing your
-pack. Updating the English reference does not update an installed translation
-pack.
+## Updating from 1.1.1 to 1.1.5
 
-## Updating a 1.0.14 pack for 1.1.1
-
-You may want to start with the new plant-scanning and Codex text, Colossal Hand
-hints, hotbar instructions, intro controls, and AGIS dialogue. Item descriptions
-and colony stock and delivery labels have also changed. Many other revisions replace
-three periods with an ellipsis; your existing wording may not need a change.
-
-Manual hotbars are now the default. Keep Manual storage slots distinct from
-Automatic categories, and distinguish the Hotbar Layout setting from Hotbar
-Radial. The load notice explains how existing players can return to Automatic
-mode. The old HOTBAR help topic, its dedicated help-button tooltip, and the
-Switch Hotbar Type binding label are retired without replacement.
-
-Pottery buttons and delivery summaries use the localized singular item names
-for `sol.clay_bowl` and `sol.clay_plate`, with quantities shown separately.
-Do not copy the retired plural labels or count phrases into those item names.
-Both miscellaneous item categories now use `item.category.Misc.`.
-
-Construction Nails and Mud Brick Slab recipe names inherit their result's
-localized item or tile name; they do not add separate recipe-name translation
-tasks. For an older recipe override, a locale row can supply `DisplaySource`
-to use the shared name instead. Omit the old `DisplayName` from that row when
-switching to inheritance. A valid, nonempty `DisplayName` takes precedence if
-both are supplied. Keep `DisplaySource` references unchanged as identifiers.
-
-You may want to test wrapping and narrow controls again with the current fonts;
-see the README's [font and script limits](README.md#font-and-script-limits).
-If a locale pack fails to load, fix the reported JSON errors and retry
-**Load Now**. Mod Prep also reports localization table and field errors before
-upload. Disabling a loaded pack reloads content; restart if the game reports
-that reload failed.
+Start with the Workbench crafting labels and the new AGIS tutorial prompts.
+Review **Manual Hotbar Radial Type** and **Agis Notifications** in Settings.
+The [English change report](changes.md) also
+lists the new item, Codex, and crafting category text.
 
 ## Read the change report
 
+Open [the English changes](changes.md), then find your language in
+[Translation review status](translation-review.md). Use the table, ID, and
+field to locate an entry. Recipe and armor entries also have a section, and
+runtime-content entries have a kind.
+
 | Status | What to do |
 | --- | --- |
-| Added | Translate the new field when you want to cover it. |
-| Changed | Compare the previous and current English and review your translation, even if its tokens still validate. |
-| Replaced | Review the declared destination ID/field. Reuse appropriate wording, preserve the destination's tokens, and keep any existing destination translation until you have reviewed both. |
-| Unused | Remove the obsolete locale entry or field. It has no replacement. |
-| Removed | A field disappeared without a declared disposition. Check with a maintainer before assuming it was unused. |
+| Added | Translate the new field when you are ready to cover it. |
+| Changed | Compare the old and new English. Update your translation where needed. |
+| Replaced | Review the destination's English and tokens before reusing any old wording. Check for an existing translation at that destination. |
+| Unused | Remove the obsolete field. Remove the row only after checking its other fields. |
+| Removed | Ask a maintainer what happened to the field before deleting it. |
 
-The JSON reports include the full English before/after text, replacement
-addresses, and preserved obsolete translations. Reports do not move, delete, or
-overwrite your translated text. Do not blindly rename IDs: merged instructions
-may need different wording or placeholders. Remove an empty row only after all
-of its translated fields have been moved or intentionally retired.
+Keep lookup IDs and tokens intact, including placeholders such as `{0}` and
+controls such as `[equipkey]`. Reports leave your locale files as they are.
+For earlier snapshots, find the relevant report in the history of
+[`changes.md`](changes.md). Outstanding reviews carry forward.
 
-`translation-review.json` lists outstanding reviews for each language. Missing
-translation counts cover the full catalogue; its `missing` address list covers
-only fields affected by the latest refresh. Coverage remains a separate text
-count and does not certify that wording is current or reviewed.
+## Recipes that share their result's name
 
-## When duplicate text is consolidated
-
-Several former fields may now point to one shared label, description, or
-template. Follow each **Replaced** entry to its destination and review that
-field's current English and tokens. An inherited field uses its shared source;
-restoring the deleted duplicate is not a new translation task. For example,
-generic creature descriptions now use `UILocalization.json` /
-`agis.unknownDescription` / `Text` when no authored description overrides it.
-
-Shared binding confirmations use `bind.confirmKey`, with `{0}` for the action
-and `{1}` for the control name. Preserve both placeholders when reviewing a
-translation from an older, device-specific instruction. Similar English does
-not guarantee that an old translation fits the destination's context.
-
-An **Unused** field has no destination. Keep any wording you need while
-reviewing, then remove the obsolete translated field. A field still marked
-**Removed** needs a maintainer's classification before you treat it as unused.
-Reports preserve obsolete translations for reference and never perform this
-cleanup automatically. A lower English field count can reflect consolidation or
-retirement; coverage alone does not tell you whether your remaining translations
-need review.
-
-## Find earlier updates and current PR status
-
-The root `changes.md` covers the latest English snapshot transition. For an
-earlier transition, use the report permalink in that refresh's PR or inspect
-the file's Git history. If you skipped snapshots, follow each intervening
-report; pending language reviews carry forward until explicitly acknowledged.
-
-The checked-in `translation-review.md` is generated with the English refresh.
-For status after translation edits, open the PR's **Checks**, select
-**Translation review**, and follow its run details to the summary and
-`translation-review` artifact. You can also find the workflow under **Actions**.
-The summary shows review counts; the artifact contains the full Markdown and
-JSON reports. Artifact downloads require GitHub sign-in and expire, so the
-repository reports and updating guide remain the starting point.
+If the English recipe has `DisplaySource`, translate the name of the referenced
+item, block, or object in its own file. For a recipe you previously named
+separately, copy the English `DisplaySource` into the matching locale recipe
+row and remove that row's `DisplayName` to use the shared name. Keep the locale
+`DisplayName` if the recipe needs its own wording.
 
 ## Acknowledge reviewed wording
 
-A needs-review flag stays pending through later refreshes until someone
-explicitly acknowledges the current English and translation. Editing the
-translation alone does not clear it. If the existing translation is still
-correct, it can be acknowledged without rewriting it.
+1. If the translation still fits the current English, use the
+   `acknowledgment` object for that field in
+   [`translation-review.json`](translation-review.json), under your language's
+   `needsReview` list.
+2. If you edited the translation, push the edit to your translation PR first.
+   Open **Checks → Translation review**, download the `translation-review`
+   artifact from the run, and use the acknowledgment in its JSON report.
+3. Copy the whole object to the `reviewed` array in
+   `locales/<code>/review-state.json`. If that same field already has a record,
+   replace it. Include the review-state file in your translation PR.
 
-For a browser-only contribution, open `translation-review.json`, find the field
-under your language's `needsReview` list, and copy its complete `acknowledgment`
-object into the `reviewed` array in `locales/<code>/review-state.json`. Replace
-the existing record with the same table/ID/field/section/kind instead of adding
-a duplicate. If you edited the translation, use the fresh acknowledgment from
-the **Translation review** job's JSON artifact on your PR; it includes that
-translation's current fingerprint. Source and translation fingerprints prevent
-an old acknowledgment from silently accepting a later edit.
-
-With Python 3.12 or newer, you can generate the latest status locally:
-
-```text
-python scripts/localization-change-report.py status --repo .
-```
-
-After reviewing one field, copy its `sourceHash` from the JSON report:
-
-```text
-python scripts/localization-change-report.py review --repo . --locale fr --table UILocalization.json --id load.tip.holdReload --field Text --source-hash <sourceHash>
-```
-
-For a recipe or armor field, also pass its exact `--section`. For runtime
-content, pass its `--kind`. Use the exact field name in the report, including
-template, description-variant, or bonus identity when present.
-
-Commit the locale edits and review-state changes in your translation PR. The
-Translation review job publishes a fresh summary and JSON artifact without
-pushing to your branch. Review flags are informational; the existing JSON,
-identifier, token, and contributor checks still apply. Generated root reports
-are refreshed by maintainers with the next English snapshot; translators do not
-need to commit regenerated reports to submit a translation.
+Test your locale pack in the game. If it fails to load, fix the reported JSON
+error and retry **Load Now**. See [Translating Signs of Life](TRANSLATING.md)
+for table-specific instructions.
