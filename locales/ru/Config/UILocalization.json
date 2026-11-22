@@ -1,5 +1,41 @@
 [
   {
+    "ID": "loadNotice.manualHotbarDefault",
+    "Text": "Небольшое обновление:\nМы переработали хотбар и сделали традиционный нумерованный хотбар выбранным по умолчанию.\nВернуться к автоматическому режиму можно в настройках.\n"
+  },
+  {
+    "ID": "codex.plants",
+    "Text": "Растения"
+  },
+  {
+    "ID": "category.plants",
+    "Text": "Растения"
+  },
+  {
+    "ID": "controller.action.plants",
+    "Text": "Растения"
+  },
+  {
+    "ID": "hud.plantScanned",
+    "Text": "Растение отсканировано"
+  },
+  {
+    "ID": "codex.pumpkinBush",
+    "Text": "Куст тыквы"
+  },
+  {
+    "ID": "codex.pumpkinBushDescription",
+    "Text": "На этом кусте растут тыквы и ягоды, улучшающие Вашу устойчивость к заморозке и замедлению."
+  },
+  {
+    "ID": "codex.legacyStrawberry",
+    "Text": "Лесная земляника"
+  },
+  {
+    "ID": "codex.legacyStrawberryDescription",
+    "Text": "На этом кусте растёт съедобная земляника, из которой можно получить семена."
+  },
+  {
     "ID": "housing.inspection.title",
     "Text": "Обзор комнаты"
   },
@@ -69,7 +105,7 @@
   },
   {
     "ID": "armor.stat.SOUL_DRAIN",
-    "Text": "К истощение души"
+    "Text": "К истощению души"
   },
   {
     "ID": "armor.stat.RESIST_XENITE_PERCENT",
@@ -117,7 +153,7 @@
   },
   {
     "ID": "armor.stat.MAX_ENERGY",
-    "Text": "Каксимальной энергии"
+    "Text": "К максимальной энергии"
   },
   {
     "ID": "armor.stat.MELEE_DAMAGE_PERCENT",
@@ -149,7 +185,7 @@
   },
   {
     "ID": "equipment.doubleJump",
-    "Text": "Дарует двойной прыжок"
+    "Text": "Даёт двойной прыжок"
   },
   {
     "ID": "prompt.copyText",
@@ -322,14 +358,6 @@
   {
     "ID": "opt.smooth",
     "Text": "Гладкое"
-  },
-  {
-    "ID": "opt.baked",
-    "Text": "Запечённые"
-  },
-  {
-    "ID": "opt.runtime",
-    "Text": "Во время игры"
   },
   {
     "ID": "opt.doubleTap",
@@ -625,7 +653,11 @@
   },
   {
     "ID": "settings.uiScaleLimited",
-    "Text": "Размер интерфейса {0}% слишком большой для экрана {1} x {2}. Размер интерфейса был установлен на {3}% чтобы сохранить видимость."
+    "Text": "Размер интерфейса {0}% слишком большой для экрана {1} x {2}. Размер интерфейса был установлен на {3}% чтобы сохранить видимость.ble."
+  },
+  {
+    "ID": "settings.scaleLimitTooltip",
+    "Text": "Максимальный {0} при {1} x {2}: {3}%. Для большего масштабирования требуется большее разрешение."
   },
   {
     "ID": "settings.scaleFiltering",
@@ -680,10 +712,6 @@
     "Text": "Размер шрифта"
   },
   {
-    "ID": "settings.fontGlyphs",
-    "Text": "Глифы шрифта"
-  },
-  {
     "ID": "settings.autoRun",
     "Text": "Автобег"
   },
@@ -710,6 +738,18 @@
   {
     "ID": "settings.hotbarLayout",
     "Text": "Раскладка хотбара"
+  },
+  {
+    "ID": "settings.hotbarRadial",
+    "Text": "Радиальное меню хотбара"
+  },
+  {
+    "ID": "opt.categories",
+    "Text": "Категории"
+  },
+  {
+    "ID": "opt.hotbarSlots",
+    "Text": "Слоты"
   },
   {
     "ID": "settings.inventoryLayout",
@@ -958,7 +998,7 @@
   },
   {
     "ID": "load.tip.megGems",
-    "Text": "Совет: Вы можете улучшить ваш лазер MEG с помощью самоцветов. Это работает ввиду очень сложной цепочки причин."
+    "Text": "Совет: Вы можете улучшить ваш лазер MEG с помощью самоцветов. Это объясняется крайне сложной цепочкой научных рассуждений."
   },
   {
     "ID": "load.tip.megLenses",
@@ -970,7 +1010,7 @@
   },
   {
     "ID": "load.tip.hotbarMode",
-    "Text": "Совет: Вы можете сменить хотбар с \"Автоматического\" режима на \"Ручной\" нажатием клавиши {0}."
+    "Text": "Совет: Вы можете сменить хотбар с \"Автоматического\" режима на \"Ручной\" при помощи настройки \"Раскладка хотбара\"."
   },
   {
     "ID": "load.tip.molecules",
@@ -990,7 +1030,7 @@
   },
   {
     "ID": "load.tip.organize",
-    "Text": "Совет: Если Вы носите слишком много вещей, используйте контейнеры."
+    "Text": "Совет: Чтобы быстро перемещать предметы между открытыми контейнерами, нажмите на контейнер, в который хотите что-то положить, наведите курсор на предмет, который хотите переложить в этот контейнер и нажмите [grablaserkey]."
   },
   {
     "ID": "load.tip.holdReload",
@@ -1066,7 +1106,8 @@
   },
   {
     "ID": "char.facial",
-    "Text": "На лице"
+    "Text": "На лице",
+    "__Comment": "Не используется"
   },
   {
     "ID": "char.facialHair",
@@ -1254,11 +1295,11 @@
   },
   {
     "ID": "char.face.borland",
-    "Text": "Борланд"
+    "Text": "Дровосек"
   },
   {
     "ID": "char.face.lagrange",
-    "Text": "ЛаГранж"
+    "Text": "Толстой"
   },
   {
     "ID": "char.face.soulpatch",
@@ -1442,7 +1483,19 @@
   },
   {
     "ID": "bind.oreScanner",
-    "Text": "Сканер"
+    "Text": "Сканер руд"
+  },
+  {
+    "ID": "bind.equipDigLaser",
+    "Text": "Экипировать лазер добычи"
+  },
+  {
+    "ID": "bind.equipWristScanner",
+    "Text": "Экипировать сканер"
+  },
+  {
+    "ID": "bind.equipAgisEmitter",
+    "Text": "Экипировать излучатель AGIS"
   },
   {
     "ID": "bind.openChat",
@@ -1527,10 +1580,6 @@
   {
     "ID": "bind.agisInvestigate",
     "Text": "Узнать у AGIS"
-  },
-  {
-    "ID": "bind.switchHotbar",
-    "Text": "Поменять режим хотбара"
   },
   {
     "ID": "bind.zoomIn",
@@ -1698,7 +1747,7 @@
   },
   {
     "ID": "mods.confirmSummary",
-    "Text": "Steam account check complete: this will {0}.\n\nTitle: {1}\nVisibility: {2}\nTags: {3}\nPackage: {4}\nPreview: {5}\n\nDescription: {6}"
+    "Text": "Проверка аккаунта Steam завершена: это {0}.\n\nНазвание: {1}\nВидимость: {2}\nТеги: {3}\nПакет: {4}\nПредпросмотр: {5}\n\nОписание: {6}"
   },
   {
     "ID": "mods.noneTags",
@@ -1877,59 +1926,6 @@
     "Text": "Задание прервано."
   },
   {
-    "ID": "crew.ops.tab.policy",
-    "Text": "Политика",
-    "__Comment": "Вообще, policy есть \"политика\" в смысле политики компании. В этом случае, общий \"Курс\" поселения. Если придумаете перевод лучше, флаг в руки."
-  },
-  {
-    "ID": "crew.policy.family.maintenance",
-    "Text": "Обслуживание"
-  },
-  {
-    "ID": "crew.policy.family.survey",
-    "Text": "Осмотр"
-  },
-  {
-    "ID": "crew.policy.stance.avoid",
-    "Text": "Избегает"
-  },
-  {
-    "ID": "crew.policy.stance.normal",
-    "Text": "Нормальный"
-  },
-  {
-    "ID": "crew.policy.stance.prefer",
-    "Text": "Предпочитает"
-  },
-  {
-    "ID": "crew.policy.risk",
-    "Text": "Рискует"
-  },
-  {
-    "ID": "crew.policy.risk.cautious",
-    "Text": "Опасается"
-  },
-  {
-    "ID": "crew.policy.risk.normal",
-    "Text": "Нормальный"
-  },
-  {
-    "ID": "crew.policy.risk.bold",
-    "Text": "Смелый"
-  },
-  {
-    "ID": "crew.policy.fieldCapacity",
-    "Text": "Макс. в поле"
-  },
-  {
-    "ID": "crew.policy.recall",
-    "Text": "Возврат"
-  },
-  {
-    "ID": "crew.policy.fieldDuty",
-    "Text": "Вылазка"
-  },
-  {
     "ID": "agis.unknownDescription",
     "Text": "Я бех понятия, что это."
   },
@@ -1967,7 +1963,7 @@
   },
   {
     "ID": "hud.itemPickedUp",
-    "Text": "Подобрано: {0} {1}."
+    "Text": "Подобрано: {1} {0}."
   },
   {
     "ID": "hud.openCodexHint",
@@ -2314,10 +2310,6 @@
     "Text": "Разброс: {0}"
   },
   {
-    "ID": "item.stat.ammoBaseDamageParenthesized",
-    "Text": "Урон боеприпаса: ({0} - {1})"
-  },
-  {
     "ID": "item.stat.ammoSpeedModifier",
     "Text": "Модификатор скорости боеприпаса: {0}"
   },
@@ -2332,10 +2324,6 @@
   {
     "ID": "item.stat.maxProjectiles",
     "Text": "Максимальное количество снарядов: {0}"
-  },
-  {
-    "ID": "item.stat.ammoDamageParenthesized",
-    "Text": "Урон боеприпаса: ({0} - {1})"
   },
   {
     "ID": "item.stat.arrowDamageType",
@@ -2626,14 +2614,6 @@
     "Text": "Удалить \"{0}\" из Мастерской Steam?\n\nЭто действие навсегда удалит этот предмет Мастерской Steam для всех — не только из Вашей игры. Это действие нельзя отменить."
   },
   {
-    "ID": "item.meleeDamage",
-    "Text": "DMG: {0}"
-  },
-  {
-    "ID": "item.meleeAttackSpeed",
-    "Text": "ATK SPD: {0}"
-  },
-  {
     "ID": "world.moon",
     "Text": "Луна"
   },
@@ -2663,19 +2643,7 @@
   },
   {
     "ID": "datapad.editRejected",
-    "Text": "Изменение отказано"
-  },
-  {
-    "ID": "grinder.fuel",
-    "Text": "ТОПЛИВО"
-  },
-  {
-    "ID": "grinder.blade",
-    "Text": "ЛЕЗВИЕ"
-  },
-  {
-    "ID": "tinker.item",
-    "Text": "Предмет"
+    "Text": "Изменение отклонено"
   },
   {
     "ID": "tinker.accuracy",
@@ -2720,10 +2688,6 @@
   {
     "ID": "workshop.descriptionPrefix",
     "Text": "Описание: {0}"
-  },
-  {
-    "ID": "prefab.fcSlot",
-    "Text": "FC"
   },
   {
     "ID": "mods.statusVanilla",
@@ -2830,10 +2794,6 @@
     "Text": "Лечится"
   },
   {
-    "ID": "crew.ops.activity.hunting",
-    "Text": "Охотится"
-  },
-  {
     "ID": "crew.ops.activity.mining",
     "Text": "Добывает руды"
   },
@@ -2848,46 +2808,6 @@
   {
     "ID": "crew.ops.back",
     "Text": "Возвращается"
-  },
-  {
-    "ID": "crew.ops.behavior.assign",
-    "Text": "Назначьте заказы на странице Производство."
-  },
-  {
-    "ID": "crew.ops.behavior.defense",
-    "Text": "Защита"
-  },
-  {
-    "ID": "crew.ops.behavior.hostOnly",
-    "Text": "Только хост может менять поведение."
-  },
-  {
-    "ID": "crew.ops.behavior.outings",
-    "Text": "Вылазки экипажа включены."
-  },
-  {
-    "ID": "crew.ops.behavior.production",
-    "Text": "Resource production continues during recall."
-  },
-  {
-    "ID": "crew.ops.behavior.recallCrew",
-    "Text": "Recall crew"
-  },
-  {
-    "ID": "crew.ops.behavior.recalled",
-    "Text": "Crew are recalled to the landing pad."
-  },
-  {
-    "ID": "crew.ops.behavior.resumeOutings",
-    "Text": "Resume outings"
-  },
-  {
-    "ID": "crew.ops.behavior.returnDelay",
-    "Text": "Returns wait until unseen for five minutes."
-  },
-  {
-    "ID": "crew.ops.behavior.riskHelp",
-    "Text": "Controls how far crew intercept threats."
   },
   {
     "ID": "crew.ops.details",
@@ -3058,20 +2978,8 @@
     "Text": "Используйте - / +, чтобы назначать рабочих."
   },
   {
-    "ID": "crew.ops.production.atPost",
-    "Text": "At post: {0} / {1}"
-  },
-  {
-    "ID": "crew.ops.production.bowls",
-    "Text": "Bowls"
-  },
-  {
     "ID": "crew.ops.production.counts",
     "Text": "Экипаж: {0}   Назначено: {1}   Доступно: {2}"
-  },
-  {
-    "ID": "crew.ops.production.guardBlocked",
-    "Text": "Blocked travel waits until unseen for 5 minutes."
   },
   {
     "ID": "crew.ops.production.guardDefends",
@@ -3100,10 +3008,6 @@
   {
     "ID": "crew.ops.production.pausedNoWorkers",
     "Text": "Приостановлено: нет рабочих"
-  },
-  {
-    "ID": "crew.ops.production.plates",
-    "Text": "Plates"
   },
   {
     "ID": "crew.ops.production.range",
@@ -3258,10 +3162,6 @@
     "Text": "Рабочие: {0} доступно / {1} экипаж"
   },
   {
-    "ID": "crew.ops.tab.behavior",
-    "Text": "Поведение"
-  },
-  {
     "ID": "crew.ops.tab.production",
     "Text": "Производство"
   },
@@ -3349,22 +3249,6 @@
   {
     "ID": "crew.ops.summary.salads",
     "Text": "Салатов: {0}"
-  },
-  {
-    "ID": "crew.ops.summary.plate",
-    "Text": "{0} clay plate"
-  },
-  {
-    "ID": "crew.ops.summary.plates",
-    "Text": "{0} clay plates"
-  },
-  {
-    "ID": "crew.ops.summary.bowl",
-    "Text": "{0} clay bowl"
-  },
-  {
-    "ID": "crew.ops.summary.bowls",
-    "Text": "{0} clay bowls"
   },
   {
     "ID": "crew.ops.summary.ingot",
@@ -3704,7 +3588,7 @@
   },
   {
     "ID": "creative.folder.segment.chews",
-    "Text": "Chews"
+    "Text": "Вяленое"
   },
   {
     "ID": "creative.folder.segment.clothing",
@@ -5492,50 +5376,170 @@
   },
   {
     "ID": "armor.bonus.sourceConduit",
-    "Text": "Проводник Истока: +{0:0.##} к запасу Странной энергии. Перезаряжается и запитывает связанные таблички без мнемоника."
+    "Text": "Проводник Истока: +{0:0.##} к запасу Странной энергии. Перезаряжается и запитывает связанные таблички без Мнемоника."
   },
   {
     "ID": "armor.bonus.xenostoneWard",
     "Text": "Ксенокаменный оберег: Вы получаете на {0:0.##}% меньше урона из ксено-источников и теплом."
   },
-  { "ID": "equipment.droneFiringRateBonus",              "Text": "Ваши дроны стреляют на {0}% быстрее." },
-  { "ID": "item.stat.repulsorEnergyPerProjectileSecond", "Text": "Энергии в секунду за Снаряд Рядом: {0:0.###}" },
-  { "ID": "item.stat.batteryChargePerInput",             "Text": "Заряд батареи за ввод: {0:0.###}" },
-  { "ID": "item.stat.activeProcessingInterval",          "Text": "Период активной обработки:: {0:0.###} с" },
-  { "ID": "item.stat.livingTargetDpsRamp",               "Text": "Увеличение УВС в секунду при ударах по живым целям: {0:0.###}" },
-  { "ID": "item.stat.damagePerPulse",                    "Text": "Урон за пульс: {0:0.###}" },
-  { "ID": "item.stat.damagePulseInterval",               "Text": "Интервал пульсов: {0:0.###} с" },
-  { "ID": "item.stat.storedEnergyDrain",                 "Text": "Накопление энергии в секунду во время стрельбы: {0:0.###}" },
-  { "ID": "item.stat.storedEnergyRegen",                 "Text": "Накопление энергии в секунду в простое: {0:0.###}" },
-  { "ID": "item.stat.acquireDelay",                      "Text": "Задержка определения цели: {0:0.###} с" },
-  { "ID": "item.stat.storedEnergy",                      "Text": "Энергия: {0}/{1}" },
-  { "ID": "item.stat.heldAmmoRegeneration",              "Text": "Пока в руках: Регенерирует 1 снаряд каждые {0:0.###} с" },
-  { "ID": "item.stat.clipCapacity",                      "Text": "Патронов в обойме: {0}" },
-  { "ID": "item.stat.dartDamage",                        "Text": "Урон дротика: {0:0.###}" },
-  { "ID": "item.stat.deployedDartOwnerRisk",             "Text": "Выпущенные дротики могут наносить владельцу урон." },
-  { "ID": "ui.thermite.glob_lifetime",                   "Text": "Время жизни сгустка: {0:0.###} с" },
-  { "ID": "ui.thermite.burn_refresh",                    "Text": "Статус горения: обновляется до {0:0.###} с пока прикреплён; продолжается после истечения сгустка" },
-  { "ID": "item.stat.blockedArmorSlots",                 "Text": "Блокирует эти слоты при установке: {0}" },
-  { "ID": "equipment.slot.ARM",                          "Text": "Броня рук" },
-  { "ID": "equipment.slot.GLOVE",                        "Text": "Перчатки" },
-  { "ID": "equipment.slot.SHIRT",                        "Text": "Рубашка" },
-  { "ID": "equipment.slot.LEG",                          "Text": "Поножи" },
-  { "ID": "equipment.slot.BOOT",                         "Text": "Бронеботинки" },
-  { "ID": "equipment.slot.PANTS",                        "Text": "Штаны" },
-  { "ID": "equipment.slot.SHOES",                        "Text": "Ботинки" },
-  { "ID": "item.stat.ammoDamagePerPellet",               "Text": "Урон осколка: {0:0.###} - {1:0.###}" },
-  { "ID": "item.stat.ammoDirectImpactDamage",            "Text": "Урон от прямого попадания: {0:0.###} - {1:0.###}" },
-  { "ID": "item.stat.primaryAmmoDamageModifier",         "Text": "Множитель урона снаряда первичного огня: {0:0.###}x" },
-  { "ID": "item.stat.primaryPellets",                    "Text": "Осколков в выстреле: {0}" },
-  { "ID": "item.stat.secondaryShotgunPayload",           "Text": "Альтернативный огонь: {0} патрона, {1} осколков" },
-  { "ID": "item.stat.secondaryShotgunBurst",             "Text": "Альтернативный огонь: {0} выстрела, 1 патрон в каждом" },
-  { "ID": "item.stat.grenadeFuse",                       "Text": "Фитиль: {0:0.###} с после запуска" },
-  { "ID": "item.stat.blastRadiusTiles",                  "Text": "Радиус взрыва: {0:0.###} клеток" },
-  { "ID": "item.stat.launcherGrenadeDetonation",         "Text": "Отскакивает от земли. Взрывается при контакте с существом, или при догорании фитиля." },
-  { "ID": "item.stat.decoyDeploymentTimer",              "Text": "Время работы: {0:0.###} с, потом исчезает" },
-  { "ID": "item.stat.trapContactDamage",                 "Text": "Контактный физический урон ловушки: {0:0.###}" },
-  { "ID": "item.stat.trapPlayerStun",                    "Text": "Время оглушения игрока: {0:0.###} s" },
-  { "ID": "item.stat.capacitorChargePerCell",            "Text": "Заряд конденсатора за ячейку: {0:0.###} (до максимального)" },
-  { "ID": "item.stat.returnsEmptyCell",                  "Text": "При использовании разряжается в Пустую Энергоячейку." },
-  { "ID": "craft.discoverIngredient",                    "Text": "{0} чтобы узнать" }
+  {
+    "ID": "equipment.droneFiringRateBonus",
+    "Text": "Ваши дроны стреляют на {0}% быстрее."
+  },
+  {
+    "ID": "item.stat.repulsorEnergyPerProjectileSecond",
+    "Text": "Энергии в секунду за Снаряд Рядом: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.batteryChargePerInput",
+    "Text": "Заряд батареи за ввод: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.activeProcessingInterval",
+    "Text": "Период активной обработки:: {0:0.###} с"
+  },
+  {
+    "ID": "item.stat.livingTargetDpsRamp",
+    "Text": "Увеличение УВС в секунду при ударах по живым целям: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.damagePerPulse",
+    "Text": "Урон за пульс: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.damagePulseInterval",
+    "Text": "Интервал пульсов: {0:0.###} с"
+  },
+  {
+    "ID": "item.stat.storedEnergyDrain",
+    "Text": "Накопление энергии в секунду во время стрельбы: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.storedEnergyRegen",
+    "Text": "Накопление энергии в секунду в простое: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.acquireDelay",
+    "Text": "Задержка определения цели: {0:0.###} с"
+  },
+  {
+    "ID": "item.stat.storedEnergy",
+    "Text": "Энергия: {0}/{1}"
+  },
+  {
+    "ID": "item.stat.heldAmmoRegeneration",
+    "Text": "Пока в руках: Регенерирует 1 снаряд каждые {0:0.###} с"
+  },
+  {
+    "ID": "item.stat.clipCapacity",
+    "Text": "Патронов в обойме: {0}"
+  },
+  {
+    "ID": "item.stat.dartDamage",
+    "Text": "Урон дротика: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.deployedDartOwnerRisk",
+    "Text": "Выпущенные дротики могут наносить владельцу урон."
+  },
+  {
+    "ID": "ui.thermite.glob_lifetime",
+    "Text": "Время жизни сгустка: {0:0.###} с"
+  },
+  {
+    "ID": "ui.thermite.burn_refresh",
+    "Text": "Статус горения: обновляется до {0:0.###} с пока прикреплён; продолжается после истечения сгустка"
+  },
+  {
+    "ID": "item.stat.blockedArmorSlots",
+    "Text": "Блокирует эти слоты при установке: {0}"
+  },
+  {
+    "ID": "equipment.slot.ARM",
+    "Text": "Броня рук"
+  },
+  {
+    "ID": "equipment.slot.GLOVE",
+    "Text": "Перчатки"
+  },
+  {
+    "ID": "equipment.slot.SHIRT",
+    "Text": "Рубашка"
+  },
+  {
+    "ID": "equipment.slot.LEG",
+    "Text": "Поножи"
+  },
+  {
+    "ID": "equipment.slot.BOOT",
+    "Text": "Бронеботинки"
+  },
+  {
+    "ID": "equipment.slot.PANTS",
+    "Text": "Штаны"
+  },
+  {
+    "ID": "equipment.slot.SHOES",
+    "Text": "Ботинки"
+  },
+  {
+    "ID": "item.stat.ammoDamagePerPellet",
+    "Text": "Урон осколка: {0:0.###} - {1:0.###}"
+  },
+  {
+    "ID": "item.stat.ammoDirectImpactDamage",
+    "Text": "Урон от прямого попадания: {0:0.###} - {1:0.###}"
+  },
+  {
+    "ID": "item.stat.primaryAmmoDamageModifier",
+    "Text": "Множитель урона снаряда первичного огня: {0:0.###}x"
+  },
+  {
+    "ID": "item.stat.primaryPellets",
+    "Text": "Осколков в выстреле: {0}"
+  },
+  {
+    "ID": "item.stat.secondaryShotgunPayload",
+    "Text": "Альтернативный огонь: {0} патрона, {1} осколков"
+  },
+  {
+    "ID": "item.stat.secondaryShotgunBurst",
+    "Text": "Альтернативный огонь: {0} выстрела, 1 патрон в каждом"
+  },
+  {
+    "ID": "item.stat.grenadeFuse",
+    "Text": "Фитиль: {0:0.###} с после запуска"
+  },
+  {
+    "ID": "item.stat.blastRadiusTiles",
+    "Text": "Радиус взрыва: {0:0.###} клеток"
+  },
+  {
+    "ID": "item.stat.launcherGrenadeDetonation",
+    "Text": "Отскакивает от земли. Взрывается при контакте с существом, или при догорании фитиля."
+  },
+  {
+    "ID": "item.stat.decoyDeploymentTimer",
+    "Text": "Время работы: {0:0.###} с, потом исчезает"
+  },
+  {
+    "ID": "item.stat.trapContactDamage",
+    "Text": "Контактный физический урон ловушки: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.trapPlayerStun",
+    "Text": "Время оглушения игрока: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.capacitorChargePerCell",
+    "Text": "Заряд конденсатора за ячейку: {0:0.###} (до максимального)"
+  },
+  {
+    "ID": "item.stat.returnsEmptyCell",
+    "Text": "При использовании разряжается в Пустую Энергоячейку."
+  },
+  {
+    "ID": "craft.discoverIngredient",
+    "Text": "{0} чтобы узнать"
+  }
 ]
