@@ -12,6 +12,10 @@
     "Text": "Растения"
   },
   {
+    "ID": "category.structure",
+    "Text": "Постройка"
+  },
+  {
     "ID": "controller.action.plants",
     "Text": "Растения"
   },
@@ -704,6 +708,18 @@
     "Text": "Подсказки о взаимодействии"
   },
   {
+    "ID": "settings.agisQuietDialoguePosition",
+    "Text": "Уведомления Agis"
+  },
+  {
+    "ID": "opt.nearAgis",
+    "Text": "Около AGIS"
+  },
+  {
+    "ID": "opt.bottom",
+    "Text": "Снизу"
+  },
+  {
     "ID": "settings.swapMouseButtons",
     "Text": "Поменять кнопки мыши"
   },
@@ -1050,7 +1066,7 @@
   },
   {
     "ID": "load.tip.helpPauseMeg",
-    "Text": "Совет: Если Вам нужна помощь, вы можете открыть меню помощи кнопкой справа сверху."
+    "Text": "Совет: Если Вам нужна помощь, вы можете открыть вкладку помощи в игровом меню."
   },
   {
     "ID": "load.tip.holsterTip",
@@ -4275,6 +4291,10 @@
     "Text": "Войти"
   },
   {
+    "ID": "interaction.exit",
+    "Text": "Выйти"
+  },
+  {
     "ID": "interaction.inspect",
     "Text": "Осмотреть"
   },
@@ -5247,12 +5267,8 @@
     "Text": "Ближний бой"
   },
   {
-    "ID": "item.category.Misc",
-    "Text": "Разное"
-  },
-  {
     "ID": "item.category.Misc.",
-    "Text": "Разн."
+    "Text": "Разное"
   },
   {
     "ID": "item.category.Missing Mod Content",
@@ -5484,7 +5500,7 @@
   },
   {
     "ID": "item.stat.ammoDamagePerPellet",
-    "Text": "Урон осколка: {0:0.###} - {1:0.###}"
+    "Text": "Урон дробинки: {0:0.###} - {1:0.###}"
   },
   {
     "ID": "item.stat.ammoDirectImpactDamage",
@@ -5496,15 +5512,15 @@
   },
   {
     "ID": "item.stat.primaryPellets",
-    "Text": "Осколков в выстреле: {0}"
+    "Text": "Дробинок в выстреле: {0}"
   },
   {
     "ID": "item.stat.secondaryShotgunPayload",
-    "Text": "Альтернативный огонь: {0} патрона, {1} осколков"
+    "Text": "Альтернативный огонь: Патронов: {0}, Дробинок: {1}"
   },
   {
     "ID": "item.stat.secondaryShotgunBurst",
-    "Text": "Альтернативный огонь: {0} выстрела, 1 патрон в каждом"
+    "Text": "Альтернативный огонь: Выстрелов: {0}, 1 патрон в каждом"
   },
   {
     "ID": "item.stat.grenadeFuse",
@@ -5512,7 +5528,7 @@
   },
   {
     "ID": "item.stat.blastRadiusTiles",
-    "Text": "Радиус взрыва: {0:0.###} клеток"
+    "Text": "Радиус взрыва, в клетках: {0:0.###}"
   },
   {
     "ID": "item.stat.launcherGrenadeDetonation",
@@ -5539,7 +5555,159 @@
     "Text": "При использовании разряжается в Пустую Энергоячейку."
   },
   {
+    "ID": "item.stat.cryoFreezeDuration",
+    "Text": "Длительность заморозки: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.heatImpactDamage",
+    "Text": "Урон от прямого попадания: {0:0.###}, энергетический"
+  },
+  {
+    "ID": "item.stat.heatBurnDamagePerSecond",
+    "Text": "Урон от горения в секунду: {0:0.###}, теплом"
+  },
+  {
+    "ID": "item.stat.heatBurnDuration",
+    "Text": "Длительность горения: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.explosiveArrowDetonation",
+    "Text": "Взрывается при попадании."
+  },
+  {
+    "ID": "item.stat.miningPowerLevel",
+    "Text": "Сила копания: Уровень {0:0.##}"
+  },
+  {
+    "ID": "item.stat.blockDurabilityLevel",
+    "Text": "Твёрдость: Уровень {0:0.##}"
+  },
+  {
+    "ID": "item.stat.blockDurabilityUnbreakable",
+    "Text": "Твёрдость: Нельзя сломать"
+  },
+  {
+    "ID": "item.stat.opticalCamoCoverage",
+    "Text": "Для работы камуфляжа необходимы Камуфляжные пластины на шлеме, нагруднике, наручах, перчатках, поножах и ботинках. К несовместимым с бронёй кибернетическим имплантам пластины должны быть применены вместо брони, которую они заменяют."
+  },
+  {
     "ID": "craft.discoverIngredient",
     "Text": "{0} чтобы узнать"
+  },
+  {
+    "ID": "craft.workbench.analyze",
+    "Text": "Анализировать"
+  },
+  {
+    "ID": "craft.workbench.sort",
+    "Text": "Сортировать"
+  },
+  {
+    "ID": "craft.workbench.markRead",
+    "Text": "Отметить прочитанным"
+  },
+  {
+    "ID": "craft.workbench.sources",
+    "Text": "Источники"
+  },
+  {
+    "ID": "craft.workbench.carried",
+    "Text": "В инвентаре"
+  },
+  {
+    "ID": "craft.workbench.storage",
+    "Text": "В контейнерах рядом"
+  },
+  {
+    "ID": "craft.workbench.storageIncluded",
+    "Text": "Учитывает предметы в Вашем инвентаре и близлежащих контейнерах."
+  },
+  {
+    "ID": "craft.workbench.unavailableIngredient",
+    "Text": "Ингредиент недоступен"
+  },
+  {
+    "ID": "craft.workbench.missingMaterial",
+    "Text": "{0}: Нужно ещё: {1}"
+  },
+  {
+    "ID": "craft.workbench.missingTool",
+    "Text": "Требуется инструмент: {0}"
+  },
+  {
+    "ID": "craft.workbench.missingToolUnknown",
+    "Text": "Нет нужного инструмента."
+  },
+  {
+    "ID": "craft.workbench.missingStation",
+    "Text": "Требуется рабочая станция: {0}"
+  },
+  {
+    "ID": "craft.workbench.noRefiner",
+    "Text": "Нет допустимого переработчика в пределах досягаемости."
+  },
+  {
+    "ID": "craft.workbench.destination",
+    "Text": "Будет сложено в: {0}"
+  },
+  {
+    "ID": "craft.workbench.baseTime",
+    "Text": "Время обработки: {0} секунд на создание"
+  },
+  {
+    "ID": "craft.workbench.noStation",
+    "Text": "Нет нужного инструмента или станции."
+  },
+  {
+    "ID": "craft.workbench.inputAmount",
+    "Text": "Этого материала: {0}"
+  },
+  {
+    "ID": "craft.workbench.batches",
+    "Text": "Партий"
+  },
+  {
+    "ID": "craft.workbench.craftQuantity",
+    "Text": "Создать {0}"
+  },
+  {
+    "ID": "craft.workbench.result",
+    "Text": "Результат: {0}"
+  },
+  {
+    "ID": "craft.workbench.selectRecipe",
+    "Text": "Выберите рецепт."
+  },
+  {
+    "ID": "craft.workbench.recipes",
+    "Text": "Рецепты"
+  },
+  {
+    "ID": "craft.workbench.have",
+    "Text": "Есть"
+  },
+  {
+    "ID": "craft.workbench.need",
+    "Text": "Нужно"
+  },
+  {
+    "ID": "craft.workbench.recipe",
+    "Text": "Рецепт"
+  },
+  {
+    "ID": "craft.workbench.material",
+    "Text": "Материал {0}"
+  },
+  {
+    "ID": "craft.workbench.ready",
+    "Text": "Можно создать"
+  },
+  {
+    "ID": "craft.workbench.blocked",
+    "Text": "Чего-то не хватает"
+  },
+  {
+    "ID": "craft.workbench.quantityOptions",
+    "Text": "Настройки количества"
   }
 ]
